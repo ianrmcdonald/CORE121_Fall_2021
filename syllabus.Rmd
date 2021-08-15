@@ -1,0 +1,376 @@
+---
+title: "CORE121 Election Syllabus Fall 2021"
+output:
+  html_document:
+    toc: true
+    toc_float:
+      collapsed: false
+      smooth_scroll: false
+    toc_depth: 3
+    self_contained: false
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALSE, message = FALSE, tidy = FALSE, cache = FALSE)
+```
+
+```{r include=FALSE}
+mon <- as.Date("2021-08-30")
+
+advdate <- function(obj, adv, first = 1, last = 4) {
+ tmon <- obj + first - 1 + 7*(adv-1)
+ tfri <- obj + last + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ return(tmp)
+}
+
+
+```
+
+CORE 121-01 and CORE121-11 Numbers: Election Science  
+Section 1 meets at MWF 11:30am - 12:30pm in JR Howard 115  
+Section 11 meets at 1:50pm - 2:50pm in JR Howard 253  
+Lewis & Clark College  
+Fall 2021  
+ 
+Ian McDonald  
+Email: ianmcdonald@lclark.edu  
+Miller Hall 434  
++1.503.768.7456  
+
+### Office Hours 
+Tuesdays 9:30-11 am & Fridays 10-11am + email or additional times by schedule. You can meet with me in person or teleconferencing.  
+
+### Course Description
+
+We expect democracies to translate public desire into coherent political choices. And we expect elections to deliver these results. But aggregating preferences with elections is harder than it looks. The simplest elections based on innocent design choices will produce paradoxical and confounding results.
+
+In this course, we’ll introduce mathematical and logical tools that can help us understand the paradoxes of elections. You will use these tools to develop and refine your quantitative reasoning skills and apply them to a fundamental problem: how does adding together individual preferences make democracy possible? Topics will include redistricting, voting procedures, and election prediction models. We will look at contemporary examples such as the 2021 New York City mayoral election, and the effect of using districts in choosing the Seattle City Council. You will develop arguments, apply data visualization tools and consider the relevance of statistical reasoning and causal inference.
+
+This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related campaign finance, redistricting, voting algorithms, voter turnout, polling,  and election fraud analysis.  Students will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference.  They will also gain basic proficiency in the software Microsoft Excel. 
+
+This class discusses political topics but it is not part of the college's political science curriculum. It might leverage your interest in political topics but doesn't require any political knowledge, at all.  We are just going to use politics as the basis for applying quantitative reasoning.  
+
+### Learning Objectives: 
+
+* Examine ideas, arguments, biases, and assumptions coming from a variety of perspectives, including their own, with an open yet critical mind. 
+* Analyze texts and/or quantitative information, recognizing, describing, and questioning patterns, trends, anomalies, and relationships. 
+* Present clear, compelling, and effective arguments and/or analysis, supported by evidence. 
+* Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena. 
+* Relate issues of diversity, equity, and inclusion to how data is gathered, interpreted, and emphasized. 
+
+### Course Website
+https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor  
+This website will be used for both sections.  Google Classroom is one of two sites you will use to submit assignments.  This site will also house documents and links related to the course.
+
+## Course Administration
+
+### Additional Course Portals
+
+**My Open Math**  
+Readings, videos, and quizzes will be available from My Open Math.  Sign up using the link below.  All material will be directly linked from our class website, so you do not need to regularly check this site directly. 
+https://www.myopenmath.com/forms.php?action=enroll
+The course ID: 118940
+The enrollment key: core121
+
+**Google Classroom**  
+You will submit papers and your excel labs through links directed to google classroom.  You do not need to check this site directly. 
+Enroll using this link:
+https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor
+
+**RStudio**  
+In your lab assignments, you will explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language.  Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at https://r4ds.had.co.nz/introduction.html.  
+
+You can access RStudio using a web browser and signing in to the college's server at https://datasci.watzek.cloud/.  
+
+**Microsoft Excel**    
+You will also use an ordinary spreadsheet tool in labs.  In this way, you'll see how a scripted programming language has advantages over spredsheet applications, despite the popularity of spreadsheets.  
+
+For this purpose, Microsoft Excel is preferred over Google Sheets or other open-source alternatives. Lewis & Clark has a Campus Agreement for Microsoft Office. Because of this, current students, staff and faculty can use their @lclark.edu email address to activate a free Office 365 account, which allows them to use Microsoft apps such as Excel. This program is 100% managed by Microsoft and is completely separate from Lewis & Clark College. 
+
+To set up Office 365:
+
+* Go to https://products.office.com/en-us/student/office-in-education to sign up.
+* Enter your Lewis & Clark email address
+* Click the Get Started button
+* Access the link that is sent to your email to complete the registration
+* Follow the prompts to activate Office 365 and create your Microsoft account
+* Install Office and sign-in with your newly created Office 365 ID
+
+### Lab Groups  
+You will regularly work on labs in groups of 3-4.  Please fill out this short survey to help me select your Excel and RStudio mates: https://forms.gle/gyR8t4Pp5HLyeFD99
+
+### Abscences around holidays  
+Notice that the midterm and final exam are scheduled on days that precede college holidays. The exams will take place on those days, and cannot be rescheduled.
+
+### Tutoring at the SQRC  
+The Symbolic and Quantitative Resource Center (SQRC) is an informal and free drop-in peer tutoring center. The SQRC will offer both in-person and remote tutoring this semester. In-person tutoring will take place in JR Howard 134 and remote tutoring will take place on the SQRC Discord server. Use this link to join the Discord server: https://discord.gg/VWfT99b
+
+### Changing Sections or Withdrawing  
+Any requests to change your Words or Numbers section should be directed to the General Education Office, GenEd@lclark.edu). Because it is a required course designed for first year students, withdrawal is not permitted (unless you are withdrawing from all courses for the semester).
+
+### Diversity, Equity, and Inclusion  
+Lewis & Clark and its faculty are committed to diversity, equity, and inclusion in the classroom. I will work very hard to ensure that all backgrounds and perspectives thrive in this course. I am committed to the belief anyone can achieve mastery of basic quantiative reasoning, and that typecasting ourselves as a "math" or "non-math" person is self-limiting and unnecessary. If your learning needs are not being met, or you do not feel comfortable with the material being discussed, I am counting on you to let me know.  I will do my best to support a classroom climate that supports a diversity of thoughts, perspectives, and experiences, and that honors your identities (including race, gender, class, sexuality, religion, ability, etc.). Matters of identity and American politics are inextricably intertwined and as such will be regularly discussed in class and will require consideration in your research projects.
+
+### Activities and Grading Formula
+
+The work in this class includes the following:
+
+* Reading ahead of classroom attendance and participation
+* Reading, videos, and exercises using the My Open Math platform.
+* Labs and lab submissions using Microsoft Excel and RStudio.
+* One 6-8 page paper.
+* Two group projects
+
+**Two exams: 20% each**
+Each exam is independent and not cumulative (Learning Objectives #2 and #4).  The midterm will be taking during class and the Final exam as scheduled by the university: https://college.lclark.edu/offices/registrar/final_exam_schedule/fall/  Our class is scheduled for a final exam on Tuesday, December 14 from 1-4pm in the usual classroom.
+
+**Research paper & presentation: 20%**  
+You are responsible for one 6-8 page paper on a topic related to elections or public opinion that marshals data to provide evidence and includes an original data visualization. In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5) 
+
+**Homework/labs: 20%**  
+The class will be structured to be participatory, particularly using small groups. This requires everyone to have done the readings and prepared adequately to critically engage with a variety of arguments, approaches, and data. I will assign periodic activities that will build data literacy, including quizzes, homework, or other assignments. Students will be expected to complete a series of excel-based learning labs, with time devoted to this activity in class. (Learning Objectives #1, #2, #3, #4, and #5) 
+
+**Attendance/ Participation: 5%**  
+
+**Group Projects: 15%**  
+There will be three group projects to submit in this course. The output of each project will vary (presentation, written components) and will be explained at the start of each project. You will be graded based on project quality and by peer review.  Significant class time will be devoted to these projects. 
+
+**Late work submissions**
+Unless otherwise specified, late work will be penalized by 2/3 of a grade per day.  This means, for example, that an assignment graded as a B will be dropped to C+ the first late day, and to C- the second day.  Work submitted more than 48 hours late will not be accepted.
+
+https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9
+
+## Course Schedule  
+
+###  Week 1
+
+#### **Monday, August 30**  
+Topic:  A personal course introduction.  
+COVID Tweet: https://twitter.com/thehowie/status/1425592885991378947
+
+#### **Wednesday, September 1**   
+Topics: Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout.  
+Pre-class Homework Assignment #1:  Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)   
+Pre-class Homework Assignment #2: Create an account with the Office 365 suite and log into RStudio server.  
+https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12
+
+#### **Friday, September 3**    
+Topics:  Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.  
+Pre-class Homework Assignment:  Read pages 1-6 of this textbook chapter and complete the examples through Example 11.  Submit your results in Google Classroom. http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf
+
+My Open Math Assignment: Percentage Problem Solving  
+https://www.myopenmath.com/assess2/?cid=118940&aid=8515741#/
+
+###  Week 2
+
+#### **Monday, September 6** 
+No class--Labor Day Holiday
+
+#### **Wednesday, September 8**    
+Topic:  Using growth formulas:  artithmetic vs. geometric/exponential growth.    
+Pre-class Homework Assignment:  Read the first 9 pages of PDF (through Example 6, pp. 173-182), and complete the first three "Try it Now" examples.  Submit your results in Google Classroom. http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf. 
+
+#### **Friday, September 10**    
+Topic:  Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.  
+Pre-class Homework Assignment:  Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU.  
+
+My Open Math Assignment Due:  Growth Models  
+https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5
+
+### Week 3
+
+#### **Monday, September 13**     
+Topic:  Simple computation from simple data in Excel and RStudio.    
+Pre-class Homework Assignment:  Complete the Excel and RStudio Labs and submit individual results to Google Classroom. You will submit a copy of an Excel spreadsheet and an R script that you'll simply cut and paste into a text document. Submit what you have even if you don't finish it.   
+
+Lab Assignment:  Excel Lab 1, Part 1 (Turnout)
+
+
+#### **Wednesday, September 15**  
+Topic:  Statistics, the difference between Statistics vs. Mathematics.
+Pre-class Homework Assignment:  Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf 
+
+Lab Assignment:  Excel Lab 1, Part 2 (Campaign Finance)
+
+#### **Friday, September 17**  
+Topic:  Introduction to Surveys using statistical inference  
+Pre-class Homework Assignment:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/11H3MX8pLU35ddzdb76eMnWU6Ywd-BB-f/view?usp=sharing)  In class there will be a short interactive excercise based on these readings.  
+
+Lab Assignment:  RStudio Lab 1 (Submit your completed R Script)
+
+###  Week 4
+
+#### **Monday, September 20**  
+Topic:  Data organization:  observations, variables, and description  
+Pre-class Homework Assignment:  Review of datasets suitable for class projects, and you will identify datasets of potential interest.  Come to class prepared with a preliminary list.
+
+
+#### **Wednesday, September 22**  
+Topic:  Data organization:  observations, variables, and description  
+Pre-class Homework Assignment #1:  Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the eight "Try it Now" examples and submit to Google Classroom.   
+Pre-class Homework Assignment #2: Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
+
+#### **Friday, September 24**  
+Topic:  Creating data tables with Excel and RStudio.  
+Pre-class Homework Assignment:  Review Excel Lab 2 and RStudio Lab 2 which will begin during class.
+
+My Open Math Assignment Due:  Collecting Data  
+https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
+
+### Week 5
+
+#### **Monday, September 27:**  
+Topic:  Creating data tables with Excel and RStudio.  
+Pre-class Homework Assignment #1:  Watch this R Programming 101 video (6:55 in length). https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
+Pre-class Homework Assignment #2:  Complete the example shown in the video and submit your script to Google Classroom.
+
+#### **Wednesday, September 29:**  
+Topic: Variation and the Standard Deviation 
+Pre-class Homework Assignment:  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference 
+
+Excel Lab Due:  Excel Lab 2
+
+#### **Friday, October 1:**  
+Topic:  Probability Distributions, Random Variables, and the Normal Distribution.  
+Pre-class Homework Assignment: Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
+
+### Week 6
+
+#### **Monday, October 4:**  
+Topic:  Confidence Intervals and Margins of Error in the Normal Distribution.  
+Pre-class Homework Assignment: https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+
+#### **Wednesday, October 6**
+Midterm Exam 
+
+#### **Friday, October 8**
+No class--Fall Break.
+
+### Week 7
+
+#### **Monday, October 11**  
+Topic:  Voting Theory Part 1
+Pre-class Homework Assignment:  Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and complete the Try it Now Exercises 1-3. 
+
+#### **Wednesday, October 13** 
+Topic:  Voting Theory Part 2
+Pre-class Homework Assignment:  Read http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf (pp. 44-51)
+
+#### **Friday, October 15**   
+Topic:  Interlude on American Politics  
+Pre-class Homework Assignment:  Read https://www.theatlantic.com/magazine/archive/2016/07/how-american-politics-went-insane/485570/
+Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics.
+  
+### Week 8
+
+#### **Monday, October 18**  
+Topic:  Apportionment
+Pre-class Homework Assignment:  Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/
+
+#### **Wednesday, October 20**  
+Topic:  Gerrymandering in the United States
+Preclass Homework Assignment:  Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and answer questions posted in Google Classroom.  
+
+#### **Friday, October 22**  
+Topic:  Placeholder for the 2021 Canadian General Election
+Preclass Homework Assignment: Read https://www.thecanadianencyclopedia.ca/en/article/electoral-systems
+
+My Open Math Assignment Due:  Apportionment
+https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
+
+
+### Week 9
+
+#### **Monday, October 25**  
+Topic:  Gerrymandering and the politics of geography:  Seattle City Council Switches to Districts
+Preclass Homework Assignment: Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and answer questions posted in Google Classroom.  
+
+#### **Wednesday, October 27**  
+Topic:  The implications of district building with Dave's Redistricting tool.
+Preclass Homework Assignment:  Watch this video (13:38 minutes): https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home
+
+#### **Friday, October 29**  
+Topic:  Data Visualization: Mapbuilding in RStudio  
+Preclass Homework Assignment: None.  We will meet in workgroups to continue our redistricting project
+
+My Open Math Assignment Due:  Normal Distribution Reading Quiz  https://www.myopenmath.com/assess2/?cid=118940&aid=8515748#/
+
+### Week 10
+
+#### **Monday, November 1**  
+Topic:  Data visualization  
+Preclass Homework Assignment: Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
+
+#### **Wednesday, November 3**  
+Topic:  Discussion on Data Visualization  
+Preclass Homework Assignment: Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
+
+#### **Friday, November 5**  
+Topic:  Data Visualization in Excel and RStudio  
+Preclass Homework Assignment: Read https://ggplot2-book.org/getting-started.html chapters 1-4 (Introduction to Collective Geoms)  
+
+### Week 11
+#### **Monday, November 8**  
+
+#### **Wednesday, November 10**  
+Topic:  Data Visualization in Excel and RStudio
+Preclass Homework Assignment: Read https://ggplot2-book.org/getting-started.html chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks).
+
+#### **Friday, November 12**  
+Topic:  Ranked Choice Voting in the 2021 NY Mayoral election  
+Preclass Homework Assignment:  Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare AND https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/
+
+### Week 12
+
+#### **Monday, November 15**  
+Topic:  Funky Math of the Electoral College
+Preclass Homework Assignment: Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation
+
+
+
+#### **Wednesday, November 17**   
+
+Topic: Electoral College (Cont) with weighted voting analysis
+Preclass Homework Assignment:  Read http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf
+
+#### **Friday, November 19**  
+Redistricting Project Due
+
+### Week 13
+
+#### **Monday, November 22**  
+Topic:  In-Class Review Session
+
+#### **Wednesday, November 24**   
+Presentations
+
+#### **Friday, November 26**
+No Class:  U.S. Thanksgiving Holiday 
+
+### Week 14
+
+#### **Monday, November 29**  
+Presentations
+
+#### **Wednesday, December 1**  
+Presentations
+
+#### **Friday, December 3**  
+Presentations
+
+### Week 15
+
+#### **Monday, December 6**  
+Presentations
+
+#### **Wednesday, December 8**  
+Final Exam Review
+
+### Week 16
+#### **Tuesday, December 14**  
+Final Exam:  1-4pm
+
