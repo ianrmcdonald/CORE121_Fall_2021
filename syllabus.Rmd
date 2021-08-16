@@ -1,5 +1,5 @@
 ---
-title: "CORE121 Election Syllabus Fall 2021"
+title: "CORE121 Election Sceince Syllabus Fall 2021"
 output:
   html_document:
     toc: true
@@ -14,7 +14,7 @@ output:
 knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALSE, message = FALSE, tidy = FALSE, cache = FALSE)
 ```
 
-CORE 121-01 and CORE121-11 Numbers: Election Science  
+**CORE 121-01 and CORE121-11 Numbers: Election Science**  
 Section 1 meets at MWF 11:30am - 12:30pm in JR Howard 115  
 Section 11 meets at 1:50pm - 2:50pm in JR Howard 253  
 Lewis & Clark College  
