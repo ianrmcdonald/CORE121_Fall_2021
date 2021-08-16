@@ -1,0 +1,113 @@
+---
+title: "Datasets"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Not sure if this is a data source, but has extensive summary info
+Portland Police Bureau Traffic Stops & Use of Force
+Traffic stops:  https://www.portlandoregon.gov/police/65520
+Use of force:  https://www.portlandoregon.gov/police/76875
+Classical
+Iris
+Titanic
+MNIST (digit recognition)
+Repositories / Sources
+
+UCI Machine Learning Repository
+https://archive.ics.uci.edu/ml/index.php
+497 relatively clean datasets
+
+Kaggle
+https://www.kaggle.com/
+19,000 datasets including COVID-19
+
+US Census Bureau
+https://data.census.gov/cedsci/
+
+data.gov
+https://www.data.gov/
+
+Google Books Ngram Viewer
+https://books.google.com/ngrams
+
+General Social Survey
+https://gss.norc.org/
+
+World Values Survey
+http://www.worldvaluessurvey.org/wvs.jsp
+
+Roper iPoll
+https://ropercenter-cornell-edu.library.lcproxy.org/CFIDE/cf/action/ipoll/index.cfm
+
+World Bank
+https://data.worldbank.org/
+
+FiveThirtyEight
+https://data.fivethirtyeight.com/
+
+USGS Earthquake Data
+https://www.usgs.gov/natural-hazards/earthquake-hazards/data-tools
+
+IMDb
+https://www.imdb.com/interfaces/
+
+OpenStreetMap
+https://www.openstreetmap.org/#map=14/45.4438/-122.7249
+https://www.openstreetmap.org/traces
+
+Twitter
+https://developer.twitter.com/en/docs
+
+DrivenData
+https://www.drivendata.org/
+
+Hack Oregon
+http://www.hackoregon.org/
+
+data.oregon.gov
+https://data.oregon.gov/
+
+NYT COVID data
+https://github.com/nytimes/covid-19-data
+
+Jeremy Singer-Vine’s huge collection of available data sets (Data is Plural)
+https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0
+See also his email list, https://tinyletter.com/data-is-plural
+
+Gapminder
+https://www.gapminder.org/data/
+
+Our World in Data
+https://ourworldindata.org/
+
+Tidy Tuesday
+https://github.com/rfordatascience/tidytuesday
+https://www.youtube.com/user/safe4democracy/search?query=tidy
+Built In
+StackOverflow on some sample datasets built into Python libraries:
+https://stackoverflow.com/questions/28417293/sample-datasets-in-pandas
+
+Scikit-Learn:
+https://scikit-learn.org/stable/datasets/index.html
+Boston house prices, iris, diabetes, digits, linnerud (physical fitness), wine, breast cancer
+
+R datasets (which can also be accessed through Python):
+https://vincentarelbundock.github.io/Rdatasets/datasets.html
+
+Keras:
+https://keras.io/api/datasets/
+MNIST, CIFAR (10 and 100), IMDb movie review sentiment, Reuters newswire, MNIST fashion, Boston house prices
+
+TensorFlow:
+https://www.tensorflow.org/datasets/catalog/overview
+Many, although most are too complex for simple regression.
+
+Our World in Data:
+https://ourworldindata.org/
+
+CDC Covid:
+https://covid.cdc.gov/covid-data-tracker/#datatracker-home

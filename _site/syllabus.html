@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>CORE121 Election Syllabus Fall 2021</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+.tocify-subheader {
+  display: inline;
+}
+.tocify-subheader .tocify-item {
+  font-size: 0.95em;
+}
+
+</style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">CORE121 Election Syllabus Fall 2021</h1>
+
+</div>
+
+
+<p>CORE 121-01 and CORE121-11 Numbers: Election Science<br />
+Section 1 meets at MWF 11:30am - 12:30pm in JR Howard 115<br />
+Section 11 meets at 1:50pm - 2:50pm in JR Howard 253<br />
+Lewis &amp; Clark College<br />
+Fall 2021</p>
+<p>Instructor: Ian McDonald, Ph.D.<br />
+Email: <a href="mailto:ianmcdonald@lclark.edu" class="email">ianmcdonald@lclark.edu</a><br />
+Miller Hall 434<br />
++1.503.768.7456</p>
+<div id="office-hours" class="section level3">
+<h3>Office Hours</h3>
+<p>Tuesdays 9:30-11 am &amp; Fridays 10-11am + email or additional times by schedule. You can meet with me in person or via teleconferencing.</p>
+</div>
+<div id="course-description" class="section level3">
+<h3>Course Description</h3>
+<p>We expect democracies to translate public desire into coherent political choices. And we expect elections to deliver these results. But aggregating preferences with elections is harder than it looks. The simplest elections based on innocent design choices will produce paradoxical and confounding results.</p>
+<p>In this course, we’ll introduce mathematical and logical tools that can help us understand the paradoxes of elections. You will use these tools to develop and refine your quantitative reasoning skills and apply them to a fundamental problem: how does adding together individual preferences make democracy possible? Topics will include redistricting, voting procedures, and election prediction models. We will look at contemporary examples such as the 2021 New York City mayoral election, and the effect of using districts in choosing the Seattle City Council. You will develop arguments, apply data visualization tools and consider the relevance of statistical reasoning and causal inference.</p>
+<p>This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related campaign finance, redistricting, voting algorithms, voter turnout, polling, and election fraud analysis. Students will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference. They will also gain basic proficiency in the software Microsoft Excel.</p>
+<p>This class discusses political topics but it is not part of the college’s political science curriculum. It might leverage your interest in political topics but doesn’t require any political knowledge, at all. We are just going to use politics as the basis for applying quantitative reasoning.</p>
+</div>
+<div id="learning-objectives" class="section level2">
+<h2>Learning Objectives</h2>
+<ul>
+<li>Examine ideas, arguments, biases, and assumptions coming from a variety of perspectives, including their own, with an open yet critical mind.</li>
+<li>Analyze texts and/or quantitative information, recognizing, describing, and questioning patterns, trends, anomalies, and relationships.</li>
+<li>Present clear, compelling, and effective arguments and/or analysis, supported by evidence.</li>
+<li>Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena.</li>
+<li>Relate issues of diversity, equity, and inclusion to how data is gathered, interpreted, and emphasized.</li>
+</ul>
+<div id="course-website" class="section level3">
+<h3>Course Website</h3>
+<p><a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor</a><br />
+This website will be used for both sections. Google Classroom is one of two sites you will use to submit assignments; the other is My Open Math. Google Classroom will direct you to the right source for readings and submissions. This site will also contain all documents and links related to the course.</p>
+</div>
+</div>
+<div id="course-administration" class="section level2">
+<h2>Course Administration</h2>
+<div id="course-portals" class="section level3">
+<h3>Course Portals</h3>
+<p>In this course you will access four different portals that require your LC id and password for initial contact. Google Classroom will direct you from session to session, but you will directed to these sites at different phases of the course:</p>
+<p><strong>My Open Math</strong><br />
+Readings, videos, and quizzes will be available from My Open Math. Sign up using the link below. All material will be directly linked from our class website, so you do not need to regularly check this site directly. <a href="https://www.myopenmath.com/forms.php?action=enroll" class="uri">https://www.myopenmath.com/forms.php?action=enroll</a> The course ID: 118940 The enrollment key: core121</p>
+<p><strong>Google Classroom</strong><br />
+In addition to serving as the class website, you will submit papers and your excel labs through Google Classroom. Enroll using this link: <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor</a></p>
+<p><strong>RStudio</strong><br />
+You can access RStudio using a web browser and signing in to the college’s server at <a href="https://datasci.watzek.cloud/" class="uri">https://datasci.watzek.cloud/</a>.</p>
+<p>In your lab assignments, you will explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language. Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at <a href="https://r4ds.had.co.nz/introduction.html" class="uri">https://r4ds.had.co.nz/introduction.html</a>.</p>
+<p><strong>R Programming for Beginners</strong> I will introduce you to the R programming language using the RStudio platform. The goal isn’t to achieve mastery of R syntax but rather show you the basic workflow and help you recognize situation’s when R’s power in data management and visualization will help you. If you want to dive into R, I recommend the R Programming 101 video series in YouTube. It’s entertaining and gentle.</p>
+<p><a href="https://www.youtube.com/watch?v=nRtp7wSEtJA&amp;list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9" class="uri">https://www.youtube.com/watch?v=nRtp7wSEtJA&amp;list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9</a></p>
+<p><strong>Microsoft Excel</strong><br />
+You will also use Microsoft Excel, an ordinary spreadsheet tool, in labs. You will gain exposure to spreadsheets, and when you compare the experience to RStudio, you’ll see how a scripted programming language has particular advantages and problems compared to spreadsheet applications.</p>
+<p>For this purpose, Microsoft Excel is preferred over Google Sheets or other open-source alternatives. Lewis &amp; Clark has a Campus Agreement for Microsoft Office. Because of this, current students, staff and faculty can use their <span class="citation">@lclark.edu</span> email address to activate a free Office 365 account, which allows them to use Microsoft apps such as Excel. This program is 100% managed by Microsoft and is completely separate from Lewis &amp; Clark College.</p>
+<p>To set up Office 365:</p>
+<ul>
+<li>Go to <a href="https://products.office.com/en-us/student/office-in-education" class="uri">https://products.office.com/en-us/student/office-in-education</a> to sign up.</li>
+<li>Enter your Lewis &amp; Clark email address</li>
+<li>Click the Get Started button</li>
+<li>Access the link that is sent to your email to complete the registration</li>
+<li>Follow the prompts to activate Office 365 and create your Microsoft account</li>
+<li>Install Office and sign-in with your newly created Office 365 ID</li>
+</ul>
+</div>
+<div id="lab-groups" class="section level3">
+<h3>Lab Groups</h3>
+<p>You will regularly work on labs in groups of 3-4.</p>
+<p>Please fill out this short survey to help me select your Excel and RStudio mates: <a href="https://bit.ly/3iX0tmx" class="uri">https://bit.ly/3iX0tmx</a></p>
+</div>
+<div id="attendance-and-classroom-tech" class="section level3">
+<h3>Attendance and Classroom Tech</h3>
+<p>Your attendance is expected every class session. If you can’t attend class, please notify me.</p>
+<p>If you have access to a laptop computer, you should bring it to class regularly.</p>
+<p>You can bring phones into the classroom, but please note that we have very limited time together and we need to make it count. We all need to be present and free of distraction. I will count on you to do your part.</p>
+<p>Notice that the midterm and final exam are scheduled on days that precede college holidays. The exams will take place on those days, and cannot be rescheduled.</p>
+</div>
+<div id="tutoring-at-the-sqrc" class="section level3">
+<h3>Tutoring at the SQRC</h3>
+<p>The Symbolic and Quantitative Resource Center (SQRC) is an informal and free drop-in peer tutoring center. The SQRC will offer both in-person and remote tutoring this semester. In-person tutoring will take place in JR Howard 134 and remote tutoring will take place on the SQRC Discord server. Use this link to join the Discord server: <a href="https://discord.gg/VWfT99b" class="uri">https://discord.gg/VWfT99b</a></p>
+</div>
+<div id="changing-sections-or-withdrawing" class="section level3">
+<h3>Changing Sections or Withdrawing</h3>
+<p>Any requests to change your Words or Numbers section should be directed to the General Education Office, <a href="mailto:GenEd@lclark.edu" class="email">GenEd@lclark.edu</a>). Because it is a required course designed for first year students, withdrawal is not permitted (unless you are withdrawing from all courses for the semester).</p>
+</div>
+<div id="diversity-equity-and-inclusion" class="section level3">
+<h3>Diversity, Equity, and Inclusion</h3>
+<p>Lewis &amp; Clark and its faculty are committed to diversity, equity, and inclusion in the classroom. I will work hard to ensure that all backgrounds and perspectives thrive in this course. <strong>I am committed to the goal that anyone can achieve mastery of basic quantitative reasoning and the ideas presented in this course. Typecasting ourselves as a “math” or “non-math” person is self-limiting and needless.</strong> If your learning needs are not being met, or you do not feel comfortable with the material being discussed, I am counting on you to let me know. I will do my best to support a classroom climate that supports a diversity of thoughts, perspectives, and experiences, and that honors your identities (including race, gender, class, sexuality, religion, ability, etc.). Matters of identity and American politics are inextricably intertwined and as such will be regularly discussed in class and will likely require consideration in your research projects.</p>
+</div>
+<div id="activities-and-grading-formula" class="section level3">
+<h3>Activities and Grading Formula</h3>
+<p>The work in this class includes the following:</p>
+<ul>
+<li>Reading ahead of classroom attendance and participation</li>
+<li>Reading, videos, and exercises using the My Open Math platform.</li>
+<li>Labs and lab submissions using Microsoft Excel and RStudio.</li>
+<li>One 6-8 page paper.</li>
+<li>Two group projects</li>
+</ul>
+<p><strong>Two exams: 20% each</strong> Each exam is independent and not cumulative (Learning Objectives #2 and #4). The midterm will be taking during class and the Final exam as scheduled by the university: <a href="https://college.lclark.edu/offices/registrar/final_exam_schedule/fall/" class="uri">https://college.lclark.edu/offices/registrar/final_exam_schedule/fall/</a></p>
+<p>Section 1 final exam takes place on Tuesday, December 14 from 1-4pm in JR Howard 115. Section 11 final exam takes place on Saturday, December 11 from 1-4pm in JR Howard 253.</p>
+<p><strong>Research paper &amp; presentation: 20%</strong><br />
+You are responsible for one 6-8 page paper on a topic related to elections or public opinion that marshals data to provide evidence and includes an original data visualization. In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5).</p>
+<p>Note that there will be a data visualization contest sponsored by the library, and you’re invited to submit your work for that competition. The library will publish details later in the semester.</p>
+<p><strong>Homework/labs: 20%</strong><br />
+The class will be structured to be participatory, particularly using small groups. This requires everyone to have done the readings and prepared adequately to critically engage with a variety of arguments, approaches, and data. I will assign periodic activities that will build data literacy, including quizzes, homework, or other assignments. Students will be expected to complete a series of excel-based learning labs, with time devoted to this activity in class. (Learning Objectives #1, #2, #3, #4, and #5)</p>
+<p><strong>Attendance/ Participation: 5%</strong></p>
+<p><strong>Group Projects: 15%</strong><br />
+There will be three group projects to submit in this course. The output of each project will vary (presentation, written components) and will be explained at the start of each project. You will be graded based on project quality and by peer review. Significant class time will be devoted to these projects.</p>
+<p><strong>Late work submissions</strong> Unless otherwise specified, late work will be penalized by 2/3 of a grade per day. This means, for example, that an assignment graded as a B will be dropped to C+ the first late day, and to C- the second day. Work submitted more than 48 hours late will not be accepted.</p>
+</div>
+</div>
+<div id="course-schedule" class="section level2">
+<h2>Course Schedule</h2>
+<div id="week-1" class="section level3">
+<h3>Week 1</h3>
+<div id="monday-august-30" class="section level4">
+<h4><strong>Monday, August 30</strong></h4>
+<p>Topic: A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121. If time permits, a conversation: the basic math of COVID breakthrough cases <a href="https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html" class="uri">https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html</a></p>
+</div>
+<div id="wednesday-september-1" class="section level4">
+<h4><strong>Wednesday, September 1</strong></h4>
+<p>Topics: Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout.<br />
+Pre-class Homework Assignment #1: Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)<br />
+Pre-class Homework Assignment #2: Create an account with the Office 365 suite and log into RStudio server.<br />
+<a href="https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12" class="uri">https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12</a></p>
+</div>
+<div id="friday-september-3" class="section level4">
+<h4><strong>Friday, September 3</strong></h4>
+<p>Topics: Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.<br />
+Pre-class Homework Assignment: Read pages 1-6 of this textbook chapter and complete the examples through Example 11. Submit your results in Google Classroom. <a href="http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf</a> and <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDE4NzU0MjMz/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDE4NzU0MjMz/details</a></p>
+</div>
+</div>
+<div id="week-2" class="section level3">
+<h3>Week 2</h3>
+<div id="monday-september-6" class="section level4">
+<h4><strong>Monday, September 6</strong></h4>
+<p>No class–Labor Day Holiday</p>
+</div>
+<div id="wednesday-september-8" class="section level4">
+<h4><strong>Wednesday, September 8</strong></h4>
+<p>Topic: Using growth formulas: artithmetic vs. geometric/exponential growth.<br />
+Pre-class Homework Assignment #1: Read the first 9 pages of PDF (through Example 6, pp. 173-182), and complete the first three “Try it Now” examples. Submit your results in Google Classroom. <a href="http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf</a>. Pre-class Homework Assignment #2: My Open Math Percentage Problem Solving<br />
+<a href="https://www.myopenmath.com/assess2/?cid=118940&amp;aid=8515741#/" class="uri">https://www.myopenmath.com/assess2/?cid=118940&amp;aid=8515741#/</a></p>
+</div>
+<div id="friday-september-10" class="section level4">
+<h4><strong>Friday, September 10</strong></h4>
+<p>Topic: Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.<br />
+Pre-class Homework Assignment #1: Skim Excel Lab #1 and watch this short video: <a href="https://www.youtube.com/watch?v=y_Nt5BL_wgU" class="uri">https://www.youtube.com/watch?v=y_Nt5BL_wgU</a>.<br />
+Pre-class Homework Assignment #2: My Open Math Growth Models <a href="https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-5" class="uri">https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-5</a> In class Lab: Excel Lab 1, Part 1 (Turnout)</p>
+</div>
+</div>
+<div id="week-3" class="section level3">
+<h3>Week 3</h3>
+<div id="monday-september-13" class="section level4">
+<h4><strong>Monday, September 13</strong></h4>
+<p>Topic: Simple computation from simple data in Excel and RStudio.<br />
+Pre-class Homework Assignment: Complete the Excel lab and submit individual results to Google Classroom. You will submit a copy of an Excel spreadsheet and an R script that you’ll simply cut and paste into a text document. Submit what you have even if you don’t finish it. <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTMyMzcxOTgx/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTMyMzcxOTgx/details</a> In class lab: Lab Assignment: Excel Lab 1, Part 2 (Campaign Finance)</p>
+</div>
+<div id="wednesday-september-15" class="section level4">
+<h4><strong>Wednesday, September 15</strong></h4>
+<p>Topic: Statistics, the difference between Statistics vs. Mathematics. Pre-class Homework Assignment #1: Read Pages 1-11 in <a href="http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf</a> Pre-class Homework Assignment #2: Excel Lab 1, Part 2 (Campaign Finance) <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MDE4/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MDE4/details</a></p>
+</div>
+<div id="friday-september-17" class="section level4">
+<h4><strong>Friday, September 17</strong></h4>
+<p>Topic: Introduction to Surveys using statistical inference<br />
+Pre-class Homework Assignment #1: Before class, read <a href="https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html" class="uri">https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html</a> (PDF here: <a href="https://drive.google.com/file/d/11H3MX8pLU35ddzdb76eMnWU6Ywd-BB-f/view?usp=sharing" class="uri">https://drive.google.com/file/d/11H3MX8pLU35ddzdb76eMnWU6Ywd-BB-f/view?usp=sharing</a>) In class there will be a short interactive excercise based on these readings.<br />
+Pre-class Homework Assignment #2: RStudio Lab 1 (Submit your completed R Script) <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details</a></p>
+</div>
+</div>
+<div id="week-4" class="section level3">
+<h3>Week 4</h3>
+<div id="monday-september-20" class="section level4">
+<h4><strong>Monday, September 20</strong></h4>
+<p>Topic: Data organization: observations, variables, and description<br />
+Pre-class Homework Assignment: Review of datasets suitable for class projects, and you will identify datasets of potential interest. Come to class prepared with a preliminary list.</p>
+</div>
+<div id="wednesday-september-22" class="section level4">
+<h4><strong>Wednesday, September 22</strong></h4>
+<p>Topic: Data organization: observations, variables, and description<br />
+Pre-class Homework Assignment #1: Read <a href="http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf</a> pp. 247-269. Complete the eight “Try it Now” examples and submit to Google Classroom. <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDY4/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDY4/details</a> Pre-class Homework Assignment #2: Watch this 7:47 minute video. <a href="https://www.youtube.com/watch?v=Kno1gJiO5Dg" class="uri">https://www.youtube.com/watch?v=Kno1gJiO5Dg</a></p>
+</div>
+<div id="friday-september-24" class="section level4">
+<h4><strong>Friday, September 24</strong></h4>
+<p>Topic: Creating data tables with Excel and RStudio.<br />
+Pre-class Homework Assignment #1: Review Excel Lab 2 and RStudio Lab 2 which will begin during class. [INSERT LINK]<br />
+Pre-class Homework Assignment #2: My Open Math Collecting Data<br />
+<a href="https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-6&amp;r=6116fc9cd5bcf" class="uri">https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-6&amp;r=6116fc9cd5bcf</a></p>
+</div>
+</div>
+<div id="week-5" class="section level3">
+<h3>Week 5</h3>
+<div id="monday-september-27" class="section level4">
+<h4><strong>Monday, September 27:</strong></h4>
+<p>Topic: Creating data tables with Excel and RStudio.<br />
+Pre-class Homework Assignment #1: Watch this R Programming 101 video (6:55 in length). <a href="https://www.youtube.com/watch?v=nRtp7wSEtJA&amp;list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9" class="uri">https://www.youtube.com/watch?v=nRtp7wSEtJA&amp;list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9</a>. Pre-class Homework Assignment #2: Complete the example shown in the video and submit your script to Google Classroom.</p>
+</div>
+<div id="wednesday-september-29" class="section level4">
+<h4><strong>Wednesday, September 29:</strong></h4>
+<p>Topic: Variation and the Standard Deviation Pre-class Homework Assignment: <a href="https://seeing-theory.brown.edu/probability-distributions/index.html" class="uri">https://seeing-theory.brown.edu/probability-distributions/index.html</a> Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference</p>
+<p>Excel Lab Due: Excel Lab 2</p>
+</div>
+<div id="friday-october-1" class="section level4">
+<h4><strong>Friday, October 1:</strong></h4>
+<p>Topic: Probability Distributions, Random Variables, and the Normal Distribution.<br />
+Pre-class Homework Assignment: Read <a href="https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf" class="uri">https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf</a> (pp. 1-5) AND <a href="https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf" class="uri">https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf</a> (pp. 1-4)</p>
+</div>
+</div>
+<div id="week-6" class="section level3">
+<h3>Week 6</h3>
+<div id="monday-october-4" class="section level4">
+<h4><strong>Monday, October 4:</strong></h4>
+<p>Topic: Confidence Intervals and Margins of Error in the Normal Distribution.<br />
+Pre-class Homework Assignment: Read <a href="https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/" class="uri">https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/</a></p>
+</div>
+<div id="wednesday-october-6" class="section level4">
+<h4><strong>Wednesday, October 6</strong></h4>
+<p>Midterm Exam</p>
+</div>
+<div id="friday-october-8" class="section level4">
+<h4><strong>Friday, October 8</strong></h4>
+<p>No class–Fall Break.</p>
+</div>
+</div>
+<div id="week-7" class="section level3">
+<h3>Week 7</h3>
+<div id="monday-october-11" class="section level4">
+<h4><strong>Monday, October 11</strong></h4>
+<p>Topic: Voting Theory Part 1 Pre-class Homework Assignment: Read <a href="http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf</a> (pp. 35-43) and complete the Try it Now Exercises 1-3. Submit to Google Classroom <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIyOTc5NDg1/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIyOTc5NDg1/details</a></p>
+</div>
+<div id="wednesday-october-13" class="section level4">
+<h4><strong>Wednesday, October 13</strong></h4>
+<p>Topic: Voting Theory Part 2 Pre-class Homework Assignment: Read <a href="http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf</a> (pp. 44-51)</p>
+</div>
+<div id="friday-october-15" class="section level4">
+<h4><strong>Friday, October 15</strong></h4>
+<p>Topic: Interlude on American Politics<br />
+Pre-class Homework Assignment: Read <a href="https://www.theatlantic.com/magazine/archive/2016/07/how-american-politics-went-insane/485570/" class="uri">https://www.theatlantic.com/magazine/archive/2016/07/how-american-politics-went-insane/485570/</a> Today in class we will discuss American politics at large. Please come prepared to ask a question about something that puzzles you about American politics today. It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics.</p>
+</div>
+</div>
+<div id="week-8" class="section level3">
+<h3>Week 8</h3>
+<div id="monday-october-18" class="section level4">
+<h4><strong>Monday, October 18</strong></h4>
+<p>Topic: Apportionment Pre-class Homework Assignment #1: Read <a href="https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/" class="uri">https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/</a> Pre-class Homework Assignment #2: My Open Math, Apportionment <a href="https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-6&amp;r=6116fc9cd5bcf" class="uri">https://www.myopenmath.com/course/course.php?cid=118940&amp;folder=0-6&amp;r=6116fc9cd5bcf</a></p>
+</div>
+<div id="wednesday-october-20" class="section level4">
+<h4><strong>Wednesday, October 20</strong></h4>
+<p>Topic: Gerrymandering in the United States Preclass Homework Assignment: Read <a href="https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/" class="uri">https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/</a> and come prepared to discuss this question: “What is the definition of gerrymandering, and is it possible for gerrymandering to create a fair outcome?”</p>
+</div>
+<div id="friday-october-22" class="section level4">
+<h4><strong>Friday, October 22</strong></h4>
+<p>Topic: Placeholder for the 2021 Canadian General Election Preclass Homework Assignment: Read <a href="https://www.thecanadianencyclopedia.ca/en/article/electoral-systems" class="uri">https://www.thecanadianencyclopedia.ca/en/article/electoral-systems</a> Come prepared to discuss this question: “What is the single most obvious difference between the Canadian system and the American system as you understand them?”</p>
+</div>
+</div>
+<div id="week-9" class="section level3">
+<h3>Week 9</h3>
+<div id="monday-october-25" class="section level4">
+<h4><strong>Monday, October 25</strong></h4>
+<p>Topic: Gerrymandering and the politics of geography: Seattle City Council Switches to Districts Preclass Homework Assignment: Read <a href="https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/" class="uri">https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/</a> and come prepared to answer this question: “Why would Seattle voters have chosen to adopt a district based system in 2013, given all the problems we know about managing and defining districts? Isn’t that going backwards?”</p>
+</div>
+<div id="wednesday-october-27" class="section level4">
+<h4><strong>Wednesday, October 27</strong></h4>
+<p>Topic: The implications of district building with Dave’s Redistricting tool. Preclass Homework Assignment: Watch this video (13:38 minutes): <a href="https://www.youtube.com/watch?v=Pp42Rw2cVQA" class="uri">https://www.youtube.com/watch?v=Pp42Rw2cVQA</a> and peruse the online tool at <a href="https://davesredistricting.org/maps#home" class="uri">https://davesredistricting.org/maps#home</a></p>
+</div>
+<div id="friday-october-29" class="section level4">
+<h4><strong>Friday, October 29</strong></h4>
+<p>Topic: Data Visualization: Mapbuilding in RStudio and Dave’s Redistricting Project Preclass Homework Assignment: My Open Math Normal Distribution Reading Quiz <a href="https://www.myopenmath.com/assess2/?cid=118940&amp;aid=8515748#/" class="uri">https://www.myopenmath.com/assess2/?cid=118940&amp;aid=8515748#/</a></p>
+</div>
+</div>
+<div id="week-10" class="section level3">
+<h3>Week 10</h3>
+<div id="monday-november-1" class="section level4">
+<h4><strong>Monday, November 1</strong></h4>
+<p>Topic: Data visualization<br />
+Preclass Homework Assignment: Read <a href="https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/" class="uri">https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/</a></p>
+</div>
+<div id="wednesday-november-3" class="section level4">
+<h4><strong>Wednesday, November 3</strong></h4>
+<p>Topic: Discussion on Data Visualization<br />
+Preclass Homework Assignment: Read <a href="https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de" class="uri">https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de</a></p>
+</div>
+<div id="friday-november-5" class="section level4">
+<h4><strong>Friday, November 5</strong></h4>
+<p>Topic: Data Visualization in Excel and RStudio<br />
+Preclass Homework Assignment: Read <a href="https://ggplot2-book.org/getting-started.html" class="uri">https://ggplot2-book.org/getting-started.html</a> chapters 1-4 (Introduction to Collective Geoms) and complete a short exercise in RStudio.</p>
+</div>
+</div>
+<div id="week-11" class="section level3">
+<h3>Week 11</h3>
+<div id="monday-november-8" class="section level4">
+<h4><strong>Monday, November 8</strong></h4>
+</div>
+<div id="wednesday-november-10" class="section level4">
+<h4><strong>Wednesday, November 10</strong></h4>
+<p>Topic: Data Visualization in Excel and RStudio Preclass Homework Assignment: Read <a href="https://ggplot2-book.org/getting-started.html" class="uri">https://ggplot2-book.org/getting-started.html</a> chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks) and complete a short exercise in RStudio.</p>
+</div>
+<div id="friday-november-12" class="section level4">
+<h4><strong>Friday, November 12</strong></h4>
+<p>Topic: Ranked Choice Voting in the 2021 NY Mayoral election<br />
+Preclass Homework Assignment: Read <a href="https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare" class="uri">https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare</a> AND <a href="https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/" class="uri">https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/</a> Come prepared to answer this question: “How did New York’s attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?” In New York City, this primary victory makes Adams the presumptive winner of the mayoral election in November.</p>
+</div>
+</div>
+<div id="week-12" class="section level3">
+<h3>Week 12</h3>
+<div id="monday-november-15" class="section level4">
+<h4><strong>Monday, November 15</strong></h4>
+<p>Topic: Funky Math of the Electoral College Preclass Homework Assignment: Read <a href="https://www.nytimes.com/article/the-electoral-college.html" class="uri">https://www.nytimes.com/article/the-electoral-college.html</a> AND <a href="https://www.nationalpopularvote.com/written-explanation" class="uri">https://www.nationalpopularvote.com/written-explanation</a>. Come prepared to answer this question: "</p>
+</div>
+<div id="wednesday-november-17" class="section level4">
+<h4><strong>Wednesday, November 17</strong></h4>
+<p>Topic: Electoral College (Cont) with weighted voting analysis Preclass Homework Assignment: Read <a href="http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf" class="uri">http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf</a> and answer Exercises (Skills) 1-8.Submit your answers in Google Classroom <a href="https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/m/MzgwMDI0MDMwMzUy/details" class="uri">https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/m/MzgwMDI0MDMwMzUy/details</a></p>
+</div>
+<div id="friday-november-19" class="section level4">
+<h4><strong>Friday, November 19</strong></h4>
+<p>Redistricting Project Due. Submit your work here: <a href="https://classroom.google.com/w/Mzc2MjMzMzQ1ODU0/tc/MzgwMDE4NzU0MTky" class="uri">https://classroom.google.com/w/Mzc2MjMzMzQ1ODU0/tc/MzgwMDE4NzU0MTky</a></p>
+</div>
+</div>
+<div id="week-13" class="section level3">
+<h3>Week 13</h3>
+<div id="monday-november-22" class="section level4">
+<h4><strong>Monday, November 22</strong></h4>
+<p>Topic: In-Class Review Session</p>
+</div>
+<div id="wednesday-november-24" class="section level4">
+<h4><strong>Wednesday, November 24</strong></h4>
+<p>Presentations</p>
+</div>
+<div id="friday-november-26" class="section level4">
+<h4><strong>Friday, November 26</strong></h4>
+<p>No Class: U.S. Thanksgiving Holiday</p>
+</div>
+</div>
+<div id="week-14" class="section level3">
+<h3>Week 14</h3>
+<div id="monday-november-29" class="section level4">
+<h4><strong>Monday, November 29</strong></h4>
+<p>Presentations</p>
+</div>
+<div id="wednesday-december-1" class="section level4">
+<h4><strong>Wednesday, December 1</strong></h4>
+<p>Presentations</p>
+</div>
+<div id="friday-december-3" class="section level4">
+<h4><strong>Friday, December 3</strong></h4>
+<p>Presentations</p>
+</div>
+</div>
+<div id="week-15" class="section level3">
+<h3>Week 15</h3>
+<div id="monday-december-6" class="section level4">
+<h4><strong>Monday, December 6</strong></h4>
+<p>Presentations</p>
+</div>
+<div id="wednesday-december-8" class="section level4">
+<h4><strong>Wednesday, December 8</strong></h4>
+<p>Final Exam Review</p>
+</div>
+</div>
+<div id="week-16" class="section level3">
+<h3>Week 16</h3>
+<div id="tuesday-december-14" class="section level4">
+<h4><strong>Tuesday, December 14</strong></h4>
+<p>Final Exam: 1-4pm</p>
+</div>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
+    $('.unlisted.unnumbered').addClass('toc-ignore')
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3,h4",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = false;
+    options.smoothScroll = false;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,64 @@
+---
+title: "R Studio Instructions"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## What is R and what is RStudio?
+
+When we talk about tools like R and R Studio, we tend to assume that the reader knows something about scripting, interacting with a computer using a computer language, commands, text files, binary files, folders, directories, etc.
+
+Let's assume you know nothing about these things.  Most people who use computers successfully don't need to know them. My goal is to help you get running with R Studio with the bare minimum of definitions.  The fact is you could use R Studio without knowing these terms, but let's take a moment and consider them as we get started with R and R Studio.
+
+When you use an application (a fancier word for what we colloquially describe as a "program") like Excel, you launch some kind of visual flag, which you recognize as an "icon".
+You then see the contents of that application:  a grid, a blank window, or something like that.  
+
+But suppose that instead of interacting with some kind of artifact of the application, you could just tell the computer what to do by issuing [some kind of statement](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwib27C-6bPyAhWXJTQIHYelDvEQFnoECBAQAw&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D8F1Q6yETpfk&usg=AOvVaw0KDk1XAfLAK3-8RmNdntIL)?  
+
+As an undergraduate, you're going to dicover a class of computer tools that let you interact using words and statements instead of images and entry points that are peculiar to that tool.  Applications that we call "programming languages" have this capability.  
+
+All of the tools that we call languages involve using commands that can resemble ordinary language but have meaning in the context of that tool.  There are dozens of popular examples, such as Python, Java, Java Script, Go, C, C++, Ruby, and the list goes on.
+
+R is one of these tools. The most popular tools have different purposes, strengths, and weaknesses.  You'll find significant overlap between them, and your mastery of one language often transfers easily to other ones.  All of them have enormous online communities, free documentation, and feature sets that are constantly extended.  
+
+At the moment, Python is generally considered the single most widely used language, but R has particular strengths that suit our purposes in this class.  R was developed as a statistical analysis tool, and its data management and data visualization features are particularly strong.  R is  popular in academic research and transferring R content and expertise between researchers can be easier, especially in the social sciences. R is free of charge and open source, which means the source programs that build the R language are freely available and extensible.  
+
+R has one more advantage that helps us in an exploratory class:  it is supported with another free application called R Studio.  R Studio gives you a helpful and all-encompassing environment that makes your interaction with R easy and forgiving.  R Studio is a safe space for using R. 
+
+Most programming language use an equivalent application for this purpose, and we call these toold Interactive Development Environments, or IDE's.  Some IDE's support more than one tool, and R Studio can help you write programs in Python or C++, but its intended purpose is to support R.
+
+In this lab, which will serve as an introduction to R and R Studio, you won't need to master R syntax from scratch, but you'll interact with a set of R commands and store them into a script for later use.  In fact, almost all the work you do in R or any other computer language follows this basic sequence.
+
+*  Construct a statement that R can translate and execute.  
+*  If you want, you can enter the statment directly in R for execution, but almost all of the time you will instead....
+*  ...store the statement in an electronic script that collects statments for future use.
+*  Tell R to execute the statements in the script.
+
+1. Go to Lewis & Clark's server. https://datasci.watzek.cloud/
+
+You could, if you prefer, download and install your own personal version of RStudio (for free).  Using the college's server makes things simpler out of the gate, and lets us share content and R features more easily and reliably.  
+
+2. Sign into RStudio Server with your ID and password. 
+
+You're looking at the RStudio interface designed to make R easier to use.  But R involves entering some kind of statement that receiving some sort of message in response, or the creation of some kind of object you can use later.
+
+3.  Your cursor sits in front of a carat at the console.  Enter a simple math formula: 2 + 3
+
+R will tell you in the console that 2 + 3 = 5.
+
+You'll discover that R is forgiving about spaces (2+3 is the same as 2 + 3 or 2   +    3) but is demanding in other ways.  In particular, it is case senstive and ALLCAPS is not the same thing as allcaps. 
+
+4.  Enter the following. 
+
+
+
+
+You'll see this screen in the browser tab.  Two of the four regions in the screen are important.
+
+The Console:  You can interact with 
+
+
+

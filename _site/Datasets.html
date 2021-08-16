@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Datasets</title>
+
+<script src="site_libs/header-attrs-2.9/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">My Website</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About</a>
+</li>
+<li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Datasets</h1>
+
+</div>
+
+
+<p>Not sure if this is a data source, but has extensive summary info Portland Police Bureau Traffic Stops &amp; Use of Force Traffic stops: <a href="https://www.portlandoregon.gov/police/65520" class="uri">https://www.portlandoregon.gov/police/65520</a> Use of force: <a href="https://www.portlandoregon.gov/police/76875" class="uri">https://www.portlandoregon.gov/police/76875</a> Classical Iris Titanic MNIST (digit recognition) Repositories / Sources</p>
+<p>UCI Machine Learning Repository <a href="https://archive.ics.uci.edu/ml/index.php" class="uri">https://archive.ics.uci.edu/ml/index.php</a> 497 relatively clean datasets</p>
+<p>Kaggle <a href="https://www.kaggle.com/" class="uri">https://www.kaggle.com/</a> 19,000 datasets including COVID-19</p>
+<p>US Census Bureau <a href="https://data.census.gov/cedsci/" class="uri">https://data.census.gov/cedsci/</a></p>
+<p>data.gov <a href="https://www.data.gov/" class="uri">https://www.data.gov/</a></p>
+<p>Google Books Ngram Viewer <a href="https://books.google.com/ngrams" class="uri">https://books.google.com/ngrams</a></p>
+<p>General Social Survey <a href="https://gss.norc.org/" class="uri">https://gss.norc.org/</a></p>
+<p>World Values Survey <a href="http://www.worldvaluessurvey.org/wvs.jsp" class="uri">http://www.worldvaluessurvey.org/wvs.jsp</a></p>
+<p>Roper iPoll <a href="https://ropercenter-cornell-edu.library.lcproxy.org/CFIDE/cf/action/ipoll/index.cfm" class="uri">https://ropercenter-cornell-edu.library.lcproxy.org/CFIDE/cf/action/ipoll/index.cfm</a></p>
+<p>World Bank <a href="https://data.worldbank.org/" class="uri">https://data.worldbank.org/</a></p>
+<p>FiveThirtyEight <a href="https://data.fivethirtyeight.com/" class="uri">https://data.fivethirtyeight.com/</a></p>
+<p>USGS Earthquake Data <a href="https://www.usgs.gov/natural-hazards/earthquake-hazards/data-tools" class="uri">https://www.usgs.gov/natural-hazards/earthquake-hazards/data-tools</a></p>
+<p>IMDb <a href="https://www.imdb.com/interfaces/" class="uri">https://www.imdb.com/interfaces/</a></p>
+<p>OpenStreetMap <a href="https://www.openstreetmap.org/#map=14/45.4438/-122.7249" class="uri">https://www.openstreetmap.org/#map=14/45.4438/-122.7249</a> <a href="https://www.openstreetmap.org/traces" class="uri">https://www.openstreetmap.org/traces</a></p>
+<p>Twitter <a href="https://developer.twitter.com/en/docs" class="uri">https://developer.twitter.com/en/docs</a></p>
+<p>DrivenData <a href="https://www.drivendata.org/" class="uri">https://www.drivendata.org/</a></p>
+<p>Hack Oregon <a href="http://www.hackoregon.org/" class="uri">http://www.hackoregon.org/</a></p>
+<p>data.oregon.gov <a href="https://data.oregon.gov/" class="uri">https://data.oregon.gov/</a></p>
+<p>NYT COVID data <a href="https://github.com/nytimes/covid-19-data" class="uri">https://github.com/nytimes/covid-19-data</a></p>
+<p>Jeremy Singer-Vine’s huge collection of available data sets (Data is Plural) <a href="https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0" class="uri">https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0</a> See also his email list, <a href="https://tinyletter.com/data-is-plural" class="uri">https://tinyletter.com/data-is-plural</a></p>
+<p>Gapminder <a href="https://www.gapminder.org/data/" class="uri">https://www.gapminder.org/data/</a></p>
+<p>Our World in Data <a href="https://ourworldindata.org/" class="uri">https://ourworldindata.org/</a></p>
+<p>Tidy Tuesday <a href="https://github.com/rfordatascience/tidytuesday" class="uri">https://github.com/rfordatascience/tidytuesday</a> <a href="https://www.youtube.com/user/safe4democracy/search?query=tidy" class="uri">https://www.youtube.com/user/safe4democracy/search?query=tidy</a> Built In StackOverflow on some sample datasets built into Python libraries: <a href="https://stackoverflow.com/questions/28417293/sample-datasets-in-pandas" class="uri">https://stackoverflow.com/questions/28417293/sample-datasets-in-pandas</a></p>
+<p>Scikit-Learn: <a href="https://scikit-learn.org/stable/datasets/index.html" class="uri">https://scikit-learn.org/stable/datasets/index.html</a> Boston house prices, iris, diabetes, digits, linnerud (physical fitness), wine, breast cancer</p>
+<p>R datasets (which can also be accessed through Python): <a href="https://vincentarelbundock.github.io/Rdatasets/datasets.html" class="uri">https://vincentarelbundock.github.io/Rdatasets/datasets.html</a></p>
+<p>Keras: <a href="https://keras.io/api/datasets/" class="uri">https://keras.io/api/datasets/</a> MNIST, CIFAR (10 and 100), IMDb movie review sentiment, Reuters newswire, MNIST fashion, Boston house prices</p>
+<p>TensorFlow: <a href="https://www.tensorflow.org/datasets/catalog/overview" class="uri">https://www.tensorflow.org/datasets/catalog/overview</a> Many, although most are too complex for simple regression.</p>
+<p>Our World in Data: <a href="https://ourworldindata.org/" class="uri">https://ourworldindata.org/</a></p>
+<p>CDC Covid: <a href="https://covid.cdc.gov/covid-data-tracker/#datatracker-home" class="uri">https://covid.cdc.gov/covid-data-tracker/#datatracker-home</a></p>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
