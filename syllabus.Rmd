@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,11 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+<<<<<<< HEAD
   pdf_document:
     toc: no
+=======
+>>>>>>> f06369444219b66b3ed8aa71a3afa9f04dcc289f
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
