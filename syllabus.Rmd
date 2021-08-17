@@ -1,13 +1,15 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
-    toc: true
+    toc: yes
     toc_float:
-      collapsed: false
-      smooth_scroll: false
+      collapsed: no
+      smooth_scroll: no
     toc_depth: 4
-    self_contained: false
+    self_contained: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -15,6 +17,7 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 ```
 
 **CORE 121-01 and CORE121-11 Numbers: Election Science**  
+
 Section 1 meets at MWF 11:30am - 12:30pm in JR Howard 115  
 Section 11 meets at 1:50pm - 2:50pm in JR Howard 253  
 Lewis & Clark College  
@@ -32,15 +35,17 @@ Tuesdays 9:30-11 am & Fridays 10-11am + email or additional times by schedule. Y
 
 We expect democracies to translate public desire into coherent political choices. And we expect elections to deliver these results. But aggregating preferences with elections is harder than it looks. The simplest elections based on innocent design choices will produce paradoxical and confounding results.
 
-In this course, we’ll introduce mathematical and logical tools that can help us understand the paradoxes of elections. You will use these tools to develop and refine your quantitative reasoning skills and apply them to a fundamental problem: how does adding together individual preferences make democracy possible? Topics will include redistricting, voting procedures, and election prediction models. We will look at contemporary examples such as the 2021 New York City mayoral election, and the effect of using districts in choosing the Seattle City Council. You will develop arguments, apply data visualization tools and consider the relevance of statistical reasoning and causal inference.
+In this course, we’ll introduce mathematical and logical tools that can help us understand the paradoxes of elections. You will use these tools to develop and refine your quantitative reasoning skills and apply them to a fundamental problem: how does adding together individual preferences make democracy possible? Topics will include redistricting, voting procedures, and election prediction models. We will look at contemporary examples such as the recent New York City mayoral primary election, and the effect of using districts in choosing the Seattle City Council. You will develop arguments, apply data visualization tools and consider the relevance of statistical reasoning and causal inference.
 
-This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related campaign finance, redistricting, voting algorithms, voter turnout, polling,  and election fraud analysis.  Students will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference.  They will also gain basic proficiency in the software Microsoft Excel. 
+This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related to campaign finance, redistricting, voting algorithms, voter turnout, polling,  and election fraud analysis.  You will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference.  You will also gain basic proficiency with Microsoft Excel and RStudio. 
 
-This class discusses political topics but it is not part of the college's political science curriculum. It might leverage your interest in political topics but doesn't require any political knowledge, at all.  We are just going to use politics as the basis for applying quantitative reasoning.  
+This class discusses political topics but it is not part of the college's political science curriculum. It might leverage your interest in political topics but doesn't require any political knowledge, at all.  We will use politics to demonstrate the power of quantitative reasoning.  
  
 ## Learning Objectives 
 
-* Examine ideas, arguments, biases, and assumptions coming from a variety of perspectives, including their own, with an open yet critical mind. 
+At the conclusion of this course, you will be able to:
+
+* Examine ideas, arguments, biases, and assumptions coming from a variety of perspectives, including your own, with an open yet critical mind. 
 * Analyze texts and/or quantitative information, recognizing, describing, and questioning patterns, trends, anomalies, and relationships. 
 * Present clear, compelling, and effective arguments and/or analysis, supported by evidence. 
 * Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena. 
@@ -54,7 +59,7 @@ This website will be used for both sections. Google Classroom is one of two site
 
 ### Course Portals
 
-In this course you will access four different portals that require your LC id and password for initial contact.  Google Classroom will direct you from session to session, but you will directed to these sites at different phases of the course:
+In this course you will access four different portals that require your LC id and password for initial contact.  Google Classroom will direct you from session to session, but you will directed to these sites at different phases of the course.
 
 **My Open Math**  
 Readings, videos, and quizzes will be available from My Open Math.  Sign up using the link below.  All material will be directly linked from our class website, so you do not need to regularly check this site directly. 
@@ -112,23 +117,27 @@ The Symbolic and Quantitative Resource Center (SQRC) is an informal and free dro
 Any requests to change your Words or Numbers section should be directed to the General Education Office, GenEd@lclark.edu). Because it is a required course designed for first year students, withdrawal is not permitted (unless you are withdrawing from all courses for the semester).
 
 ### Diversity, Equity, and Inclusion  
-Lewis & Clark and its faculty are committed to diversity, equity, and inclusion in the classroom. I will work hard to ensure that all backgrounds and perspectives thrive in this course. **I am committed to the goal that anyone can achieve mastery of basic quantitative reasoning and the ideas presented in this course. Typecasting ourselves as a "math" or "non-math" person is self-limiting and needless.** If your learning needs are not being met, or you do not feel comfortable with the material being discussed, I am counting on you to let me know.  I will do my best to support a classroom climate that supports a diversity of thoughts, perspectives, and experiences, and that honors your identities (including race, gender, class, sexuality, religion, ability, etc.). Matters of identity and American politics are inextricably intertwined and as such will be regularly discussed in class and will likely require consideration in your research projects.
+Lewis & Clark and its faculty are committed to diversity, equity, and inclusion in the classroom. I will work hard to ensure that all backgrounds and perspectives thrive in this course.
+
+I am committed to the goal that anyone can achieve mastery of basic quantitative reasoning and the ideas presented in this course. Typecasting ourselves as a "math" or "non-math" person is self-limiting and needless.
+
+If your learning needs are not being met, or you do not feel comfortable with the material being discussed, I am counting on you to let me know.  I will do my best to support a classroom climate that supports a diversity of thoughts, perspectives, and experiences, and that honors your identities (including race, gender, class, religion, ability, etc.). Matters of identity and American politics are inextricably intertwined and as such will be regularly discussed in class and will likely require consideration in your research projects.
 
 ### Activities and Grading Formula
 
 The work in this class includes the following:
 
 * Reading ahead of classroom attendance and participation
-* Reading, videos, and exercises using the My Open Math platform.
-* Labs and lab submissions using Microsoft Excel and RStudio.
-* One 6-8 page paper.
+* Reading, videos, and exercises using the My Open Math platform
+* Labs and lab submissions using Microsoft Excel and RStudio
+* One 6-8 page paper
 * Two group projects
 
-**Two exams: 20% each**
-Each exam is independent and not cumulative (Learning Objectives #2 and #4).  The midterm will be taking during class and the Final exam as scheduled by the university: https://college.lclark.edu/offices/registrar/final_exam_schedule/fall/  
+**Two exams: 20% each**\
+Each exam is independent and not cumulative (Learning Objectives #2 and #4).  The midterm will take place during the regular class period for Wednesday October 6.  The final exam as scheduled by the university: https://college.lclark.edu/offices/registrar/final_exam_schedule/fall/  
 
-Section 1 final exam takes place on Tuesday, December 14 from 1-4pm in JR Howard 115.
-Section 11 final exam takes place on Saturday, December 11 from 1-4pm in JR Howard 253. 
+The section 1 final exam takes place on Tuesday, December 14 from 1-4pm in JR Howard 115.
+The section 11 final exam takes place on Saturday, December 11 from 1-4pm in JR Howard 253. 
 
 **Research paper & presentation: 20%**  
 You are responsible for one 6-8 page paper on a topic related to elections or public opinion that marshals data to provide evidence and includes an original data visualization. In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5).
@@ -136,7 +145,7 @@ You are responsible for one 6-8 page paper on a topic related to elections or pu
 Note that there will be a data visualization contest sponsored by the library, and you're invited to submit your work for that competition. The library will publish details later in the semester.
 
 **Homework/labs: 20%**  
-The class will be structured to be participatory, particularly using small groups. This requires everyone to have done the readings and prepared adequately to critically engage with a variety of arguments, approaches, and data. I will assign periodic activities that will build data literacy, including quizzes, homework, or other assignments. Students will be expected to complete a series of excel-based learning labs, with time devoted to this activity in class. (Learning Objectives #1, #2, #3, #4, and #5) 
+The class will be structured to be participatory, particularly using small groups. This requires everyone to have done the readings and come prepared adequately to critically engage with a variety of arguments, approaches, and data. I will assign periodic activities that will build data literacy, including quizzes, homework, or other assignments. Students will be expected to complete a series of excel-based learning labs, with time devoted to this activity in class. (Learning Objectives #1, #2, #3, #4, and #5) 
 
 **Attendance/ Participation: 5%**  
 
@@ -222,24 +231,24 @@ https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5b
 
 ### Week 5
 
-#### **Monday, September 27:**  
+#### **Monday, September 27**  
 Topic:  Creating data tables with Excel and RStudio.  
 Pre-class Homework Assignment #1:  Watch this R Programming 101 video (6:55 in length). https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
 Pre-class Homework Assignment #2:  Complete the example shown in the video and submit your script to Google Classroom.
 
-#### **Wednesday, September 29:**  
+#### **Wednesday, September 29**  
 Topic: Variation and the Standard Deviation 
 Pre-class Homework Assignment:  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference 
 
 Excel Lab Due:  Excel Lab 2
 
-#### **Friday, October 1:**  
+#### **Friday, October 1**  
 Topic:  Probability Distributions, Random Variables, and the Normal Distribution.  
 Pre-class Homework Assignment: Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 
 ### Week 6
 
-#### **Monday, October 4:**  
+#### **Monday, October 4**  
 Topic:  Confidence Intervals and Margins of Error in the Normal Distribution.  
 Pre-class Homework Assignment: Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
 
