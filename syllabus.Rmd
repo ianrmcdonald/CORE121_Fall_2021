@@ -1,5 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
+date: "Last compiled on `r format(Sys.time(), '%d %B, %Y %H:%S')`"
 output:
   html_document:
     toc: yes
@@ -162,6 +163,7 @@ Unless otherwise specified, late work will be penalized by 2/3 of a grade per da
 #### Monday, August 30  
 **Topic:**  A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121.\   
 If time permits, a conversation:  the basic math of COVID breakthrough cases.\   https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html
+https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500
 
 #### Wednesday, September 1   
 **Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout.   
