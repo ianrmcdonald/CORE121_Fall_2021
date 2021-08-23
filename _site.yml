@@ -1,9 +1,9 @@
-name: "my-website"
+name: "CORE121 Election Science Fall 2021"
 navbar:
-  title: "My Website"
+  title: "CORE121 Election Science Fall 2021"
   left:
     - text: "Home"
-      href: index.html
+      href: syllabus.html
     - text: "About"
       href: about.html
     - text: "Syllabus"

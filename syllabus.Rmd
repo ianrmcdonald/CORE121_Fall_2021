@@ -163,13 +163,14 @@ Unless otherwise specified, late work will be penalized by 2/3 of a grade per da
 #### Monday, August 30  
 **Topic:**  A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121.\   
 If time permits, a conversation:  the basic math of COVID breakthrough cases.\   https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html
-https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500
+https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500  
+https://twitter.com/JamesSurowiecki/status/1429450130713890824
 
 #### Wednesday, September 1   
 **Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout.   
 **Pre-class Homework Assignment #1**:  Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)    
 **Pre-class Homework Assignment #2:** Create an account with the Office 365 suite and log into RStudio server.  
-**Links**  
+**Links for the Monty Hall Problem Discussion**  
 https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12  
 https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html
 https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
@@ -179,6 +180,8 @@ https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 **Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter and complete the examples through Example 11.  Submit your results in Google Classroom.  
 **Links**  
 http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf and https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDE4NzU0MjMz/details
+
+**Links for the COVID Breakthrough Percentages Discussion**
 https://twitter.com/marynmck/status/1421483545898389504
 https://twitter.com/KenDilanianNBC/status/1421208151970533379
 https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500
@@ -199,9 +202,9 @@ https://www.myopenmath.com/assess2/?cid=118940&aid=8515741#/
 #### Friday, September 10    
 **Topic:**  Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.  
 **Pre-class Homework Assignment #1**:  Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU.  
-**Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5
-In class Lab:  Excel Lab 1, Part 1 (Turnout)
-**Other**:  We will assign lab groups for the semseter 
+**Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5  
+**In class Lab:**  Excel Lab 1, Part 1 (Turnout)
+**Other**:  We will finalize lab groups for the semseter 
 
 
 ### Week 3
@@ -209,8 +212,8 @@ In class Lab:  Excel Lab 1, Part 1 (Turnout)
 #### Monday, September 13     
 **Topic:**  Simple computation from simple data in Excel and RStudio.    
 **Pre-class Homework Assignment:**  Complete the Excel lab and submit individual results to Google Classroom. You will submit a copy of an Excel spreadsheet and an R script that you'll simply cut and paste into a text document. Submit what you have even if you don't finish it. 
-https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTMyMzcxOTgx/details
-In class lab:  Lab Assignment:  Excel Lab 1, Part 2 (Campaign Finance)
+https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTMyMzcxOTgx/details  
+**In class lab:**  Lab Assignment:  Excel Lab 1, Part 2 (Campaign Finance)
 
 #### Wednesday, September 15  
 **Topic:**  Statistics, the difference between Statistics vs. Mathematics.  
@@ -236,7 +239,7 @@ In class lab:  Lab Assignment:  Excel Lab 1, Part 2 (Campaign Finance)
 
 #### Friday, September 24  
 **Topic:**  Creating data tables with Excel and RStudio.  
-**Pre-class Homework Assignment #1**:  Review Excel Lab 2 and RStudio Lab 2 which will begin during class. [INSERT LINK]  
+**Pre-class Homework Assignment #1**:  Review Excel Lab 2 and RStudio Lab 2 which will begin during class. 
 **Pre-class Homework Assignment #2:** My Open Math Collecting Data  
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
 
@@ -251,11 +254,13 @@ https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5b
 **Topic:** Variation and the Standard Deviation 
 **Pre-class Homework Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference 
 
-Excel Lab Due:  Excel Lab 2
+**Excel Lab Due:**  Excel Lab 2 https://bit.ly/3zaucxS
 
 #### Friday, October 1  
 **Topic:**  Probability Distributions, Random Variables, and the Normal Distribution.  
 **Pre-class Homework Assignment:** Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
+
+**Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
 
 ### Week 6
 
@@ -281,20 +286,25 @@ No class--Fall Break.
 
 #### Friday, October 15   
 **Topic:**  Interlude on American Politics  
-**Pre-class Homework Assignment:**  Read https://www.theatlantic.com/magazine/archive/2016/07/how-american-politics-went-insane/485570/
-Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics.
+**Pre-class Homework Assignment:**  Read Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
+
+Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics, including polarization as described in the article.
   
 ### Week 8
 
 #### Monday, October 18  
-**Topic:**  Apportionment
+**Topic:**  Apportionment and the U.S. House of Representatives
 **Pre-class Homework Assignment #1**:  Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/
 **Pre-class Homework Assignment #2:**  My Open Math, Apportionment
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
 
 #### Wednesday, October 20  
 **Topic:**  Gerrymandering in the United States
-Preclass Homework Assignment:  Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question: "What is the definition of gerrymandering, and is it possible for gerrymandering to create a fair outcome?"
+Preclass Homework Assignment:  Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question:    
+
+"What is the definition of gerrymandering, and is it possible for gerrymandering to create a fair outcome?"
+
+**Excel Lab Due:**  Excel Lab 3 https://bit.ly/3z4xGSt
 
 #### Friday, October 22  
 **Topic:**  Placeholder for the 2021 Canadian General Election
@@ -339,13 +349,13 @@ Preclass Homework Assignment:  Read https://www.nytimes.com/2021/06/24/opinion/r
 Preclass Homework Assignment: Read https://ggplot2-book.org/getting-started.html chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks) and complete a short exercise in RStudio.
 
 #### Friday, November 12  
-**Topic:**  Redistrincting Project (work in group)  
+**Topic:**  Redistricting Project (work in group)  
 
 ### Week 12
 
 #### Monday, November 15  
 **Topic:**  Funky Math of the Electoral College
-Preclass Homework Assignment: Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. Come prepared to answer this question:  "
+Preclass Homework Assignment: Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. Come prepared to answer this question:  "Maine and Nebraska don't use winner-take-all allocations of their electors.  Why don't the other 48 states and DC follow their lead?"
 
 #### Wednesday, November 17   
 

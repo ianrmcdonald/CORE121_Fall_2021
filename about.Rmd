@@ -2,4 +2,4 @@
 title: "About This Website"
 ---
 
-More about this website.
+This site hosts the CORE121 Election Science syllabus, slides, and other content designed for a public audience that won't be visible in Google Classroom.
