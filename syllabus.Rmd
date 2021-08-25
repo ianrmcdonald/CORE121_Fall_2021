@@ -80,6 +80,8 @@ In your lab assignments, you will explore datasets, generate data visualizations
 **R Programming for Beginners**
 I will introduce you to the R programming language using the RStudio platform.  The goal isn't to achieve mastery of R syntax but rather show you the basic workflow and help you recognize situation's when R's power in data management and visualization will help you.  If you want to dive into R, I recommend the R Programming 101 video series in YouTube.  It's entertaining and gentle.
 
+We will have four labs in which you will copy and execute R code in RStudio and report the results. You will also observe the results of changing the code slightly.  For ambitous data visualization projects, you may discover that R can satisfy your requirements better than Excel with a reasonable learning curve.
+
 https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9
 
 **Microsoft Excel**    
@@ -101,13 +103,22 @@ You will regularly work on labs in groups of 3-4.
 
 Please fill out this short survey to help me select your Excel and RStudio mates:  https://bit.ly/3iX0tmx
 
-### Attendance and Classroom Tech
+### Attendance
 
 Your attendance is expected every class session.  If you can't attend class, please notify me. 
 
-If you have access to a laptop computer, you should bring it to class regularly.  
+### Laptops and Phones
+
+If you have access to a laptop computer, you *should* bring it to class routinely.
 
 You can bring phones into the classroom, but please note that we have very limited time together and we need to make it count. We all need to be present and free of distraction. I will count on you to do your part.
+
+### Recording Classes  
+
+Lewis & Clark policy generally forbids recording of classes.  The policy states: "...the secret recording (audio or video) of classes, meetings or other conversations, including telephone calls, is prohibited, as not compatible with the law or the promotion of an open exchange of ideas." See me if you have questions.  The policy is available at https://www.lclark.edu/live/profiles/3606-recording-policy.
+
+
+### Rescheduling Exams  
 
 Notice that the midterm and final exam are scheduled on days that precede college holidays. The exams will take place on those days, and cannot be rescheduled.
 
@@ -161,23 +172,38 @@ Unless otherwise specified, late work will be penalized by 2/3 of a grade per da
 ###  Week 1
 
 #### Monday, August 30  
-**Topic:**  A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121.\   
-If time permits, a conversation:  the basic math of COVID breakthrough cases.\   https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html
-https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500  
-https://twitter.com/JamesSurowiecki/status/1429450130713890824
+**Topic:**  A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121.     
+If time permits, a conversation:  the basic math of COVID breakthrough cases.
+
+https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html   
+https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500   
+https://twitter.com/JamesSurowiecki/status/1429450130713890824  
+https://twitter.com/marynmck/status/1421483545898389504
 
 #### Wednesday, September 1   
-**Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout.   
-**Pre-class Homework Assignment #1**:  Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)    
-**Pre-class Homework Assignment #2:** Create an account with the Office 365 suite and log into RStudio server.  
+**Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout. More on COVID breakthrough reporting if time permits. 
+
+**Pre-class Homework Assignment #1**:  
+Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)  
+
+**Pre-class Homework Assignment #2:**  
+Make sure you have access to the following resources:  
+* Create an account with the Office 365 suite and you can access Microsoft Excel.  
+* Log into the library's RStudio server at https://datasci.watzek.cloud.  Log in to the main screen then choose RStudio Server on the list that appears next.  
+* Register as a new student at myOpenMath.com.  As noted earlier, the Course ID is 118940 and the passcode is core121.
+* Make sure you are enrolled in the course portal for Google Classroom. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0?cjc=qdrgoor  
+
 **Links for the Monty Hall Problem Discussion**  
+
 https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12  
 https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html
 https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 
 #### Friday, September 3    
 **Topics:**  Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.    
-**Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter and complete the examples through Example 11.  Submit your results in Google Classroom.  
+**Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter and complete the examples Example 1 to Example 11.  
+
+Submit your results in Google Classroom.  
 **Links**  
 http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf and https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDE4NzU0MjMz/details
 
@@ -186,6 +212,8 @@ https://twitter.com/marynmck/status/1421483545898389504
 https://twitter.com/KenDilanianNBC/status/1421208151970533379
 https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500
 
+**Survey to match you with your lab mates**  
+https://bit.ly/3iX0tmx
 
 ###  Week 2
 
@@ -194,10 +222,13 @@ No class--Labor Day Holiday
 
 #### Wednesday, September 8    
 **Topic:**  Using growth formulas:  artithmetic vs. geometric/exponential growth.    
-**Pre-class Homework Assignment #1**:  Read the first 9 pages of PDF (through Example 6, pp. 173-182), and complete the first three "Try it Now" examples.  Submit your results in Google Classroom. http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf.   
+**Pre-class Homework Assignment #1**:  Read the first 9 pages of PDF (through Example 6, pp. 173-182), and complete the first three "Try it Now" examples.    
+http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf. 
+Submit your results in Google Classroom at https://bit.ly/3mvP679
+
 **Pre-class Homework Assignment #2:** My Open Math Percentage Problem Solving  
 https://www.myopenmath.com/assess2/?cid=118940&aid=8515741#/
-
+Enter your results in the myOpenMath website. 
 
 #### Friday, September 10    
 **Topic:**  Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.  
@@ -210,63 +241,97 @@ https://www.myopenmath.com/assess2/?cid=118940&aid=8515741#/
 ### Week 3
 
 #### Monday, September 13     
-**Topic:**  Simple computation from simple data in Excel and RStudio.    
-**Pre-class Homework Assignment:**  Complete the Excel lab and submit individual results to Google Classroom. You will submit a copy of an Excel spreadsheet and an R script that you'll simply cut and paste into a text document. Submit what you have even if you don't finish it. 
-https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTMyMzcxOTgx/details  
-**In class lab:**  Lab Assignment:  Excel Lab 1, Part 2 (Campaign Finance)
+**Topic:**   
+Excel lab: Computation from simple data in Excel. Today we will form into groups and try to complete the Excel Lab #1.  
+
+**Pre-class Homework Assignment:**  Review  the Excel lab.  When we are finished, uou will submit a copy of a completed Excel spreadsheet. Submit what you have before class on Wednesday, even if you don't finish it. 
 
 #### Wednesday, September 15  
-**Topic:**  Statistics, the difference between Statistics vs. Mathematics.  
-**Pre-class Homework Assignment #1**:  Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf  
-**Pre-class Homework Assignment #2:**  Excel Lab 1, Part 2 (Campaign Finance)  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MDE4/details
+**Topics:**  
+Statistics, the difference between Statistics vs. Mathematics. 
+An introduction to R and RStudio.  
+
+**Pre-class Homework Assignment #1**:  
+Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf  
+**Submit Excel Lab #1:**  Excel Lab, parts 1 and 2. Everybody submit your own copy of the assignment even though you collaborated.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MDE4/details
 
 #### Friday, September 17  
-**Topic:**  Introduction to Surveys using statistical inference  
+**Topic:**  Introduction to Surveys using statistical inference.  
+
 **Pre-class Homework Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/11H3MX8pLU35ddzdb76eMnWU6Ywd-BB-f/view?usp=sharing)  In class there will be a short interactive excercise based on these readings.  
-**Pre-class Homework Assignment #2:**  RStudio Lab 1 (Submit your completed R Script)  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details
+
+**Submit RStudio Lab #1**  
+RStudio Lab 1 (Submit your completed results described in the lab.)  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details. Note: the goal isn't to master R syntax. You will simply copy, paste, and run R code, and you'll get the hang of the RStudio workflow.
 
 ###  Week 4
 
 #### Monday, September 20  
-**Topic:**  Data organization:  observations, variables, and description  
-**Pre-class Homework Assignment:**  Review of datasets suitable for class projects, and you will identify datasets of potential interest.  Come to class prepared with a preliminary list.
+**Topic:**  
+Data organization:  observations, variables, and description.  
+
+**Pre-class Homework Assignment:**  
+Review of datasets suitable for class projects, and you will identify datasets of potential interest.  Come to class prepared with a preliminary list.  Submit your preliminary list here:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDM4/details
 
 
 #### Wednesday, September 22  
-**Topic:**  Data organization:  observations, variables, and description  
-**Pre-class Homework Assignment #1**:  Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the eight "Try it Now" examples and submit to Google Classroom.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDY4/details
+**Topic:**   
+Data organization:  observations, variables, and description   
+**Pre-class Homework Assignment #1**:  
+
+Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the eight "Try it Now" examples and submit to Google Classroom.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDY4/details  
+
 **Pre-class Homework Assignment #2:** Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
 #### Friday, September 24  
-**Topic:**  Creating data tables with Excel and RStudio.  
-**Pre-class Homework Assignment #1**:  Review Excel Lab 2 and RStudio Lab 2 which will begin during class. 
-**Pre-class Homework Assignment #2:** My Open Math Collecting Data  
-https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
+
+**Topic:**  
+Creating data tables with Excel and RStudio.  This class session will cover lab material.
+
+**Pre-class Homework Assignment #1**:  
+Review Excel Lab 2 and RStudio Lab 2 which will begin during class. 
+
+**Pre-class Homework Assignment #2:** 
+My Open Math: Collecting Data  
+https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
 
 ### Week 5
 
 #### Monday, September 27  
-**Topic:**  Creating data tables with Excel and RStudio.  
+**Topic:**  
+Creating and using data tables with Excel and RStudio.  
+
 **Pre-class Homework Assignment #1**:  Watch this R Programming 101 video (6:55 in length). https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
-**Pre-class Homework Assignment #2:**  Complete the example shown in the video and submit your script to Google Classroom.
+
+We will work on Excel Lab #2 and start the RStudio Lab #2 if time permits.
 
 #### Wednesday, September 29  
-**Topic:** Variation and the Standard Deviation 
-**Pre-class Homework Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference 
+
+**Topic:**  
+Variation and the Standard Deviation  
+
+**Pre-class Homework Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
 
 **Excel Lab Due:**  Excel Lab 2 https://bit.ly/3zaucxS
 
 #### Friday, October 1  
-**Topic:**  Probability Distributions, Random Variables, and the Normal Distribution.  
-**Pre-class Homework Assignment:** Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
+**Topic:**  
 
-**Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
+Probability Distributions, Random Variables, and the Normal Distribution.  
+
+**Pre-class Homework Assignment:** 
+
+Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
+
+**RStudio Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
 
 ### Week 6
 
 #### Monday, October 4  
-**Topic:**  Confidence Intervals and Margins of Error in the Normal Distribution.  
-**Pre-class Homework Assignment:** Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+**Topic:**  
+Confidence Intervals and Margins of Error in the Normal Distribution (with a short review for the midterm exam.)
+
+**Pre-class Homework Assignment:** 
+Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
 
 #### Wednesday, October 6
 Midterm Exam 
@@ -276,99 +341,185 @@ No class--Fall Break.
 
 ### Week 7
 
-#### Monday, October 11  
-**Topic:**  Voting Theory Part 1
+#### Monday, October 11 
+
+**Topic:**  
+Voting Theory Part 1  
+
 **Pre-class Homework Assignment:**  Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and complete the Try it Now Exercises 1-3. Submit to Google Classroom https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIyOTc5NDg1/details
 
 #### Wednesday, October 13 
-**Topic:**  Voting Theory Part 2
+
+**Topic:**  
+Voting Theory Part 2  
+
 **Pre-class Homework Assignment:**  Read http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf (pp. 44-51)
 
 #### Friday, October 15   
 **Topic:**  Interlude on American Politics  
-**Pre-class Homework Assignment:**  Read Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
 
-Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics, including polarization as described in the article.
+**Pre-class Homework Assignment:**  Read this article: Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
+
+Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics, including polarization as described in the article.  What is the thesis in Losing Common Ground?  Do you buy it?
   
 ### Week 8
 
 #### Monday, October 18  
-**Topic:**  Apportionment and the U.S. House of Representatives
-**Pre-class Homework Assignment #1**:  Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/
+
+**Topic:**  
+Apportionment and the U.S. House of Representatives  
+
+**Pre-class Homework Assignment #1**:  
+Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/  
+
 **Pre-class Homework Assignment #2:**  My Open Math, Apportionment
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
 
 #### Wednesday, October 20  
-**Topic:**  Gerrymandering in the United States
-Preclass Homework Assignment:  Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question:    
+
+**Topic:**  
+Voting Rules, the Variety Of Them, and Excel/RStudio Lab #3.
+
+**Preclass Homework Assignment:** 
+
+Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf
+
+#### Friday, October 22  
+
+**Topic:**  Gerrymandering in the United States and the Group Voting Rules project.  
+
+**Pre-class Homework Assignment:**  
+
+Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question:    
 
 "What is the definition of gerrymandering, and is it possible for gerrymandering to create a fair outcome?"
 
-**Excel Lab Due:**  Excel Lab 3 https://bit.ly/3z4xGSt
-
-#### Friday, October 22  
-**Topic:**  Placeholder for the 2021 Canadian General Election
-Preclass Homework Assignment: Read https://www.thecanadianencyclopedia.ca/en/article/electoral-systems  Come prepared to discuss this question: "What is the single most obvious difference between the Canadian system and the American system as you understand them?"
+We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of a particular voting system from a common set of data.
 
 ### Week 9
 
 #### Monday, October 25  
-**Topic:**  Gerrymandering and the politics of geography:  Seattle City Council Switches to Districts
-Preclass Homework Assignment: Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the problems we know about managing and defining districts?  Isn't that going backwards?"
+**Topic:**  
+
+Gerrymandering and the politics of geography:  Seattle City Council Switches to Districts  
+
+**Preclass Homework Assignment:** 
+
+Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
+
+**Excel Lab Due:**  Excel Lab 3 https://bit.ly/3z4xGSt
+
 
 #### Wednesday, October 27  
-**Topic:**  The implications of district building with Dave's Redistricting tool and District Builder.
-Preclass Homework Assignment:  Watch this video (13:38 minutes): https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
-https://www.districtbuilder.org/
+**Topic:**   
+
+The implications of district building with Dave's Redistricting tool and District Builder.  
+
+**Preclass Homework Assignment:**   
+
+Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
+We will compare this to https://www.districtbuilder.org/ if time permits
 
 #### Friday, October 29  
-**Topic:**  Data Visualization: Mapbuilding in RStudio and Dave's Redistricting Project
+
+**Topic:**  
+Data Visualization: Mapbuilding in RStudio and Dave's Redistricting Project.  
 Preclass Homework Assignment: My Open Math Normal Distribution Reading Quiz  https://www.myopenmath.com/assess2/?cid=118940&aid=8515748#/
+
+**RStudio Lab Due:** RStudio Lab 3 https://bit.ly/3sOkMpj
 
 ### Week 10
 
-#### Monday, November 1  
-**Topic:**  Data visualization  
-Preclass Homework Assignment: Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
+#### Monday, November 1 
+
+**Topic:** 
+
+Data visualization:  Principles of data visualization  
+
+**Preclass Homework Assignment:** 
+
+Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
+
+Read https://www.livescience.com/45083-misleading-gun-death-chart.html
+
+Will work on Excel Lab #4 if time permits.
+
+**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
 
 #### Wednesday, November 3  
-**Topic:**  Discussion on Data Visualization  
-Preclass Homework Assignment: Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
+**Topic:**  Lab and Discussion on Data Visualization  
 
-#### Friday, November 5  
+**Preclass Homework Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
+
+#### Friday, November 5 
+
 **Topic:**  Data Visualization in Excel and RStudio  
-Preclass Homework Assignment: Read https://ggplot2-book.org/getting-started.html chapters 1-4 (Introduction to Collective Geoms) and complete a short exercise in RStudio.
+**Preclass Homework Assignment:** 
+
+Read https://ggplot2-book.org/getting-started.html chapters 1-4 (Introduction to Collective Geoms) and complete a short exercise in RStudio.
+
+**Excel Lab Due:** Excel Lab #4. https://bit.ly/3myUI0s
 
 ### Week 11
-#### Monday, November 8  
-**Topic:**  Ranked Choice Voting in the 2021 NY Mayoral election  
-Preclass Homework Assignment:  Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare AND https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/  Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, this primary victory makes Adams the presumptive winner of the mayoral election in November. 
 
-#### Wednesday, November 10  
-**Topic:**  Data Visualization in Excel and RStudio
-Preclass Homework Assignment: Read https://ggplot2-book.org/getting-started.html chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks) and complete a short exercise in RStudio.
+#### Monday, November 8  
+**Topic:**  Ranked Choice Voting and the 2021 NY mayoral election  
+
+**Preclass Homework Assignment:**  
+
+Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare 
+
+AND 
+
+https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/  
+
+Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, his primary victory makes Adams the presumptive winner of the mayoral election in November. 
+
+**RStudio Lab Due:** RStudio Lab #4. https://bit.ly/3myUI0s
+
+#### Wednesday, November 10 
+
+**Topic:**  Data Visualization in Excel and RStudio  
+
+**Preclass Homework Assignment:** 
+
+Read https://ggplot2-book.org/getting-started.html chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks) and respond to a curated list of exercise questions in Google Classroom.  https://bit.ly/3sOqV4R
 
 #### Friday, November 12  
-**Topic:**  Redistricting Project (work in group)  
+**Topic:**  Group Redistricting Project (work in group)  
+
+**Preclass Homework Assignment:** 
+Review the prompt.
 
 ### Week 12
 
-#### Monday, November 15  
+#### Monday, November 15
+
 **Topic:**  Funky Math of the Electoral College
-Preclass Homework Assignment: Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. Come prepared to answer this question:  "Maine and Nebraska don't use winner-take-all allocations of their electors.  Why don't the other 48 states and DC follow their lead?"
+
+**Preclass Homework Assignment:** 
+
+Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. 
+
+Come prepared to answer this question:  "Maine and Nebraska don't use winner-take-all allocations of their electors.  Why don't the other 48 states and DC follow their lead?"
 
 #### Wednesday, November 17   
 
-**Topic:** Electoral College (Cont) with weighted voting analysis
-Preclass Homework Assignment:  Read http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf and answer Exercises (Skills) 1-8.Submit your answers in Google Classroom https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/m/MzgwMDI0MDMwMzUy/details
+**Topic:**  
+Electoral College (Cont) with weighted voting analysis  
+
+**Preclass Homework Assignment:**  
+Read http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf and answer Exercises (Skills) 1-8.Submit your answers in Google Classroom https://bit.ly/383JwQT 
 
 #### Friday, November 19  
-Redistricting Project Due.  Submit your work here:  https://classroom.google.com/w/Mzc2MjMzMzQ1ODU0/tc/MzgwMDE4NzU0MTky
+**Topic:**  The Redistricting Project
+
+Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
 
 ### Week 13
 
 #### Monday, November 22  
-**Topic:**  In-Class Review Session
+**Topic:**  In-Class Review Session and Preparation for Presentations
 
 #### Wednesday, November 24   
 Presentations
