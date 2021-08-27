@@ -2,6 +2,8 @@
 title: "CORE121 Election Science Syllabus Fall 2021"
 date: "Last compiled on `r format(Sys.time(), '%d %B, %Y %H:%S')`"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -9,8 +11,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -101,7 +101,7 @@ To set up Office 365:
 ### Lab Groups  
 You will regularly work on labs in groups of 3-4.  
 
-Please fill out this short survey to help me select your Excel and RStudio mates:  https://bit.ly/3iX0tmx
+Please fill out this short survey to help me select your Excel and RStudio mates:  https://bit.ly/3iX0tmx.  I will post this survey as an ungraded Google Classroom assignment.  Please complete it by Friday Sep 3.  
 
 ### Attendance
 
@@ -201,7 +201,7 @@ https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 
 #### Friday, September 3    
 **Topics:**  Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.    
-**Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter and complete the examples Example 1 to Example 11.  
+**Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter and complete the firs three "Try it Now" examples.  
 
 Submit your results in Google Classroom.  
 **Links**  
