@@ -1,6 +1,5 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
-date: "Last compiled on `r format(Sys.time(), '%d %B, %Y %H:%S')`"
 output:
   pdf_document:
     toc: no
@@ -31,6 +30,11 @@ Miller Hall 434
 
 Office Hours:   
 Tuesdays 9:30-11 am & Fridays 10-11am + email or additional times by schedule. You can meet with me in person or via teleconferencing.  
+
+## Syllabus Links:
+html: https://bit.ly/3DsSIgk
+pdf: https://bit.ly/2WyzYea   
+
 
 ## Course Description
 
@@ -547,6 +551,10 @@ Presentations
 Final Exam Review
 
 ### Week 16
+
+#### Saturday, December 11    
+Section 11 Final Exam: 1-4pm  
+
 #### Tuesday, December 14  
-Final Exam:  1-4pm
+Section 1 Final Exam:  1-4pm
 
