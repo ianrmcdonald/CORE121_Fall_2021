@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -49,7 +49,7 @@ This class discusses political topics but it is not part of the college's politi
 
 At the conclusion of this course, you will be able to:
 
-* Examine ideas, arguments, biases, and assumptions coming from a variety of perspectives, including your own, with an open yet critical mind. 
+* Examine ideas, arguments, biases, and assumptions coming from many perspectives, including your own, with an open yet critical mind. 
 * Analyze texts and/or quantitative information, recognizing, describing, and questioning patterns, trends, anomalies, and relationships. 
 * Present clear, compelling, and effective arguments and/or analysis, supported by evidence. 
 * Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena. 
