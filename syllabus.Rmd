@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -34,7 +34,6 @@ Tuesdays 9:30-11 am & Fridays 10-11am + email or additional times by schedule. Y
 ## Syllabus Links:
 html: https://bit.ly/3DsSIgk
 pdf: https://bit.ly/2WyzYea   
-
 
 ## Course Description
 
