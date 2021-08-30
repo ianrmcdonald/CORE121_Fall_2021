@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -176,15 +176,9 @@ Unless otherwise specified, late work will be penalized by 2/3 of a grade per da
 
 #### Monday, August 30  
 **Topic:**  A personal course introduction. Syllabus review, a few words about your instructor, and the purpose of CORE121.     
-If time permits, a conversation:  the basic math of COVID breakthrough cases.
-
-https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html   
-https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500   
-https://twitter.com/JamesSurowiecki/status/1429450130713890824  
-https://twitter.com/marynmck/status/1421483545898389504
 
 #### Wednesday, September 1   
-**Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout. More on COVID breakthrough reporting if time permits. 
+**Topics:** Reasoning with probability with the Monty Hall Problem, and Manipulating Percentages with Voter Turnout. We will discuss reporting on COVID breakthrough reporting if time permits. 
 
 **Pre-class Homework Assignment #1**:  
 Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)  
@@ -201,6 +195,14 @@ Make sure you have access to the following resources:
 https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12  
 https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html
 https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
+
+**Links for short articles and Twitter threads on COVID breakthrough cases: If time permits, a conversation:  the basic math of COVID breakthrough cases.**  
+
+https://www.nytimes.com/interactive/2021/08/10/us/covid-breakthrough-infections-vaccines.html   
+https://www.nbcnews.com/health/health-news/breakthrough-covid-cases-least-125-000-fully-vaccinated-americans-have-n1275500   
+https://twitter.com/JamesSurowiecki/status/1429450130713890824  
+https://twitter.com/marynmck/status/1421483545898389504
+
 
 #### Friday, September 3    
 **Topics:**  Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.    
