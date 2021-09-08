@@ -255,6 +255,7 @@ Excel lab (Campaign Finance): Computation from simple data in Excel. Today we wi
 **Topics:**  
 Statistics, the difference between Statistics vs. Mathematics. 
 An introduction to R and RStudio.  
+Link to RStudio Lab 1:  https://core121-election-science-fall2021.netlify.app/core121-lab-1-v1
 
 **Pre-class Homework Assignment #1**:  
 Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf  
