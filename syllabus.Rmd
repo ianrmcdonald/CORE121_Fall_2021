@@ -247,7 +247,7 @@ Enter your results in the myOpenMath website.
 
 #### Monday, September 13     
 **Topic:**   
-Excel lab: Computation from simple data in Excel. Today we will form into groups and try to complete the Excel Lab #1.  
+Excel lab (Campaign Finance): Computation from simple data in Excel. Today we will form into groups and try to complete the Excel Lab #1.  
 
 **Pre-class Homework Assignment:**  Review  the Excel lab.  When we are finished, uou will submit a copy of a completed Excel spreadsheet. Submit what you have before class on Wednesday, even if you don't finish it. 
 
