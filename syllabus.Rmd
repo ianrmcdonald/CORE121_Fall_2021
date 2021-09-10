@@ -233,23 +233,26 @@ Submit your results in Google Classroom at https://bit.ly/3mvP679
 
 **Pre-class Homework Assignment #2:** My Open Math Percentage Problem Solving  
 https://www.myopenmath.com/assess2/?cid=118940&aid=8515741#/
-Enter your results in the myOpenMath website. 
+Enter your results in the My Open Math website. 
 
 #### Friday, September 10    
 **Topic:**  Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.  
 **Pre-class Homework Assignment #1**:  Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU.  
-**Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5  
+**Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5k  
+**NOTE 9/9: Deadline for this assignment moved to end-of-day on Monday 9/13 (shown below)**   
 **In class Lab:**  Excel Lab 1, Part 1 (Turnout) https://bit.ly/3yO3PN3
-**Other**:  We will finalize lab groups for the semseter 
+**Other**:  We will finalize lab groups for the semester 
 
 
 ### Week 3
 
 #### Monday, September 13     
 **Topic:**   
-Excel lab (Campaign Finance): Computation from simple data in Excel. Today we will form into groups and try to complete the Excel Lab #1.  
+Excel lab (Campaign Finance): Computation from simple data in Excel. Today we will form into groups and work on the Excel Lab #1.  
 
-**Pre-class Homework Assignment:**  Review  the Excel lab.  When we are finished, uou will submit a copy of a completed Excel spreadsheet. Submit what you have before class on Wednesday, even if you don't finish it. 
+Class today will continue work on the Excel lab. Submit the spreadsheet (whatever you have) before class on Wednesday, even if you don't finish it.
+
+**Pre-class Homework Assignment** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5 NOTE 9/9: Deadline moved to from Friday 9/10. 
 
 #### Wednesday, September 15  
 **Topics:**  
