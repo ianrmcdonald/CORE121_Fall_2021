@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -238,7 +238,7 @@ Enter your results in the myOpenMath website.
 #### Friday, September 10    
 **Topic:**  Computing inflation and real dollars (Excel Lab) and Introduction to RStudio.  
 **Pre-class Homework Assignment #1**:  Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU.  
-**OPTIONAL Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5  
+**Pre-class Homework Assignment #2:** My Open Math Growth Models https://www.myopenmath.com/course/course.php?cid=118940&folder=0-5  
 **In class Lab:**  Excel Lab 1, Part 1 (Turnout) https://bit.ly/3yO3PN3
 **Other**:  We will finalize lab groups for the semseter 
 
