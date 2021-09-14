@@ -81,7 +81,7 @@ You can access RStudio using a web browser and signing in to the college's serve
 In your lab assignments, you will explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language.  Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at https://r4ds.had.co.nz/introduction.html.  
 
 **R Programming for Beginners**
-I will introduce you to the R programming language using the RStudio platform.  The goal isn't to achieve mastery of R syntax but rather show you the basic workflow and help you recognize situation's when R's power in data management and visualization will help you.  If you want to dive into R, I recommend the R Programming 101 video series in YouTube.  It's entertaining and gentle.
+I will introduce you to the R programming language using the RStudio platform.  The goal isn't to achieve mastery of R syntax but rather show you the basic workflow and help you recognize situations when R's power in data management and visualization will help you.  If you want to dive into R, I recommend the R Programming 101 video series in YouTube.  It's entertaining and gentle.
 
 We will have four labs in which you will copy and execute R code in RStudio and report the results. You will also observe the results of changing the code slightly.  For ambitous data visualization projects, you may discover that R can satisfy your requirements better than Excel with a reasonable learning curve.
 
@@ -129,7 +129,7 @@ Notice that the midterm and final exam are scheduled on days that precede colleg
 The Symbolic and Quantitative Resource Center (SQRC) is an informal and free drop-in peer tutoring center. The SQRC will offer both in-person and remote tutoring this semester. In-person tutoring will take place in JR Howard 134 and remote tutoring will take place on the SQRC Discord server. Use this link to join the Discord server: https://discord.gg/VWfT99b
 
 ### Changing Sections or Withdrawing  
-Any requests to change your Words or Numbers section should be directed to the General Education Office, GenEd@lclark.edu). Because it is a required course designed for first year students, withdrawal is not permitted (unless you are withdrawing from all courses for the semester).
+Any requests to change your Words or Numbers section should be directed to the General Education Office (GenEd@lclark.edu). Because it is a required course designed for first year students, withdrawal is not permitted (unless you are withdrawing from all courses for the semester).
 
 ### Diversity, Equity, and Inclusion  
 Lewis & Clark and its faculty are committed to diversity, equity, and inclusion in the classroom. I will work hard to ensure that all backgrounds and perspectives thrive in this course.
