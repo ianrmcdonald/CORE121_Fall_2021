@@ -267,7 +267,8 @@ Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistic
 #### Friday, September 17  
 **Topic:**  Introduction to Surveys using statistical inference.  
 
-**Pre-class Homework Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/11H3MX8pLU35ddzdb76eMnWU6Ywd-BB-f/view?usp=sharing)  In class there will be a short interactive excercise based on these readings.  
+**Pre-class Homework Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/1HKM5UQzn3F1WkuURYjzzkEbepdumG_Qj/view?usp=sharing)  
+This is an update to the link which posted on 9/16
 
 **Submit RStudio Lab #1**  
 RStudio Lab 1 (Submit your completed results described in the lab.)  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details. Note: the goal isn't to master R syntax. You will simply copy, paste, and run R code, and you'll get the hang of the RStudio workflow.
