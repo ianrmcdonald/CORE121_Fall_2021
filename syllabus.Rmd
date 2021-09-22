@@ -332,6 +332,7 @@ Probability Distributions, Random Variables, and the Normal Distribution.
 
 Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 
+UPDATE 9/22:  This lab is postponed until after the fallbreak:  
 **RStudio Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
 
 ### Week 6
@@ -436,7 +437,7 @@ We will compare this to https://www.districtbuilder.org/ if time permits
 Data Visualization: Mapbuilding in RStudio and Dave's Redistricting Project.  
 Preclass Homework Assignment: My Open Math Normal Distribution Reading Quiz  https://www.myopenmath.com/assess2/?cid=118940&aid=8515748#/
 
-**RStudio Lab Due:** RStudio Lab 3 https://bit.ly/3sOkMpj
+**RStudio Lab Due:** RStudio Lab https://bit.ly/3sOkMpj
 
 ### Week 10
 
@@ -485,7 +486,7 @@ https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ran
 
 Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, his primary victory makes Adams the presumptive winner of the mayoral election in November. 
 
-**RStudio Lab Due:** RStudio Lab #4. https://bit.ly/3myUI0s
+**RStudio Lab Due:** RStudio Lab.. https://bit.ly/3myUI0s
 
 #### Wednesday, November 10 
 
