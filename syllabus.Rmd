@@ -288,7 +288,7 @@ Review of datasets suitable for class projects, and you will identify datasets o
 Data organization:  observations, variables, and description   
 **Pre-class Homework Assignment #1**:  
 
-Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the eight "Try it Now" examples and submit to Google Classroom.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDY4/details  
+Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the eight "Try it Now" examples and submit to Google Classroom. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTc4MTQ1Nzg1/details
 
 **Pre-class Homework Assignment #2:** Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
