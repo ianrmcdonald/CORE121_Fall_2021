@@ -298,7 +298,7 @@ Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 2
 Creating data tables with Excel and RStudio.  This class session will cover lab material.
 
 **Pre-class Homework Assignment #1**:  
-Review Excel Lab 2 and RStudio Lab 2 which will begin during class. 
+Review Excel Lab 2 which will begin during class. 
 
 **Pre-class Homework Assignment #2:** 
 My Open Math: Collecting Data  
