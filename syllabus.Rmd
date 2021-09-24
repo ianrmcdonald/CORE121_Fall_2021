@@ -308,7 +308,7 @@ https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5b
 
 #### Monday, September 27  
 **Topic:**  
-Creating and using data tables with Excel and RStudio.  
+Creating and using data tables with Excel, and probability distributions.  
 
 **Pre-class Homework Assignment #1**:  Watch this R Programming 101 video (6:55 in length). https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
 
