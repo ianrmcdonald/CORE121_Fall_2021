@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -303,6 +303,7 @@ Review Excel Lab 2 which will begin during class.
 **Pre-class Homework Assignment #2:** 
 My Open Math: Collecting Data  
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
+The Google Classroom assignment record is here:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzM5MzU5/details
 
 ### Week 5
 
@@ -319,7 +320,8 @@ We will work on Excel Lab #2 and start the RStudio Lab #2 if time permits.
 **Topic:**  
 Variation and the Standard Deviation  
 
-**Pre-class Homework Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
+**Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
+Note:  No Google homework assignment for this reading.  
 
 **Excel Lab Due:**  Excel Lab 2 https://bit.ly/3zaucxS
 
@@ -328,9 +330,10 @@ Variation and the Standard Deviation
 
 Probability Distributions, Random Variables, and the Normal Distribution.  
 
-**Pre-class Homework Assignment:** 
+**Pre-class Reading Assignment:** 
 
 Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
+Note:  No Google Classroom assignment for this reading.
 
 UPDATE 9/22:  This lab is postponed until after the fallbreak:  
 **RStudio Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
@@ -341,8 +344,11 @@ UPDATE 9/22:  This lab is postponed until after the fallbreak:
 **Topic:**  
 Confidence Intervals and Margins of Error in the Normal Distribution (with a short review for the midterm exam.)
 
-**Pre-class Homework Assignment:** 
+
+**Pre-class Reading Assignment:** 
 Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+Note:  No Google Classroom assignment for this reading.
+
 
 #### Wednesday, October 6
 Midterm Exam 
