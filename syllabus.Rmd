@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -309,11 +309,14 @@ The Google Classroom assignment record is here:  https://classroom.google.com/c/
 
 #### Monday, September 27  
 **Topic:**  
-Creating and using data tables with Excel, and probability distributions.  
+Creating and using data tables with Excel.
 
-**Pre-class Homework Assignment #1**:  Watch this R Programming 101 video (6:55 in length). https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
+**Pre-class Homework Assignment #1**:  Watch this R Programming 101 video (6:55 in length). 
+A short exercise with RStudio is assigned.  Simply transcribe and run the code statements mentioned in the video (about a dozen lines.)
+https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
 
-We will work on Excel Lab #2 and start the RStudio Lab #2 if time permits.
+We will work on Excel Lab #2 exclusively, following a short explanation of survey weights.
+
 
 #### Wednesday, September 29  
 
@@ -326,27 +329,25 @@ Note:  No Google homework assignment for this reading.
 **Excel Lab Due:**  Excel Lab 2 https://bit.ly/3zaucxS
 
 #### Friday, October 1  
+
 **Topic:**  
+Review of the study guide for the midterm exam.
 
-Probability Distributions, Random Variables, and the Normal Distribution.  
 
-**Pre-class Reading Assignment:** 
-
-Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 Note:  No Google Classroom assignment for this reading.
+UPDATE 9/22:  The originally scheduled RStudio lab is postponed and its status will be announced after the fall break.
 
-UPDATE 9/22:  This lab is postponed until after the fallbreak:  
-**RStudio Lab Due:**  RStudio Lab 2  https://bit.ly/2UCmXQ6
 
 ### Week 6
 
 #### Monday, October 4  
 **Topic:**  
-Confidence Intervals and Margins of Error in the Normal Distribution (with a short review for the midterm exam.)
+Confidence Intervals and Margins of Error in the Normal Distribution (with more review for the midterm exam.)
 
 
-**Pre-class Reading Assignment:** 
+**Pre-class Reading Assignments:** 
 Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 Note:  No Google Classroom assignment for this reading.
 
 
