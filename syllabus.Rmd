@@ -418,7 +418,7 @@ Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-vo
 
 "What is the definition of gerrymandering, and how can we use the efficiency gap to measure it?"
 
-We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  The submission is due Friday, November 5.
+We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  The submission is due Monday, November 8.
 
 Apportionment Assignment Due. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
 
@@ -432,8 +432,6 @@ Gerrymandering and the politics of geography:  More on the efficiency gap, measu
 
 Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
 
-**Excel Lab #3 Review:**  Excel Lab 3 https://bit.ly/3z4xGSt
-We will introduce the lab, due Wednesday, November 10
 
 #### Friday, October 29  
 **Topic:**   
@@ -451,7 +449,7 @@ We will compare this tool to https://www.districtbuilder.org/ if time permits
 
 **Topic:**  
 
-Workshop to complete Excel Lab #3, and work on voting systems group project.  Excel Lab #3 due next Wednesday .  https://bit.ly/3z4xGSt  
+In-class Excel Lab:  Voting systems and data visualization (submit results in class)
 
 #### Monday, November 3
 
@@ -474,13 +472,14 @@ Read https://www.livescience.com/45083-misleading-gun-death-chart.html
 
 **Topic:**  Data Visualization in RStudio 
 
+**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
+
 **Preclass Reading Assignment:** 
 Read https://ggplot2-book.org/getting-started.html chapters 1-3 
 
 **Review RStudio Lab #2** on Data Visualization https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
 This lab is due Monday, November 15
 
-**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
 
 #### Wednesday, November 10 
 
