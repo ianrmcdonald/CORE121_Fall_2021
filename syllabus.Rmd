@@ -165,7 +165,7 @@ The class will be structured to be participatory, particularly using small group
 **Attendance/ Participation: 5%**  
 
 **Group Projects: 15%**  
-There will be three group projects to submit in this course. The output of each project will vary (presentation, written components) and will be explained at the start of each project. You will be graded based on project quality and by peer review.  Significant class time will be devoted to these projects. 
+There will be two group projects to submit in this course. The output of each project will vary (presentation, written components) and will be explained at the start of each project. You will be graded based on project quality and by peer review.  Significant class time will be devoted to these projects. 
 
 **Late work submissions**
 Unless otherwise specified, late work will be penalized by 2/3 of a grade per day.  This means, for example, that an assignment graded as a B will be dropped to C+ the first late day, and to C- the second day.  Work submitted more than 48 hours late will not be accepted.
@@ -369,93 +369,93 @@ Voting Theory Part 1
 #### Wednesday, October 13 
 
 **Topic:**  
-Voting Theory Part 2  
-
-**Pre-class Homework Assignment:**  Read http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf (pp. 44-51)
+Ranked Choice Voting and the New York Mayoral Primary
 
 #### Friday, October 15   
-**Topic:**  Interlude on American Politics  
-
-**Pre-class Homework Assignment:**  Read this article: Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
+**Topic:**  Voting Theory Exercise Workshop
 
 Plan to complete the Try it Now Exercises 1-3 from Monday's reading. Submit to Google Classroom https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIyOTc5NDg1/details
 
-
-Today in class we will discuss American politics at large.  Please come prepared to ask a question about something that puzzles you about American politics today.  It can be about Congress, Voting, Federalism, or anything strange or inexplicable about American politics, including polarization as described in the article.  What is the thesis in Losing Common Ground?  Do you buy it?
-  
 ### Week 8
 
-#### Monday, October 18  
+#### Monday, October 18 
 
+**Topic:** Voting Systems (continued)
+We will review the voting systems mentioned in the Voting Theory reading, including Plurality, Borda, Copeland, and Approval Voting,  
+
+**Assignment Due Next Monday**
+From the apportionment reading, complete Exercises 7 and 8 using the Webster method and the Huntington-Hill method. Submit using the link below. 
+
+The reading can be found at http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
+
+#### Wednesday, October 20 
+ 
 **Topic:**  
-Apportionment and the U.S. House of Representatives  
+Apportionment and the U.S. House of Representatives.   
 
-**Pre-class Homework Assignment #1**:  
-Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/  
+**Pre-class Reading Assignment**  
+http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
+We will examine the different apportionment methoods mentioned in this article, focusing on Webster and Huntington-Hill.
 
-**Pre-class Homework Assignment #2:**  My Open Math, Apportionment
-https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf
+#### Friday, October 22
 
-#### Wednesday, October 20  
+**Topics:**  
+Your Data Project and Presentation. 
+Apportionment and the U.S. House of Representatives:  Webster and Huntington-Hill methods.
 
-**Topic:**  
-Voting Rules, the Variety Of Them, and Excel/RStudio Lab #3.
+We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (6-8 pages) is due Wednesday, December 8.
 
-**Preclass Homework Assignment:** 
-
-Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf
-
-#### Friday, October 22  
-
-**Topic:**  Gerrymandering in the United States and the Group Voting Rules project.  
-
-**Pre-class Homework Assignment:**  
-
-Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question:    
-
-"What is the definition of gerrymandering, and is it possible for gerrymandering to create a fair outcome?"
-
-We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of a particular voting system from a common set of data.
+**Pre-class Reading Assignment**:  
+Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/ 
 
 ### Week 9
 
-#### Monday, October 25  
+#### Monday, October 25   
+
+**Topic:**  Gerrymandering in the United States and the Group Voting Rules project.  
+
+Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-votes-20171012/ and come prepared to discuss this question:    
+
+"What is the definition of gerrymandering, and how can we use the efficiency gap to measure it?"
+
+We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  The submission is due Friday, November 5.
+
+Apportionment Assignment Due. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
+
+#### Wednesday, October 27
+
 **Topic:**  
 
-Gerrymandering and the politics of geography:  Seattle City Council Switches to Districts  
+Gerrymandering and the politics of geography:  More on the efficiency gap, measuring gerrymandering, and Seattle City Council Switches to Districts  
 
-**Preclass Homework Assignment:** 
+**Preclass Reading Assignment:** 
 
 Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
 
-**Excel Lab Due:**  Excel Lab 3 https://bit.ly/3z4xGSt
+**Excel Lab #3 Review:**  Excel Lab 3 https://bit.ly/3z4xGSt
+We will introduce the lab, due Wednesday, November 10
 
-
-#### Wednesday, October 27  
+#### Friday, October 29  
 **Topic:**   
 
 The implications of district building with Dave's Redistricting tool and District Builder.  
 
-**Preclass Homework Assignment:**   
+**Preclass Reading and Video Assignment:**   
 
 Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
-We will compare this to https://www.districtbuilder.org/ if time permits
-
-#### Friday, October 29  
-
-**Topic:**  
-Data Visualization: Mapbuilding in RStudio and Dave's Redistricting Project.  
-Preclass Homework Assignment: My Open Math Normal Distribution Reading Quiz  https://www.myopenmath.com/assess2/?cid=118940&aid=8515748#/
-
-**RStudio Lab Due:** RStudio Lab https://bit.ly/3sOkMpj
+We will compare this tool to https://www.districtbuilder.org/ if time permits
 
 ### Week 10
 
 #### Monday, November 1 
 
-**Topic:** 
+**Topic:**  
 
-Data visualization:  Principles of data visualization  
+Workshop to complete Excel Lab #3, and work on voting systems group project.  Excel Lab #3 due next Wednesday .  https://bit.ly/3z4xGSt  
+
+#### Monday, November 3
+
+**Topic:** Data visualization:  Principles of data visualization  
 
 **Preclass Homework Assignment:** 
 
@@ -463,84 +463,66 @@ Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-mad
 
 Read https://www.livescience.com/45083-misleading-gun-death-chart.html
 
-Will work on Excel Lab #4 if time permits.
-
-**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
-
-#### Wednesday, November 3  
+#### Friday, November 5 
 **Topic:**  Lab and Discussion on Data Visualization  
 
-**Preclass Homework Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
-
-#### Friday, November 5 
-
-**Topic:**  Data Visualization in Excel and RStudio  
-**Preclass Homework Assignment:** 
-
-Read https://ggplot2-book.org/getting-started.html chapters 1-4 (Introduction to Collective Geoms) and complete a short exercise in RStudio.
-
-**Excel Lab Due:** Excel Lab #4. https://bit.ly/3myUI0s
+**Preclass Reading Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
 
 ### Week 11
 
-#### Monday, November 8  
-**Topic:**  Ranked Choice Voting and the 2021 NY mayoral election  
+#### Monday, November 8 
 
-**Preclass Homework Assignment:**  
+**Topic:**  Data Visualization in RStudio 
 
-Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare 
+**Preclass Reading Assignment:** 
+Read https://ggplot2-book.org/getting-started.html chapters 1-3 
 
-AND 
+**Review RStudio Lab #2** on Data Visualization https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
+This lab is due Monday, November 15
 
-https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/  
-
-Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, his primary victory makes Adams the presumptive winner of the mayoral election in November. 
-
-**RStudio Lab Due:** RStudio Lab.. https://bit.ly/3myUI0s
+**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
 
 #### Wednesday, November 10 
 
-**Topic:**  Data Visualization in Excel and RStudio  
+**Topic:**  Group Project #2: Redistricting
+We will organize this group project, analyzing efficiency gap of different districting plans.  This project will be due Monday, November 22.
 
-**Preclass Homework Assignment:** 
+#### Friday, November 12 
 
-Read https://ggplot2-book.org/getting-started.html chapters 5, 6, 8-11 (Statistical Summaries to Colour Scales, and ignore Networks) and respond to a curated list of exercise questions in Google Classroom.  https://bit.ly/3sOqV4R
-
-#### Friday, November 12  
-**Topic:**  Group Redistricting Project (work in group)  
-
-**Preclass Homework Assignment:** 
-Review the prompt.
+**Topic:** Data project workshop.
 
 ### Week 12
 
 #### Monday, November 15
 
-**Topic:**  Funky Math of the Electoral College
+**Topic:**  The U.S. Electoral College
 
-**Preclass Homework Assignment:** 
+**Preclass Reading Assignment:** 
 
 Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. 
 
 Come prepared to answer this question:  "Maine and Nebraska don't use winner-take-all allocations of their electors.  Why don't the other 48 states and DC follow their lead?"
 
+RStudio Lab #2 (Data Visualization) due.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
+
 #### Wednesday, November 17   
 
 **Topic:**  
-Electoral College (Cont) with weighted voting analysis  
+Electoral College and American Politics
 
-**Preclass Homework Assignment:**  
-Read http://www.opentextbookstore.com/mathinsociety/current/WeightedVoting.pdf and answer Exercises (Skills) 1-8.Submit your answers in Google Classroom https://bit.ly/383JwQT 
+**Pre-class Reading Assignment:**  Read this article: Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
 
 #### Friday, November 19  
-**Topic:**  The Redistricting Project
+**Topic:**  Data Visualization Workshop.  
 
-Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
+We will design chlorpleth maps using Microsoft Excel.  
 
 ### Week 13
 
 #### Monday, November 22  
 **Topic:**  In-Class Review Session and Preparation for Presentations
+
+Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
 
 #### Wednesday, November 24   
 Presentations
@@ -575,3 +557,11 @@ Section 11 Final Exam: 1-4pm
 #### Tuesday, December 14  
 Section 1 Final Exam:  1-4pm
 
+
+Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare 
+
+AND 
+
+https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/  
+
+Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, his primary victory makes Adams the presumptive winner of the mayoral election in November. 
