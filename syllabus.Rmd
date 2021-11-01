@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -465,6 +465,8 @@ Read https://www.livescience.com/45083-misleading-gun-death-chart.html
 **Topic:**  Data Visualization:  Applying Principles of Data Visualization
 
 **Preclass Reading Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
+
+Look at this overview of an app called datawrapper.  We will use this application to build maps for the lab due on November 15:  https://www.datawrapper.de/maps
 
 ### Week 11
 
