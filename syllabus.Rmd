@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -528,7 +528,7 @@ We will work on data projects.  Presentations will begin November 24.
 Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
 
 #### Wednesday, November 24   
-Presentations
+Preparation for Presentations
 
 #### Friday, November 26
 No Class:  U.S. Thanksgiving Holiday 
@@ -559,12 +559,3 @@ Section 11 Final Exam: 1-4pm
 
 #### Tuesday, December 14  
 Section 1 Final Exam:  1-4pm
-
-
-Read https://www.nytimes.com/2021/06/24/opinion/ranked-choice-new-york.html?referringSource=articleShare 
-
-AND 
-
-https://www.washingtonpost.com/opinions/2021/07/07/eric-adams-new-york-mayor-ranked-choice-voting-worked/  
-
-Come prepared to answer this question: "How did New York's attempt at Ranked Choice Voting affect the race, even though the plurality winner, Eric Adams, was ultimately the winner of the Democratic primary?"  In New York City, his primary victory makes Adams the presumptive winner of the mayoral election in November. 
