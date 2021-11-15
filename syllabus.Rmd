@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -518,7 +518,7 @@ Electoral College and American Politics
 #### Friday, November 19  
 **Topic:**  Data projects workshops.  
 
-We will work on data projects.  Presentations will begin November 24.   
+We will work on data projects.  Presentations will begin November 29.   
 
 ### Week 13
 
