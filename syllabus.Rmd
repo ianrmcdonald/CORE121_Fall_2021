@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Fall 2021"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -551,6 +551,8 @@ Presentations
 
 #### Wednesday, December 8  
 Final Exam Review
+
+Data Visualization Paper is Due:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/NDI1MjM4NzAwODE1/details
 
 ### Week 16
 
