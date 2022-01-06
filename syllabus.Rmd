@@ -32,7 +32,7 @@ Office Hours:
 Monday and Wednesday 3:30-5 + email or additional times by appointment. You can meet with me in person or via teleconferencing.  
 
 ## Syllabus Links:
-html: https://core121-election-science-spring2022.netlify.app/syllabus.html
+html: https://core121-election-science-spring2022.netlify.app/syllabus.html  
 pdf: https://core121-election-science-spring2022.netlify.app/syllabus.pdf 
 
 ## Course Description
