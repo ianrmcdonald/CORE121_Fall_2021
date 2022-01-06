@@ -128,7 +128,7 @@ Your classroom experience won't be successful if we aren't all focused.  We don'
 
 Lewis & Clark policy generally forbids recording of classes.  The policy states: "...the secret recording (audio or video) of classes, meetings or other conversations, including telephone calls, is prohibited, as not compatible with the law or the promotion of an open exchange of ideas." 
 
-Please do not record classes without discussing it with me. Fundamentally, this issue relates to privacy, for everyone in the classroom.  See me if you have questions.  The policy is available at https://www.lclark.edu/live/profiles/3606-recording-policy.
+Please do not record classes without discussing it with me. The concern is protecting privacy, for everyone in the classroom.  See me if you have questions.  The policy is available at https://www.lclark.edu/live/profiles/3606-recording-policy.
 
 ### Rescheduling Exams  
 
@@ -207,7 +207,7 @@ You will submit ten assignments in the semester.  Each assignment is worth two p
 
 ###  Week 1
 
-Ungraded assignment:  Make sure you have set up an account in the following services:
+Weekly assignment (ungraded):  By Friday, make sure you have set up an account in the following services:
 
 * Access Microsoft Office and download the office suite:  http://www.office.com
 * Log into the library's RStudio server at https://rstudio.cloud.  
@@ -220,201 +220,164 @@ Zoom Link for both sections:  https://zoom.us/j/5083547883?pwd=QzVVNG5QMjJSTUlPZ
 
 
 #### Friday, January 21
-**Topics:** Reasoning with probability with the Monty Hall Problem.
+Reasoning with probability with the Monty Hall Problem.
 
 Zoom Link for both sections:  https://zoom.us/j/5083547883?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
 
 **Pre-class Reading**:  
-Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)  
+Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)
+
 https://www.statisticshowto.com/probability-and-statistics/monty-hall-problem/
-https://towardsdatascience.com/the-monty-hall-problem-9c4053ef0640
-https://priceonomics.com/the-time-everyone-corrected-the-worlds-smartest/
-https://www.businessinsider.com/the-easy-way-to-understand-the-monty-hall-problem-2015-12  
 https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html
 https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
-
-
 
 ###  Week 2
 
 Week 2 Assignment (due Friday)
 
 My Open Math Percentage Problem Solving  
-Enter your results in the My Open Math website. We will review the process in class.  The assignment is worth two points and you will see your score in Google Classroom.
+Enter your results in the My Open Math website. We will review the process in class.  
 
 https://www.myopenmath.com/course/course.php?cid=132786&folder=0-1
 
+The assignment is worth two points and you will see your score in Google Classroom.
+https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNjkwNzMyOTk4/details
+
 #### Monday, January 24    
-**Topics:**  Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel.    
+Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel. 
+
 **Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter.  http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf
 
 In class we will complete the first three "Try it Now" examples from the reading.
 
 #### Wednesday, January 26
 
-**Topic:**  Using growth formulas:  artithmetic vs. geometric/exponential growth.    
+Using growth formulas:  artithmetic vs. geometric/exponential growth.   
+
 **Pre-class Reading Assignment**:  Read the first 10 pages of PDF at http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf.  Read through Example 6, pp. 173-182.
 
 #### Friday, January 28  
-**Topic:**  Computing inflation and real dollars 
+Computing inflation and real dollars 
+
 Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
-We will have a short introduction to Microsoft Excel, and R and RStudio if time permits.
 
 ### Week 3
 
 Week 3 Assignment due Friday:  My Open Math Growth Models exercise at https://www.myopenmath.com/assess2/?cid=132786&aid=9486788#/
+
 The assignment is worth two points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
 
 #### Monday, January 31   
 
-**In class Lab:**  Excel Lab 1, Part 1 (Turnout) https://bit.ly/3yO3PN3
-**Other**:  We will finalize lab groups for the semester 
+Excel lab (Campaign Finance): Computation from simple data in Excel. 
 
-**Topic:**   
-Excel lab (Campaign Finance): Computation from simple data in Excel. Today we will form into groups and work on the Excel Lab #1.  This lab will be the weekly exercise for Week 4, due February 11.
-
+We will finalize lab groups for the semester 
 
 #### Wednesday, February 2
-**Topics:**  
 Statistics, the difference between Statistics vs. Mathematics. 
-An introduction to R and RStudio.  
-Link to RStudio Lab 1:  https://core121-election-science-fall2021.netlify.app/core121-lab-1-v1
 
-**Pre-class Homework Assignment #1**:  
+**Pre-class Reading Assignment #1**:  
 Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf  
-**Submit Excel Lab #1:**  Excel Lab, parts 1 and 2. Everybody submit your own copy of the assignment even though you collaborated.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MDE4/details
 
 #### Friday, February 4
-**Topic:**  Introduction to Surveys using statistical inference.  
+Introduction to Surveys using statistical inference.  
 
-**Pre-class Homework Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/1HKM5UQzn3F1WkuURYjzzkEbepdumG_Qj/view?usp=sharing)  
-This is an update to the link which posted on 9/16
+**Pre-class Reading Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/1HKM5UQzn3F1WkuURYjzzkEbepdumG_Qj/view?usp=sharing)  
 
 ###  Week 4
 
-Week 4 Weekly Assignment:  Excel Lab in Groups.  
-
-In groups of 3, complete the Excel lab posted in Google Classroom at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details.  
-
-For this assignment, each individual should post a copy of your groups work, and put the names of all three submitters in the heading of your submission.  You can use the same copy, but submit a separate copy into Google Classroom.  Submit your lab as a single document (Google docs or Word).
-
+Week 4 Weekly Assignment:  Excel Lab in Groups.  https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
 
 #### Monday, February 7
-**Topic:**  
-Data organization:  observations, variables, and description.  
-
+Data organization:  observations, variables, and description.
+Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.
+Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
 #### Wednesday, February 9
-**Topic:**   
 Data organization:  observations, variables, and description   
-
-Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  Complete the "Try it Now" examples (1 - 8) in class
-
-**Pre-class Homework Assignment #2:** Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
+Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  
 
 #### Friday, February 11
 
-**Topic:**  
 Creating data tables with Excel and RStudio.  This class session will cover lab material.
-
 
 ### Week 5
 
+Week 5 Weekly Assignment:  Review of datasets suitable for class projects, and you will identify datasets of potential interest.  https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTEwMTIyNjU0/details
+[January 4 placeholder]
 
+#### Monday, February 14
 
-Review of datasets suitable for class projects, and you will identify datasets of potential interest.  Come to class prepared with a preliminary list.  Submit your preliminary list here:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzE5NDM4/details
-
-Review Excel Lab 2 which will begin during class. 
-
-My Open Math: Collecting Data  
-https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
-The Google Classroom assignment record is here:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIxNzM5MzU5/details
-
-
-#### Monday, September 27  
 **Topic:**  
 RStudio Lab 1 
 
 https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details. Note: the goal isn't to master R syntax. You will simply copy, paste, and run R code, and you'll get the hang of the RStudio workflow.
 
-**Pre-class Homework Assignment #1**:  Watch this R Programming 101 video (6:55 in length). 
-A short exercise with RStudio is assigned.  Simply transcribe and run the code statements mentioned in the video (about a dozen lines.)
+**Pre-class Homework Assignment #1**:  
+We will try to recreate the lab described here:  https://core121-election-science-fall2021.netlify.app/core121-lab-1-v1
+
+Watch this R Programming 101 video (6:55 in length). 
 https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
 
-We will work on Excel Lab #2 exclusively, following a short explanation of survey weights.
-
-
-#### Wednesday, September 29  
+#### Wednesday, February 16
 
 **Topic:**  
 Variation and the Standard Deviation  
 
 **Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
-Note:  No Google homework assignment for this reading.  
-
-**Excel Lab Due:**  Excel Lab 2 https://bit.ly/3zaucxS
-
-#### Friday, October 1  
-
-**Topic:**  
-Review of the study guide for the midterm exam.
 
 
-Note:  No Google Classroom assignment for this reading.
-UPDATE 9/22:  The originally scheduled RStudio lab is postponed and its status will be announced after the fall break.
+#### Friday, February 18
 
+My Open Math: Collecting Data  
+https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
 
 ### Week 6
 
-#### Monday, October 4  
-**Topic:**  
-Confidence Intervals and Margins of Error in the Normal Distribution (with more review for the midterm exam.)
+Weekly Assignment: Excel Lab 2 
 
+#### Monday, February 21
+**Topic:**  
+Confidence Intervals and Margins of Error in the Normal Distribution
 
 **Pre-class Reading Assignments:** 
 Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
 Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
-Note:  No Google Classroom assignment for this reading.
 
+#### Wednesday, February 23
+Statistics, Central Limit Theorem, and Surveys
 
-#### Wednesday, October 6
-Midterm Exam 
+#### Friday, Febuary 25
+Statistics, Central Limit Theorem, and Surveys
 
-#### Friday, October 8
-No class--Fall Break.
 
 ### Week 7
 
-#### Monday, October 11 
+Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and plan to submit Try It Now question answers.  See that date below for Google Classroom link.  
+
+#### Monday, February 28
+
+
 
 **Topic:**  
 Voting Theory Part 1  
 
-**Pre-class Homework Assignment:**  Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and plan to submit Try It Now question answers due Friday October 15.  See that date below for Google Classroom link.  
-
-#### Wednesday, October 13 
+#### Wednesday, March 2
 
 **Topic:**  
 Ranked Choice Voting and the New York Mayoral Primary
 
-#### Friday, October 15   
+#### Friday, March 4 
 **Topic:**  Voting Theory Exercise Workshop
-
-Plan to complete the Try it Now Exercises 1-3 from Monday's reading. Submit to Google Classroom https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDIyOTc5NDg1/details
 
 ### Week 8
 
-#### Monday, October 18 
+#### Monday, March 7
 
 **Topic:** Voting Systems (continued)
 We will review the voting systems mentioned in the Voting Theory reading, including Plurality, Borda, Copeland, and Approval Voting,  
 
-**Assignment Due Next Monday**
-From the apportionment reading, complete Exercises 7 and 8 using the Webster method and the Huntington-Hill method. Submit using the link below. 
-
-The reading can be found at http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
-
-#### Wednesday, October 20 
+#### Wednesday, March 9
  
 **Topic:**  
 Apportionment and the U.S. House of Representatives.   
@@ -423,20 +386,20 @@ Apportionment and the U.S. House of Representatives.
 http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
 We will examine the different apportionment methoods mentioned in this article, focusing on Webster and Huntington-Hill.
 
-#### Friday, October 22
-
-**Topics:**  
-Your Data Project and Presentation. 
-Apportionment and the U.S. House of Representatives:  Webster and Huntington-Hill methods.
-
-We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (6-8 pages) is due Wednesday, December 8.
-
 **Pre-class Reading Assignment**:  
 Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/ 
 
+
+#### Friday, March 11
+
+MIDTERM EXAM
+
+
 ### Week 9
 
-#### Monday, October 25   
+Weekly Assignment:  Apportionment https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
+
+#### Monday, March 14
 
 **Topic:**  Gerrymandering in the United States and the Group Voting Rules project.  
 
@@ -444,11 +407,9 @@ Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-vo
 
 "What is the definition of gerrymandering, and how can we use the efficiency gap to measure it?"
 
-We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  The submission is due Monday, November 8.
+We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  
 
-Apportionment Assignment Due. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
-
-#### Wednesday, October 27
+#### Wednesday, March 16
 
 **Topic:**  
 
@@ -459,7 +420,12 @@ Gerrymandering and the politics of geography:  More on the efficiency gap, measu
 Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
 
 
-#### Friday, October 29  
+#### Friday, March 18
+
+Your Data Project and Presentation. 
+Apportionment and the U.S. House of Representatives:  Webster and Huntington-Hill methods.
+
+We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (6-8 pages) is due Wednesday, December 8.
 **Topic:**   
 
 The implications of district building with Dave's Redistricting tool and District Builder.  
@@ -469,15 +435,17 @@ The implications of district building with Dave's Redistricting tool and Distric
 Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
 We will compare this tool to https://www.districtbuilder.org/ if time permits
 
+#### Monday, March 21 - Friday, March 25:  Spring Break
+
 ### Week 10
 
-#### Monday, November 1 
+#### Monday, March 28
 
 **Topic:**  
 
 In-class Excel Lab:  Voting systems and data visualization (submit results in class)
 
-#### Monday, November 3
+#### Monday, March 30
 
 **Topic:** Data visualization:  Principles of data visualization.  We will also review the remaining semester schedule. 
 
@@ -487,7 +455,8 @@ Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-mad
 
 Read https://www.livescience.com/45083-misleading-gun-death-chart.html
 
-#### Friday, November 5 
+#### Friday, April 1
+
 **Topic:**  Data Visualization:  Applying Principles of Data Visualization
 
 **Preclass Reading Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
@@ -496,7 +465,7 @@ Look at this overview of an app called datawrapper.  We will use this applicatio
 
 ### Week 11
 
-#### Monday, November 8 
+#### Monday, April 4
 
 **Topic:**  Using District Building and Dave's Redistricing Tool
 
@@ -511,18 +480,18 @@ We will compare this tool to https://www.districtbuilder.org/ if time permits
 **Review the Lab** on Data Visualization https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
 This lab is due Monday, November 15.
 
-#### Wednesday, November 10 
+#### Wednesday, April 6
 
 **Topic:**  Group Project #2: Redistricting
 We will organize this group project, analyzing efficiency gap of different districting plans.  This project will be due Monday, November 22. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTU4NDE2NTQx/details
 
-#### Friday, November 12 
+#### Friday, April 8
 
 **Topic:** Data project workshop.
 
 ### Week 12
 
-#### Monday, November 15
+#### Monday, April 11
 
 **Topic:**  The U.S. Electoral College
 
@@ -534,56 +503,45 @@ Come prepared to answer this question:  "Maine and Nebraska don't use winner-tak
 
 Excel Data Visualization Lab Due.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
 
-#### Wednesday, November 17   
+#### Wednesday, April 13
 
 **Topic:**  
 Electoral College and American Politics
 
 **Pre-class Reading Assignment:**  Read this article: Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
 
-#### Friday, November 19  
+#### Friday, April 15
+
 **Topic:**  Data projects workshops.  
 
 We will work on data projects.  Presentations will begin November 29.   
 
 ### Week 13
 
-#### Monday, November 22  
+#### Monday, April 18
 **Topic:**  In-Class Review Session and Preparation for Presentations
 
 Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
 
-#### Wednesday, November 24   
+#### Wednesday, April 20 
 Preparation for Presentations
 
-#### Friday, November 26
-No Class:  U.S. Thanksgiving Holiday 
+#### Friday, April 22
 
 ### Week 14
 
-#### Monday, November 29  
+#### Monday, April 25
 Presentations
 
-#### Wednesday, December 1  
-Presentations
-
-#### Friday, December 3  
-Presentations
-
-### Week 15
-
-#### Monday, December 6  
-Presentations
-
-#### Wednesday, December 8  
+#### Wednesday, April 27
 Final Exam Review
 
 Data Visualization Paper is Due:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/NDI1MjM4NzAwODE1/details
 
-### Week 16
+### Week 15
 
-#### Saturday, December 11    
-Section 11 Final Exam: 1-4pm  
+#### Monday, May 2
+Section 9 Final Exam: 1-4pm  
 
-#### Tuesday, December 14  
-Section 1 Final Exam:  1-4pm
+#### Wednesday, May 4
+Section 13 Final Exam:  1-4pm
