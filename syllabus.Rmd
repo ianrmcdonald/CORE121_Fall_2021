@@ -198,22 +198,60 @@ Letter grades will follow this scale:
 50-57:    D
 Less than 50:  F
 
+## Weekly Assignments
 
-## Course Schedule  
+The first seven assignments (before spring break) are each worth three points.  The two group assignments after spring break are each worth eight points.
 
-**Assignments**  Most weeks, you will submit an assignment due Friday.  In the course schedule, you will see a link to the assignment that is also available in Google Classroom.   
-
-You will submit ten assignments in the semester.  Each assignment is worth two points, and must be submitted by the due date.
-
-###  Week 1
-
-Weekly assignment (ungraded):  By Friday, make sure you have set up an account in the following services:
+### Week 1 (due Jan 21) 
+This assignment is ungraded.  Be sure to:
 
 * Access Microsoft Office and download the office suite:  http://www.office.com
 * Log into the library's RStudio server at https://rstudio.cloud.  
 * Register as a new student at myOpenMath.com: http://myopenmath.com As noted earlier, the Course ID is **132786** and the passcode is **democracy**
 * Make sure you are enrolled in the course portal for Google Classroom. https://classroom.google.com/u/0/c/NDUwMzYxODk3MTUw
 
+### Week 2 (due Jan 28)
+My Open Math Percentage Problem Solving  
+Enter your results in the My Open Math website. We will review the process in class.  
+https://www.myopenmath.com/course/course.php?cid=132786&folder=0-1
+
+The assignment is worth two points and you will see your score in Google Classroom.
+https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNjkwNzMyOTk4/details
+
+### Week 3 (due Feb 4)
+My Open Math Growth Models exercise at https://www.myopenmath.com/assess2/?cid=132786&aid=9486788#/
+
+The assignment is worth two points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
+
+### Week 4 (due Feb. 11)
+Group Excel Lab #1 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
+
+### Week 5 (due Feb 18) 
+Identify datasets suitable for the end of semester project. https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTEwMTIyNjU0/details
+
+### Week 6 (due Feb 25) 
+Group Excel Lab 2 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTYwNTQyMjE4/details
+
+### Week 7 (due Mar 4) 
+Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and submit here: https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTE3ODg3NDI5/details
+
+### Week 8 (no weekly assignment)
+
+### Week 9 (due Mar 18) 
+Weekly Assignment:  Apportionment https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
+
+### Week 10 (no assignment...Happy Spring Break!)
+
+### Week 11 (due Apr 1) 
+Group Project #1:  Voting Systems https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTYzMTY2Mjgw/details
+
+#### Week 12 Weekly Assignment (due Apr 8)
+The last weekly assignment
+Group Project #2:  Gerrymandering https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTY1OTE1MzI3/details
+
+## Course Schedule  
+
+###  Week 1
 #### Wednesday, January 19
 **Topic:**  A personal course introduction. Syllabus review, a few words about me, and the purpose of CORE121. 
 Zoom Link for both sections:  https://zoom.us/j/5083547883?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
@@ -233,18 +271,8 @@ https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 
 ###  Week 2
 
-Week 2 Assignment (due Friday)
-
-My Open Math Percentage Problem Solving  
-Enter your results in the My Open Math website. We will review the process in class.  
-
-https://www.myopenmath.com/course/course.php?cid=132786&folder=0-1
-
-The assignment is worth two points and you will see your score in Google Classroom.
-https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNjkwNzMyOTk4/details
-
 #### Monday, January 24    
-Manipulating Percentages with Voter Turnout and Introduction to Microsoft Excel. 
+Manipulating Percentages with Voter Turnout
 
 **Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter.  http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf
 
@@ -257,23 +285,21 @@ Using growth formulas:  artithmetic vs. geometric/exponential growth.
 **Pre-class Reading Assignment**:  Read the first 10 pages of PDF at http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf.  Read through Example 6, pp. 173-182.
 
 #### Friday, January 28  
+
 Computing inflation and real dollars 
 
 Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
 
 ### Week 3
 
-Week 3 Assignment due Friday:  My Open Math Growth Models exercise at https://www.myopenmath.com/assess2/?cid=132786&aid=9486788#/
-
-The assignment is worth two points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
-
 #### Monday, January 31   
 
 Excel lab (Campaign Finance): Computation from simple data in Excel. 
 
-We will finalize lab groups for the semester 
+We will finalize lab groups for the semester and begin the lab
 
 #### Wednesday, February 2
+
 Statistics, the difference between Statistics vs. Mathematics. 
 
 **Pre-class Reading Assignment #1**:  
@@ -286,25 +312,16 @@ Introduction to Surveys using statistical inference.
 
 ###  Week 4
 
-Week 4 Weekly Assignment:  Excel Lab in Groups.  https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
-
 #### Monday, February 7
 Data organization:  observations, variables, and description.
 Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.
 Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
 #### Wednesday, February 9
-Data organization:  observations, variables, and description   
-Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.  
 
 #### Friday, February 11
 
-Creating data tables with Excel and RStudio.  This class session will cover lab material.
-
 ### Week 5
-
-Week 5 Weekly Assignment:  Review of datasets suitable for class projects, and you will identify datasets of potential interest.  https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTEwMTIyNjU0/details
-[January 4 placeholder]
 
 #### Monday, February 14
 
@@ -326,7 +343,6 @@ Variation and the Standard Deviation
 
 **Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
 
-
 #### Friday, February 18
 
 My Open Math: Collecting Data  
@@ -334,14 +350,13 @@ https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5b
 
 ### Week 6
 
-Weekly Assignment: Excel Lab 2 
-
 #### Monday, February 21
 **Topic:**  
 Confidence Intervals and Margins of Error in the Normal Distribution
 
 **Pre-class Reading Assignments:** 
 Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
+
 Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 
 #### Wednesday, February 23
@@ -350,54 +365,42 @@ Statistics, Central Limit Theorem, and Surveys
 #### Friday, Febuary 25
 Statistics, Central Limit Theorem, and Surveys
 
-
 ### Week 7
-
-Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and plan to submit Try It Now question answers.  See that date below for Google Classroom link.  
 
 #### Monday, February 28
 
-
-
-**Topic:**  
-Voting Theory Part 1  
+Voting Theory Part 1:  Ordering preference and preference tables  
 
 #### Wednesday, March 2
 
-**Topic:**  
 Ranked Choice Voting and the New York Mayoral Primary
 
 #### Friday, March 4 
-**Topic:**  Voting Theory Exercise Workshop
+
+Strengths and weaknesses of the main election choice methods
 
 ### Week 8
 
 #### Monday, March 7
 
-**Topic:** Voting Systems (continued)
-We will review the voting systems mentioned in the Voting Theory reading, including Plurality, Borda, Copeland, and Approval Voting,  
+Voting Systems (continued)
+Apportionment and the U.S. House of Representatives (part I)
+
+**Pre-class Reading Assignment** http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
+We will examine the different apportionment methoods mentioned in this article, focusing on Webster and Huntington-Hill.
 
 #### Wednesday, March 9
  
 **Topic:**  
 Apportionment and the U.S. House of Representatives.   
 
-**Pre-class Reading Assignment**  
-http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
-We will examine the different apportionment methoods mentioned in this article, focusing on Webster and Huntington-Hill.
-
-**Pre-class Reading Assignment**:  
-Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/ 
-
+**Pre-class Reading Assignment** Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/ 
 
 #### Friday, March 11
 
 MIDTERM EXAM
 
-
 ### Week 9
-
-Weekly Assignment:  Apportionment https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
 
 #### Monday, March 14
 
@@ -407,124 +410,87 @@ Read https://www.quantamagazine.org/the-math-behind-gerrymandering-and-wasted-vo
 
 "What is the definition of gerrymandering, and how can we use the efficiency gap to measure it?"
 
-We will also assign the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  
+We will also stqage the voting systems group project.  Your group will be responsible for defining the outcome of the New York mayoral primary using Approval Voting. You will apply a common dataset to the project.  
 
 #### Wednesday, March 16
 
-**Topic:**  
-
 Gerrymandering and the politics of geography:  More on the efficiency gap, measuring gerrymandering, and Seattle City Council Switches to Districts  
 
-**Preclass Reading Assignment:** 
-
-Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
-
+**Preclass Reading Assignment:**  Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
 
 #### Friday, March 18
 
 Your Data Project and Presentation. 
-Apportionment and the U.S. House of Representatives:  Webster and Huntington-Hill methods.
 
-We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (6-8 pages) is due Wednesday, December 8.
-**Topic:**   
+We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (2-3 pages) is due Wednesday, April 27.
 
 The implications of district building with Dave's Redistricting tool and District Builder.  
 
-**Preclass Reading and Video Assignment:**   
-
-Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
+**Pre-class Video Assignment** Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
 We will compare this tool to https://www.districtbuilder.org/ if time permits
 
-#### Monday, March 21 - Friday, March 25:  Spring Break
-
-### Week 10
-
-#### Monday, March 28
-
-**Topic:**  
-
-In-class Excel Lab:  Voting systems and data visualization (submit results in class)
-
-#### Monday, March 30
-
-**Topic:** Data visualization:  Principles of data visualization.  We will also review the remaining semester schedule. 
-
-**Preclass Reading Assignment:** 
-
-Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
-
-Read https://www.livescience.com/45083-misleading-gun-death-chart.html
-
-#### Friday, April 1
-
-**Topic:**  Data Visualization:  Applying Principles of Data Visualization
-
-**Preclass Reading Assignment:**  Read https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de 
-
-Look at this overview of an app called datawrapper.  We will use this application to build maps for the lab due on November 15:  https://www.datawrapper.de/maps
+### Week 10 Monday, March 21 - Friday, March 25:  Spring Break
 
 ### Week 11
 
+#### Monday, March 28
+Principles of Data Visualization 
+
+**Preclass Reading Assignment:** 
+Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
+https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de
+Read https://www.livescience.com/45083-misleading-gun-death-chart.html
+
+#### Wednesday, March 30
+Principles of Data Visualization
+
+#### Friday, April 1
+Datawrapper workshop
+
+Look at this overview of an app called datawrapper.  We will use this application to build maps for the lab due on November 15:  https://www.datawrapper.de/maps
+
+### Week 12
+
 #### Monday, April 4
 
-**Topic:**  Using District Building and Dave's Redistricing Tool
-
-**Group Project Due** Voting Systems. https://bit.ly/3zmK5kP
-
-**Preclass Assignment:** 
-A reminder to watch this video that appeared in the syllabus for October 29:
+Using District Building and Dave's Redistricing Tool
 
 Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
 We will compare this tool to https://www.districtbuilder.org/ if time permits
 
-**Review the Lab** on Data Visualization https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
-This lab is due Monday, November 15.
-
 #### Wednesday, April 6
-
-**Topic:**  Group Project #2: Redistricting
-We will organize this group project, analyzing efficiency gap of different districting plans.  This project will be due Monday, November 22. https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTU4NDE2NTQx/details
 
 #### Friday, April 8
 
-**Topic:** Data project workshop.
+Data project workshop.
 
-### Week 12
+### Week 13
+No weekly assignment
 
 #### Monday, April 11
+The U.S. Electoral College
 
-**Topic:**  The U.S. Electoral College
-
-**Preclass Reading Assignment:** 
-
-Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. 
+**Preclass Reading Assignment:** Read https://www.nytimes.com/article/the-electoral-college.html AND https://www.nationalpopularvote.com/written-explanation. 
 
 Come prepared to answer this question:  "Maine and Nebraska don't use winner-take-all allocations of their electors.  Why don't the other 48 states and DC follow their lead?"
-
-Excel Data Visualization Lab Due.  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzg0NTk2NDY0NTcz/details
 
 #### Wednesday, April 13
 
 **Topic:**  
-Electoral College and American Politics
+Polarization
 
 **Pre-class Reading Assignment:**  Read this article: Mason, Lilliana. 2018.  Losing Common Ground: Social Sorting and Polarization *The Forum* v.18(1) https://bit.ly/3go9bZa
 
 #### Friday, April 15
+Presentations
 
-**Topic:**  Data projects workshops.  
-
-We will work on data projects.  Presentations will begin November 29.   
-
-### Week 13
+### Week 14
 
 #### Monday, April 18
-**Topic:**  In-Class Review Session and Preparation for Presentations
-
-Group Project Due: Redistricting Project.  Submit your work here: https://bit.ly/3D8gv4K 
+Presentations
 
 #### Wednesday, April 20 
-Preparation for Presentations
+Presentations
 
 #### Friday, April 22
 
