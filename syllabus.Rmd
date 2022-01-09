@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -215,13 +215,13 @@ My Open Math Percentage Problem Solving
 Enter your results in the My Open Math website. We will review the process in class.  
 https://www.myopenmath.com/course/course.php?cid=132786&folder=0-1
 
-The assignment is worth two points and you will see your score in Google Classroom.
+The assignment is worth three points and you will see your score in Google Classroom.
 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNjkwNzMyOTk4/details
 
 ### Week 3 (due Feb 4)
 My Open Math Growth Models exercise at https://www.myopenmath.com/assess2/?cid=132786&aid=9486788#/
 
-The assignment is worth two points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
+The assignment is worth three points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
 
 ### Week 4 (due Feb. 11)
 Group Excel Lab #1 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
@@ -240,12 +240,12 @@ Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35
 ### Week 9 (due Mar 18) 
 Weekly Assignment:  Apportionment https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
 
-### Week 10 (no assignment...Happy Spring Break!)
+### Week 10 (no assignment)
 
 ### Week 11 (due Apr 1) 
 Group Project #1:  Voting Systems https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTYzMTY2Mjgw/details
 
-#### Week 12 Weekly Assignment (due Apr 8)
+### Week 12 (due Apr 8)
 The last weekly assignment
 Group Project #2:  Gerrymandering https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTY1OTE1MzI3/details
 
@@ -318,41 +318,37 @@ Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 2
 Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
 #### Wednesday, February 9
+Public Opinion and COVID
+https://www.pewresearch.org/2021/03/05/a-year-of-u-s-public-opinion-on-the-coronavirus-pandemic/
 
 #### Friday, February 11
+Excel Lab Completion
 
 ### Week 5
 
 #### Monday, February 14
 
 **Topic:**  
-RStudio Lab 1 
-
-https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/Mzc5OTM1Njk2MTEx/details. Note: the goal isn't to master R syntax. You will simply copy, paste, and run R code, and you'll get the hang of the RStudio workflow.
+Introduction to R and RStudio Lab 1 
 
 **Pre-class Homework Assignment #1**:  
-We will try to recreate the lab described here:  https://core121-election-science-fall2021.netlify.app/core121-lab-1-v1
+We will recreate the lab described here:  https://core121-election-science-spring2022.netlify.app/core121-lab-1-v1
 
 Watch this R Programming 101 video (6:55 in length). 
 https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9.
 
 #### Wednesday, February 16
 
-**Topic:**  
-Variation and the Standard Deviation  
-
-**Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
-
-#### Friday, February 18
-
 My Open Math: Collecting Data  
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
+
+#### Friday, February 18
 
 ### Week 6
 
 #### Monday, February 21
 **Topic:**  
-Confidence Intervals and Margins of Error in the Normal Distribution
+Politics and Margins of Error
 
 **Pre-class Reading Assignments:** 
 Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testing/margin-of-error/
@@ -360,20 +356,24 @@ Read https://www.statisticshowto.com/probability-and-statistics/hypothesis-testi
 Read https://myopenmaths3.s3.amazonaws.com/cfiles/29937/MAT14xTextbook1stEditionCh12.pdf (pp. 1-5) AND https://myopenmaths3.s3.amazonaws.com/cfiles/2408/ReadingE8.pdf (pp. 1-4)
 
 #### Wednesday, February 23
-Statistics, Central Limit Theorem, and Surveys
+Surveys and Public Opinion Part I
+
+**Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
 
 #### Friday, Febuary 25
-Statistics, Central Limit Theorem, and Surveys
+Surveys and Public Opinion Part II
 
 ### Week 7
 
 #### Monday, February 28
 
-Voting Theory Part 1:  Ordering preference and preference tables  
+Voting Theory Part 1:  Ordering preference and preference tables
+Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43)
 
 #### Wednesday, March 2
 
 Ranked Choice Voting and the New York Mayoral Primary
+https://www.thecity.nyc/2021/7/19/22584637/did-ranked-choice-voting-work-in-nyc-eric-adams
 
 #### Friday, March 4 
 
@@ -425,11 +425,11 @@ Your Data Project and Presentation.
 We will discuss the end-of-semester data projects, which include a presentation and a short paper.  The presentations will cover the final five days of class, and the paper (2-3 pages) is due Wednesday, April 27.
 
 The implications of district building with Dave's Redistricting tool and District Builder.  
-
 **Pre-class Video Assignment** Watch this video (13:38 minutes):  https://www.youtube.com/watch?v=Pp42Rw2cVQA and peruse the online tool at https://davesredistricting.org/maps#home  
 We will compare this tool to https://www.districtbuilder.org/ if time permits
 
-### Week 10 Monday, March 21 - Friday, March 25:  Spring Break
+### Week 10 
+Monday, March 21 - Friday, March 25:  Spring Break
 
 ### Week 11
 
