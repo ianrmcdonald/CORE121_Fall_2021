@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -28,10 +28,10 @@ Email: ianmcdonald@lclark.edu
 Miller Hall 434  
 +1.503.768.7456  
 
-Office Hours:   
+Office Hours   
 Monday and Wednesday 3:30-5 + email or additional times by appointment. You can meet with me in person or via teleconferencing.  
 
-## Syllabus Links:
+## Syllabus Links
 html: https://core121-election-science-spring2022.netlify.app/syllabus.html  
 pdf: https://core121-election-science-spring2022.netlify.app/syllabus.pdf 
 
