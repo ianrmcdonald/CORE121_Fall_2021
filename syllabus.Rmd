@@ -27,9 +27,10 @@ Instructor: Ian McDonald, Ph.D.
 Email: ianmcdonald@lclark.edu  
 Miller Hall 434  
 +1.503.768.7456  
+Zoom PMI:  508 354 7883
 
 Office Hours   
-Monday and Wednesday 3:30-5 + email or additional times by appointment. You can meet with me in person or via teleconferencing.  
+Monday and Wednesday 3:30-5 or additional times by appointment. You can meet with me in person or via teleconferencing.  
 
 ## Syllabus Links
 html: https://core121-election-science-spring2022.netlify.app/syllabus.html  
@@ -53,12 +54,15 @@ At the conclusion of this course, you will be able to:
 * Analyze texts and/or quantitative information, recognizing, describing, and questioning patterns, trends, anomalies, and relationships. 
 * Present clear, compelling, and effective arguments and/or analysis, supported by evidence. 
 * Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena. 
-* Relate issues of diversity, equity, and inclusion to how data is gathered, interpreted, and emphasized. 
+* Relate issues of diversity, equity, and inclusion to how data is gathered, interpreted, and emphasized.
+* Master basic skills in data manipulation and visualization, using spreadsheets and other tools.  
 
 ### Course Website
 https://classroom.google.com/u/0/c/NDUwMzYxODk3MTUw
 
 This website will be used for both sections. Google Classroom is one of two sites you will use to submit assignments; the other is My Open Math.  Google Classroom will direct you to the right source for readings and submissions.  This site will also contain all documents and links related to the course.
+
+The invitation link for Google classroom is https://classroom.google.com/c/NDUwMzYxODk3MTUw?cjc=mds6pv2.  The course code is mds6pv2.  Both sections enroll in the same Google classroom.
 
 ## Course Administration
 
@@ -67,13 +71,13 @@ This website will be used for both sections. Google Classroom is one of two site
 In this course you will access four different portals that require your LC id and password for initial contact.  Google Classroom will direct you from session to session, but you will directed to these sites at different phases of the course.
 
 **My Open Math**  
-Readings, videos, and quizzes will be available from My Open Math.  Sign up using the link below.  All material will be directly linked from our class website, so you do not need to regularly check this site directly. 
+The first two weekly exercises will come from the website My Open Math.  Sign up using the link below.  All material will be directly linked from our My Open Math class website, so you do not need to regularly check this site directly. 
 https://www.myopenmath.com/forms.php?action=enroll
 The course ID: 132786
 The enrollment key: democracy
 
 **Google Classroom**  
-In addition to serving as the class website, you will submit papers and your excel labs through Google Classroom. Enroll using this link:
+In addition to serving as the class website, you will submit papers and your spreadsheet labs through Google Classroom. Enroll using this link:
 https://classroom.google.com/c/NDUwMzYxODk3MTUw?cjc=mds6pv2
 
 The class code is:  mds6pv2
@@ -81,21 +85,23 @@ The class code is:  mds6pv2
 **RStudio**  
 You can access RStudio using a web browser and signing in to the college's server at https://rstudio.cloud 
 
-In your lab assignments, you will explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language.  Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at https://r4ds.had.co.nz/introduction.html.  
+You can use RStudio to explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language.  Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at https://r4ds.had.co.nz/introduction.html.  
 
 **R Programming for Beginners**
-I will introduce you to the R programming language using the RStudio platform.  The goal isn't to achieve mastery of R syntax but rather show you the basic workflow and help you recognize situations when R's power in data management and visualization will help you.  A set of interactive primers can be found on the RStudio cloud website at: https://rstudio.cloud/learn/primers
+I will introduce you to the R programming language using the RStudio platform.  You don't need to achieve mastery of R syntax but you should see the basic workflow and help you recognize situations when R's power in data management and visualization will help you.  
+
+Students looking to develop an advanced skill with payoff in future classes should explore RStudio.  A set of interactive primers can be found on the RStudio cloud website at: https://rstudio.cloud/learn/primers.
 
 If you want to dive into R, I recommend the R Programming 101 video series in YouTube.  It's entertaining and gentle.
 
-We will have four labs in which you will copy and execute R code in RStudio and report the results. You will also observe the results of changing the code slightly.  For ambitous data visualization projects, you may discover that R can satisfy your requirements better than Excel with a reasonable learning curve.
+We will have two labs in which you will copy and execute R code in RStudio and report the results. You will also observe the results of changing the code slightly.  For ambitious data visualization projects, you may discover that R can satisfy your requirements better than Excel with a reasonable learning curve.
 
 https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9
 
-**Microsoft Excel**    
+**Microsoft Excel, Google Sheets, and spreadsheets**    
 You will also use Microsoft Excel, an ordinary spreadsheet tool, in labs.  You will gain exposure to spreadsheets, and when you compare the experience to RStudio, you'll see how a scripted programming language has particular advantages and problems compared to spreadsheet applications.
 
-For this purpose, Microsoft Excel is preferred over Google Sheets or other open-source alternatives. Lewis & Clark has a Campus Agreement for Microsoft Office. Because of this, current students, staff and faculty can use their @lclark.edu email address to activate a free Office 365 account, which allows them to use Microsoft apps such as Excel. This program is 100% managed by Microsoft and is completely separate from Lewis & Clark College. 
+Lewis & Clark has a Campus Agreement for Microsoft Office. Because of this, current students, staff and faculty can use their @lclark.edu email address to activate a free Office 365 account, which allows them to use Microsoft apps such as Excel. This program is 100% managed by Microsoft and is completely separate from Lewis & Clark College. 
 
 To set up Office 365:
 
@@ -106,6 +112,8 @@ To set up Office 365:
 * Follow the prompts to activate Office 365 and create your Microsoft account
 * Install Office and sign-in with your newly created Office 365 ID
 
+If you prefer to use Google sheets, you can complete the exercises in that tool, but the labs have been written with the downloadable version of Microsoft Excel in mind.
+
 ### Lab Groups  
 You will regularly work on labs in groups of 3-4.  
 
@@ -113,7 +121,8 @@ Please fill out this short survey to help me select your Excel and RStudio mates
 
 ### Attendance
 
-Your attendance is expected every class session.  If you can't attend class, please notify me. 
+Your attendance is expected every class session.  If you can't attend class, please notify me. Attendance during the pandemic is more challenging than usual, but attendance is the easiest thing you can do to improve your performance in the class.
+
 Your grade will be reduced if you routinely miss class without notification or reason.  See the grade formula below for details.
 
 ### Laptops and Phones
@@ -122,7 +131,9 @@ If you have access to a laptop computer, you *should* bring it to class routinel
 
 You can bring phones into the classroom, but please note that we have very limited time together and we need to make it count. We all need to be present and free of distraction. I will count on you to do your part.
 
-Your classroom experience won't be successful if we aren't all focused.  We don't have much time together and we can't afford to waste it.  I will approach you if maintaining focus appears to be a problem.  
+Your classroom experience won't be successful if we aren't all focused.  We don't have much time together and we can't afford to waste it.  I will approach you if maintaining focus appears to be a problem. 
+
+Please note the Classroom Agreement, and please add anything 
 
 ### Recording Classes  
 
@@ -149,42 +160,72 @@ I am committed to the goal that anyone can achieve mastery of basic quantitative
 
 If your learning needs are not being met, or you do not feel comfortable with the material being discussed, I am counting on you to let me know.  I will do my best to support a classroom climate that supports a diversity of thoughts, perspectives, and experiences, and that honors your identities (including race, gender, class, religion, ability, etc.). Matters of identity and American politics are inextricably intertwined and as such will be regularly discussed in class and will likely require consideration in your research projects.
 
-### Activities and Grading Formula
+## Class work and Grading Formula
 
-The work in this class includes the following:
+Our class will ask: How do preferences and choices of individuals in a democracy translate to political action?  
 
-* Reading ahead of classroom attendance and participation
-* Reading, videos, and exercises using the My Open Math platform
+Somehow, a democracy must translate the goals people want into policy, by adding up preferences, weighing public opinion, and establishing representation.  When we can reason with quantities and measurement, we can make good judgments about how well we're translating the public's desires, and how we can improve.
+
+We will also explore how claims concerning these subjects can be argued, or misrepresented, by data and data visualizations.  Some fluency in the basics of data organization is necessary for quantiative reasoning, and this fluency does not require mathematics.  
+
+The topics in the class include:
+
+* Surveys, sampling, and the basic of survey computation
+* Using percentages and growth formulas to express political claims
+* Computing voter turnout percentages with spreadsheets and the R programming language
+* US House apportionment
+* Districting and Gerrymandering
+* Voting systems, with focus on Ranked Choice Voting
+* The US Electoral College used to elect presidents
+* Political polarization
+
+
+The class work focuses on mastering the basic computational details of these topics.
+
+* Preparation for the capstone presentations and papers
+* Pre-class readings
+* Some exercises using the My Open Math platform
 * Labs and lab submissions using Microsoft Excel and RStudio
-* One 3-4 page paper
 * Two group projects
 
-**Two exams: 20% each**\
-Each exam is independent and not cumulative (Learning Objectives #2 and #4).  The midterm will take place during the regular class period for Friday, March 11.  The final exam takes place as scheduled by the college: https://college.lclark.edu/offices/registrar/final_exam_schedule/spring/  
+### Weekly assignments and group projects 35% of total
+
+Most weeks, you will complete a simple assignment that applies your knowledge about one of the topics.  Some of the assignments ask for answers to questions sets and some are lab completions.
+
+After the break, the weekly assignments shifts to two group projects that you will submit collectively.  
+
+Learning Objectives #1, #2, #3, #4, and #5) 
+
+### First draft of capstone report 10% of total  
+
+Submit a first draft of your research project.  The draft is due March 14.  Your peer review response is due March 16.  Your grade will combine work on both of these tasks.  
+
+### Midterm (10% of total) and final exam (15% of total)
+
+The final exam is cumulative. (Learning Objectives #2 and #4).  The final exam takes place as scheduled by the college: https://college.lclark.edu/offices/registrar/final_exam_schedule/spring/  
 
 Students cannot take the exams with the other section.
 
-The section 9 final exam takes place on Monday, May 2 from 1-4pm in JR Howard 254
-The section 13 final exam takes place on Wednesday, May 4f rom 1-4pm in JR Howard 116 
+The section 9 final exam takes place on Monday, May 2 from 1-4pm in JR Howard 254.
 
-Each component of the grade is based on a 100 point scale, and I  try to adhere to that formula so that you don't have to reweight the numbers that you see in assignments or exams.  For exampley, your midterm score will be based on 20 points.
+The section 13 final exam takes place on Wednesday, May 4 from 1-4pm in JR Howard 116 
 
-**Research paper & presentation: 20%**  
-You are responsible for one 3-4 page paper on a topic related to elections or public opinion that marshals data to provide evidence and includes an original data visualization. In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5).
+Each component of the grade is based on a 100 point scale, and I try to adhere to that formula so that you don't have to reweight the numbers that you see in assignments or exams in Google classroom.
 
-Note that there will be a data visualization contest sponsored by the library, and you're invited to submit your work for that competition. The library will publish details later in the semester.
+### Capstone Presentation and Paper 25% of total 
+You are responsible for one 5-6 page paper one of these topics:
 
-**Homework/labs: 20%**  
-The class will be structured to be participatory, particularly using small groups. This requires everyone to have done the readings and come prepared adequately to critically engage with a variety of arguments, approaches, and data. I will assign periodic activities that will build data literacy, including quizzes, homework, or other assignments. Students will be expected to complete a series of excel-based learning labs, with time devoted to this activity in class. (Learning Objectives #1, #2, #3, #4, and #5) 
-
-**Attendance/ Participation: 5%**  
+### Attendance/ Participation 5% of total
 This portion of the grade will be reduced if you routinely miss class without prior notification or some important reason.  Some sessions will not require in class attendance, and you will know about those sessions well in advance.  Two or more absences will reduce the score given.
 
-**Group Projects: 15%**  
-There will be two group projects to submit in this course. The output of each project will vary (presentation, written components) and will be explained at the start of each project. You will be graded based on project quality and by peer review.  Significant class time will be devoted to these projects. 
+### Grading Rubric
+
+In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5).
 
 **Late work submissions**
 Unless otherwise specified, late work will be penalized by 2/3 of a grade per day.  This means, for example, that an assignment graded as a B will be dropped to C+ the first late day, and to C- the second day.  Work submitted more than 48 hours late will not be accepted.
+
+The grading rubric will appear in each assignment description found in Google Classroom. Assignments will be scored with a number, and the aggregate of the scores determines your letter grade.  
 
 Letter grades will follow this scale:
 92-100:   A
@@ -200,10 +241,12 @@ Less than 50:  F
 
 ## Weekly Assignments
 
-The first seven assignments (before spring break) are each worth three points.  The two group assignments after spring break are each worth eight points.
+The first seven graded assignments (before spring break) are worth three points each.  The two group assignments after spring break are worth eight points each. The first assignment (due on January 19) is ungraded.
+
+Note that I will solicit your input in various ways, through online surveys and response forms.  These solicitations will not be graded, but will give you chances to test our understanding of ideas that we talk about, and give me your input about the course.  
 
 ### Week 1 (due Jan 21) 
-This assignment is ungraded.  Be sure to:
+This assignment is ungraded.  Please sign up for these services:
 
 * Access Microsoft Office and download the office suite:  http://www.office.com
 * Log into the library's RStudio server at https://rstudio.cloud.  
@@ -227,18 +270,19 @@ The assignment is worth three points, and the results will be posted at https://
 Group Excel Lab #1 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
 
 ### Week 5 (due Feb 18) 
-Identify datasets suitable for the end of semester project. https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTEwMTIyNjU0/details
+Identify an election reform proposal, or a datase suitable for the capstone project. https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTEwMTIyNjU0/details
 
 ### Week 6 (due Feb 25) 
 Group Excel Lab 2 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTYwNTQyMjE4/details
 
-### Week 7 (due Mar 4) 
-Read http://www.opentextbookstore.com/mathinsociety/2.5/VotingTheory.pdf (pp. 35-43) and submit here: https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTE3ODg3NDI5/details
+### Week 7 (no assignment)
 
-### Week 8 (no weekly assignment)
+### Week 8 (due Mar 11) 
+Submit a 300 word summary of the [Gender Studies symposium](https://college.lclark.edu/departments/gender_studies/symposium/) at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTE3ODg3NDI5/details
 
 ### Week 9 (due Mar 18) 
 Weekly Assignment:  Apportionment https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/MzgwMDI0MDExNjU3/details
+First draft of your research project.  
 
 ### Week 10 (no assignment)
 
@@ -254,13 +298,15 @@ Group Project #2:  Gerrymandering https://classroom.google.com/c/NDUwMzYxODk3MTU
 ###  Week 1
 #### Wednesday, January 19
 **Topic:**  A personal course introduction. Syllabus review, a few words about me, and the purpose of CORE121. 
-Zoom Link for both sections:  https://zoom.us/j/5083547883?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
 
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 #### Friday, January 21
 Reasoning with probability with the Monty Hall Problem.
 
-Zoom Link for both sections:  https://zoom.us/j/5083547883?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 **Pre-class Reading**:  
 Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)
@@ -272,17 +318,23 @@ https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 ###  Week 2
 
 #### Monday, January 24    
-Manipulating Percentages with Voter Turnout
+Manipulating Percentages with Voter Turnout, and the context of voter turnout.
 
 **Pre-class Homework Assignment:**  Read pages 1-6 of this textbook chapter.  http://www.opentextbookstore.com/mathinsociety/2.5/ProblemSolving.pdf
 
 In class we will complete the first three "Try it Now" examples from the reading.
 
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
+
 #### Wednesday, January 26
 
-Using growth formulas:  artithmetic vs. geometric/exponential growth.   
+Using growth formulas:  artithmetic vs. geometric/exponential growth. Political inequality and exponential growth, and the example of wealth tax.  
 
 **Pre-class Reading Assignment**:  Read the first 10 pages of PDF at http://www.opentextbookstore.com/mathinsociety/2.5/GrowthModels.pdf.  Read through Example 6, pp. 173-182.
+
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 #### Friday, January 28  
 
@@ -290,13 +342,19 @@ Computing inflation and real dollars
 
 Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
 
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
+
 ### Week 3
 
 #### Monday, January 31   
 
-Excel lab (Campaign Finance): Computation from simple data in Excel. 
+Excel lab (Campaign Finance): Turnout computation from simple data in Excel. 
 
 We will finalize lab groups for the semester and begin the lab
+
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 #### Wednesday, February 2
 
@@ -305,14 +363,20 @@ Statistics, the difference between Statistics vs. Mathematics.
 **Pre-class Reading Assignment #1**:  
 Read Pages 1-11 in  http://www.opentextbookstore.com/mathinsociety/2.5/Statistics.pdf  
 
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
+
 #### Friday, February 4
 Introduction to Surveys using statistical inference.  
 
 **Pre-class Reading Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/1HKM5UQzn3F1WkuURYjzzkEbepdumG_Qj/view?usp=sharing)  
+Zoom link for both sections:
+https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 ###  Week 4
 
-#### Monday, February 7
+#### Monday, February 7  
+As of January 11, this will be our first class in person
 Data organization:  observations, variables, and description.
 Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.
 Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
@@ -377,28 +441,29 @@ https://www.thecity.nyc/2021/7/19/22584637/did-ranked-choice-voting-work-in-nyc-
 
 #### Friday, March 4 
 
-Strengths and weaknesses of the main election choice methods
+Midterm Exam
 
 ### Week 8
 
 #### Monday, March 7
 
 Voting Systems (continued)
-Apportionment and the U.S. House of Representatives (part I)
+Apportionment and the U.S. House of Representatives
 
-**Pre-class Reading Assignment** http://www.opentextbookstore.com/mathinsociety/2.5/Apportionment.pdf
-We will examine the different apportionment methoods mentioned in this article, focusing on Webster and Huntington-Hill.
-
-#### Wednesday, March 9
- 
 **Topic:**  
 Apportionment and the U.S. House of Representatives.   
 
 **Pre-class Reading Assignment** Read https://www.ianrmcdonald.com/posts/2021-05-10-new-york-and-house-apportionment-in-2020_update/ 
 
+Peer review response
+
+#### Wednesday, March 9
+
+GENDER SYMPOSIUM
+
 #### Friday, March 11
 
-MIDTERM EXAM
+GENDER SYMPOSIUM
 
 ### Week 9
 
@@ -462,7 +527,7 @@ We will compare this tool to https://www.districtbuilder.org/ if time permits
 
 #### Friday, April 8
 
-Data project workshop.
+Festival of Scholars:  No class today
 
 ### Week 13
 No weekly assignment
@@ -502,7 +567,7 @@ Presentations
 #### Wednesday, April 27
 Final Exam Review
 
-Data Visualization Paper is Due:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/NDI1MjM4NzAwODE1/details
+Capstone Paper is Due:  https://classroom.google.com/c/Mzc2MjMzMzQ1ODU0/a/NDI1MjM4NzAwODE1/details
 
 ### Week 15
 

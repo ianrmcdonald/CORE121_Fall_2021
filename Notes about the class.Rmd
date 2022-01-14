@@ -1,0 +1,73 @@
+---
+title: "CORE121 Election Science Syllabus Spring 2022"
+output:
+  html_document:
+    toc: yes
+    toc_float:
+      collapsed: no
+      smooth_scroll: no
+    toc_depth: 4
+    self_contained: no
+  pdf_document:
+    toc: no
+---
+
+```{r setup, include = FALSE, cache = FALSE}
+knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALSE, message = FALSE, tidy = FALSE, cache = FALSE)
+```
+
+
+**CORE 121-09 and CORE121-13 Numbers: Election Science**  
+
+Notes about Class Objectives, Lessons from Fall Semester, and Style
+
+Here are some open-ended and free-wheeling thoughts about the course, its problems (inherent and fixable), making the most of a core curriculum course, observations about the courses from last semester, and the style of this class and my teaching.  
+
+I’ll write this with an FAQ format, which means I might add items going forward into the semester.
+
+How would you justify general education requirements?
+
+General education requirements can seem like they reduce your freedom and divert you from the classes that you know you want to take.  Most colleges require a general education curriculum, and most of them struggle to get the formula right.  The requirements have a few different objectives that are hard to align.   
+
+Colleges want all of their students to share some kind of intellectual experience that connects them to the college’s identity, before they head focus exclusively on their majors.  They might want to ensure a uniform mastery of a particular skill.  
+
+They might want to introduce students to the demands of college classes:  "here’s how you read a syllabus, here’s how you manage a schedule, here’s how you write a paper, here’s how you prepare for an exam, and here’s how you deal with the idiosyncratic demands of a strange professor."  
+
+They might want to expose you to the work of departments that aren’t familiar to you and won’t mean much to you without the requirement.  Every discipline in this college that builds from decades or centuries of thought and hard work.  All of them, without exception. You won’t believe it if you don’t see it.
+
+It's also possible that you will discover a topic or a skill that you really enjoy, and you didn’t know about it.
+
+Lewis & Clark offers this innovation:  two additional courses intended to serve all the students and develop you in ways that all of your classes going forward.  By now, you have all had a Words class and you probably recognize its goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style.  And a Numbers class, that centers on the skill we call quantitative reasoning.
+
+You get to meet some students who will never appear in your other classes.  Even if you don't like the experience, it will be a shared experience.  We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.  
+
+What are the objectives of a Numbers class, and is math mastery one of them?
+
+The catalog entry says: 
+
+"Numbers teaches students to interpret quantitative information presented in various forms and contexts; to understand the logical structure of quantitative arguments; and to use quantitative models, theories, and data to simplify, explain, and make predictions. Specific content and topics will vary with instructors."
+
+Your Numbers course (Election Science) includes these two learning objectives:
+
+•	Present clear, compelling, and effective arguments and/or analysis, supported by evidence.
+•	Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena.
+
+In both places, notice that you don't the word mathematics.  You will get some exposure to software that can manipulate data, and you'll see an equation or two.  But their purpose is to show you how to reason and argue with quantities.  Whether or not you feel as though you have math anxiety is beside the point.  You're not going to be drilled with formulas or asked to recite them.  
+
+Instead, you will see how some ideas are supported with quantities, and how some claims that are surrounded by quantities can be bogus.  You should see how quantitative reasoning can defy your intuition.  In a specific case, you will see how a number can tell you:  "Here we have a case of gerrymandering, because a quantity exceeds a particular threshold."
+
+The course is about language and reasoning, with a slightly different slant.  
+
+You taught two sections of this course Fall Semester (2021).  What did you learn?
+
+The course had logistical problems, but I think a bigger issue is that a lot of students lost contact with the objectives, even if they thought the class experience was good.  Some students said the course didn't reflect the description, and some didn't understand the purpose of the class.  I take responsibility for that.  
+
+In part, I think this happened because, in the early days, I tried to be a math evangelist, and emphasize the idea that "math anxiety and math phobia" are misplaced and you can conquer them, and so on. 
+
+In hindsight, that's not a useful message.  For this course, math anxiety is beside the point.  The purpose of the class is not to conquer it.
+
+Instead, the purpose of the class is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action.  
+
+Knowing the mathematical basis for quantitative arguments doesn’t hurt.  But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.  
+
+A graduate school advisor of mine once told us, “All science is social.”  What that means is:  the advance of knowledge depends on the ability to persuade people that a claim can make predictions.  How can a number change someone's mind?  How can a number secure our belief in something we know ought to be true?   The most famous person I ever met  talked to two groups of visiting Lewis & Clark students in Washington, D.C., and explained her love of economics this way: "when you can quantify something, you have a basis for negotiation."  
