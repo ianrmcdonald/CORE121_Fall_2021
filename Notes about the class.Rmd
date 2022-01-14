@@ -1,15 +1,13 @@
 ---
-title: "CORE121 Election Science Syllabus Spring 2022"
-output:
+title: "Why Gen Ed, and why CORE121? Some thoughts"
+output: 
   html_document:
-    toc: yes
-    toc_float:
-      collapsed: no
-      smooth_scroll: no
+    toc: true
+    toc_float: false
+    toc_collapsed: true
     toc_depth: 4
-    self_contained: no
-  pdf_document:
-    toc: no
+    number_sections: false
+    theme: lumen
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -17,17 +15,25 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 ```
 
 
-**CORE 121-09 and CORE121-13 Numbers: Election Science**  
+**If or when you're feeling unsure about why you're here....follow this space**  
 
-Notes about Class Objectives, Lessons from Fall Semester, and Style
+Some free-wheeling notes about class objectives, lessons from fall semester, and style.
 
-Here are some open-ended and free-wheeling thoughts about the course, its problems (inherent and fixable), making the most of a core curriculum course, observations about the courses from last semester, and the style of this class and my teaching.  
+These are my thoughts about the course's problems (inherent and fixable), making the most of a core curriculum course, observations from my experience teaching it last semester, and the style of this class and my teaching.  
 
-I’ll write this with an FAQ format, which means I might add items going forward into the semester.
+I’ll write this with an FAQ format, which means I might add items later.
 
-How would you justify general education requirements?
+#### Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?
 
-General education requirements can seem like they reduce your freedom and divert you from the classes that you know you want to take.  Most colleges require a general education curriculum, and most of them struggle to get the formula right.  The requirements have a few different objectives that are hard to align.   
+Yes, and yes. 
+
+But the benefits of this course are clear in my own mind, and I hope they become clear (or clearer) to you.  The world needs good quantitative reasoning, you can do it, and this course will help that cause.
+
+#### How would you justify general education requirements?  
+
+The college knows that general education requirements can seem like they reduce your freedom and you might think they divert you from the classes that you know you want to take.  
+
+But most colleges require a general education curriculum, and most of them struggle to get the formula right.  The requirements have a few different objectives that are hard to align.^[A handful of US colleges have neither core curricula nor distribution requirements.  My daughter attended one of them.  It's a fine alternative but there are disadvantages that might surprise you. Ask me if you're interested.]   
 
 Colleges want all of their students to share some kind of intellectual experience that connects them to the college’s identity, before they head focus exclusively on their majors.  They might want to ensure a uniform mastery of a particular skill.  
 
@@ -37,37 +43,64 @@ They might want to expose you to the work of departments that aren’t familiar 
 
 It's also possible that you will discover a topic or a skill that you really enjoy, and you didn’t know about it.
 
-Lewis & Clark offers this innovation:  two additional courses intended to serve all the students and develop you in ways that all of your classes going forward.  By now, you have all had a Words class and you probably recognize its goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style.  And a Numbers class, that centers on the skill we call quantitative reasoning.
+Lewis & Clark adds this innovation:  two additional courses intended to serve all the students and develop you in ways that all of your classes going forward.  By now, you have all had a Words class and you probably recognize its goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style.  And a Numbers class, that centers on the skill we call quantitative reasoning.
 
-You get to meet some students who will never appear in your other classes.  Even if you don't like the experience, it will be a shared experience.  We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.  
+You will get to meet some students who will never appear in your other classes. If you think of yourself as an advanced math student, you'll meet plenty of smart people who will appreciate your previous training. Even if you don't like the experience, it will be a shared experience.  We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.  
 
-What are the objectives of a Numbers class, and is math mastery one of them?
+#### So what are the objectives of this Numbers class, and is math mastery one of them?
 
 The catalog entry says: 
 
-"Numbers teaches students to interpret quantitative information presented in various forms and contexts; to understand the logical structure of quantitative arguments; and to use quantitative models, theories, and data to simplify, explain, and make predictions. Specific content and topics will vary with instructors."
+**"Numbers teaches students to interpret quantitative information presented in various forms and contexts; to understand the logical structure of quantitative arguments; and to use quantitative models, theories, and data to simplify, explain, and make predictions. Specific content and topics will vary with instructors."**
 
 Your Numbers course (Election Science) includes these two learning objectives:
 
-•	Present clear, compelling, and effective arguments and/or analysis, supported by evidence.
-•	Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena.
+**
+•	Present clear, compelling, and effective arguments and/or analysis, supported by evidence.  
+•	Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena.  
+**
 
-In both places, notice that you don't the word mathematics.  You will get some exposure to software that can manipulate data, and you'll see an equation or two.  But their purpose is to show you how to reason and argue with quantities.  Whether or not you feel as though you have math anxiety is beside the point.  You're not going to be drilled with formulas or asked to recite them.  
+In both places, notice that you don't see the word **mathematics**.  You will get some exposure to software that can manipulate data, and you'll see an equation or two.  But their purpose is to show you how to reason and argue with quantities.  Whether or not you feel as though you have math anxiety is beside the point.  You're not going to be drilled with formulas or asked to recite them.  
 
 Instead, you will see how some ideas are supported with quantities, and how some claims that are surrounded by quantities can be bogus.  You should see how quantitative reasoning can defy your intuition.  In a specific case, you will see how a number can tell you:  "Here we have a case of gerrymandering, because a quantity exceeds a particular threshold."
 
 The course is about language and reasoning, with a slightly different slant.  
 
-You taught two sections of this course Fall Semester (2021).  What did you learn?
+#### You taught two sections of this course Fall Semester (2021).  What did you learn?
 
-The course had logistical problems, but I think a bigger issue is that a lot of students lost contact with the objectives, even if they thought the class experience was good.  Some students said the course didn't reflect the description, and some didn't understand the purpose of the class.  I take responsibility for that.  
+I think lot of students lost contact with the objectives, even if they thought the class experience was good.  Some students said the course didn't reflect the description, and some didn't understand the purpose of the class.  I take responsibility for that.  
+
+That wasn't the only problem with the course, but I think it's the most serious.
 
 In part, I think this happened because, in the early days, I tried to be a math evangelist, and emphasize the idea that "math anxiety and math phobia" are misplaced and you can conquer them, and so on. 
 
-In hindsight, that's not a useful message.  For this course, math anxiety is beside the point.  The purpose of the class is not to conquer it.
+In hindsight, that's not a useful message, and it confused the mission.  For this course, math anxiety is beside the point.  The purpose of the class is not to conquer it.
 
-Instead, the purpose of the class is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action.  
+Instead, the intent is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action. Quantitative reasoning is not mathematics. Knowing the mathematical basis for quantitative arguments doesn’t hurt.  But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.  
 
-Knowing the mathematical basis for quantitative arguments doesn’t hurt.  But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.  
+Look at this this data visualization (a fancier and more comprehensive term for "graph"). 
 
-A graduate school advisor of mine once told us, “All science is social.”  What that means is:  the advance of knowledge depends on the ability to persuade people that a claim can make predictions.  How can a number change someone's mind?  How can a number secure our belief in something we know ought to be true?   The most famous person I ever met  talked to two groups of visiting Lewis & Clark students in Washington, D.C., and explained her love of economics this way: "when you can quantify something, you have a basis for negotiation."  
+![NY Times 1/14/2022](figure_1.png) 
+Without looking at the captions, what is this picture telling you?  What does it leave unsaid? 
+
+Here's a slightly more elaborate data viz (the better term for "data visualization"). The topic is New YOrk City's Democratic primary for mayor last summer.  Any guesses about this one?
+
+![NY Times 7/20/2022](figure_2.png) 
+
+As the song goes, every picture tells a story. This one tells us something about the electoral strength of the eventual winner, Eric Adams, and the challenges.  You can make a claim that's rich, controversial, contestable.  You can connect your reasoning with other people.  
+
+I think about quantitative reasoning this way.  A graduate school advisor of mine once told us, “All science is social.”  What that means is:  the advance of knowledge depends on the ability to persuade people that a claim can make predictions.  How can a number change someone's mind?  How can a number secure our belief in something we know ought to be true? These are the questions we'll engage, and the problem of elections will be the proving ground. 
+
+What's the payoff when I use quantitative reasoning?  Here's an example.  The most accomplished person I ever met, Dr. Alice Rivlin^[Alice Rivlin was a Federal Reserve Board vice chairman and the first head of the US Congressional Budget Office. See https://www.brookings.edu/remembering-alice-rivlin/], talked to two groups of visiting Lewis & Clark students in Washington, D.C., and explained her love of economics this way: "when you can quantify something, you have a basis for negotiation."  Numbers can give people a sense of connection with truth and, with luck, a shared sense of connection.  
+
+#### What do I need to know about you?  
+
+Watch this space
+
+#### How can I make this class more challenging if I don't feel sufficiently challenged?
+
+Watch this space.
+
+Think about the advantages of taking a class with people who 
+
+

@@ -2,9 +2,7 @@ name: "CORE121 Election Science Spring 2022"
 navbar:
   title: "CORE121 Election Science Spring 2022"
   left:
-    - text: "Home"
-      href: syllabus.html
-    - text: "About"
-      href: about.html
     - text: "Syllabus"
       href: syllabus.html
+    - text: "Introduction"
+      href: Notes-about-the-class.html

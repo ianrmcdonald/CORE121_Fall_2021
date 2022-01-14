@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Why Gen Ed, and why CORE121? Some thoughts</title>
+
+<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/lumen.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+<style type="text/css">
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #adb5bd;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
+}
+</style>
+
+<script type="text/javascript">
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+
+  // Navbar adjustments
+  var navHeight = $(".navbar").first().height() + 15;
+  var style = document.createElement('style');
+  var pt = "padding-top: " + navHeight + "px; ";
+  var mt = "margin-top: -" + navHeight + "px; ";
+  var css = "";
+  // offset scroll position for anchor links (for fixed navbar)
+  for (var i = 1; i <= 6; i++) {
+    css += ".section h" + i + "{ " + pt + mt + "}\n";
+  }
+  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
+  document.head.appendChild(style);
+});
+</script>
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">CORE121 Election Science Spring 2022</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="syllabus.html">Syllabus</a>
+</li>
+<li>
+  <a href="Notes-about-the-class.html">Introduction</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Why Gen Ed, and why CORE121? Some thoughts</h1>
+
+</div>
+
+<div id="TOC">
+<ul>
+<li><a href="#are-you-worried-about-the-public-complaints-surrounding-words-and-numbers-and-do-you-worry-that-your-courses-are-part-of-the-concern">Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?</a></li>
+<li><a href="#how-would-you-justify-general-education-requirements">How would you justify general education requirements?</a></li>
+<li><a href="#so-what-are-the-objectives-of-this-numbers-class-and-is-math-mastery-one-of-them">So what are the objectives of this Numbers class, and is math mastery one of them?</a></li>
+<li><a href="#you-taught-two-sections-of-this-course-fall-semester-2021.-what-did-you-learn">You taught two sections of this course Fall Semester (2021). What did you learn?</a></li>
+<li><a href="#what-do-i-need-to-know-about-you">What do I need to know about you?</a></li>
+<li><a href="#how-can-i-make-this-class-more-challenging-if-i-dont-feel-sufficiently-challenged">How can I make this class more challenging if I don’t feel sufficiently challenged?</a></li>
+</ul>
+</div>
+
+<p><strong>If or when you’re feeling unsure about why you’re here….follow this space</strong></p>
+<p>Some free-wheeling notes about class objectives, lessons from fall semester, and style.</p>
+<p>These are my thoughts about the course’s problems (inherent and fixable), making the most of a core curriculum course, observations from my experience teaching it last semester, and the style of this class and my teaching.</p>
+<p>I’ll write this with an FAQ format, which means I might add items later.</p>
+<div id="are-you-worried-about-the-public-complaints-surrounding-words-and-numbers-and-do-you-worry-that-your-courses-are-part-of-the-concern" class="section level4">
+<h4>Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?</h4>
+<p>Yes, and yes.</p>
+<p>But the benefits of this course are clear in my own mind, and I hope they become clear (or clearer) to you. The world needs good quantitative reasoning, you can do it, and this course will help that cause.</p>
+</div>
+<div id="how-would-you-justify-general-education-requirements" class="section level4">
+<h4>How would you justify general education requirements?</h4>
+<p>The college knows that general education requirements can seem like they reduce your freedom and you might think they divert you from the classes that you know you want to take.</p>
+<p>But most colleges require a general education curriculum, and most of them struggle to get the formula right. The requirements have a few different objectives that are hard to align.<a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+<p>Colleges want all of their students to share some kind of intellectual experience that connects them to the college’s identity, before they head focus exclusively on their majors. They might want to ensure a uniform mastery of a particular skill.</p>
+<p>They might want to introduce students to the demands of college classes: “here’s how you read a syllabus, here’s how you manage a schedule, here’s how you write a paper, here’s how you prepare for an exam, and here’s how you deal with the idiosyncratic demands of a strange professor.”</p>
+<p>They might want to expose you to the work of departments that aren’t familiar to you and won’t mean much to you without the requirement. Every discipline in this college that builds from decades or centuries of thought and hard work. All of them, without exception. You won’t believe it if you don’t see it.</p>
+<p>It’s also possible that you will discover a topic or a skill that you really enjoy, and you didn’t know about it.</p>
+<p>Lewis &amp; Clark adds this innovation: two additional courses intended to serve all the students and develop you in ways that all of your classes going forward. By now, you have all had a Words class and you probably recognize its goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style. And a Numbers class, that centers on the skill we call quantitative reasoning.</p>
+<p>You will get to meet some students who will never appear in your other classes. If you think of yourself as an advanced math student, you’ll meet plenty of smart people who will appreciate your previous training. Even if you don’t like the experience, it will be a shared experience. We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.</p>
+</div>
+<div id="so-what-are-the-objectives-of-this-numbers-class-and-is-math-mastery-one-of-them" class="section level4">
+<h4>So what are the objectives of this Numbers class, and is math mastery one of them?</h4>
+<p>The catalog entry says:</p>
+<p><strong>“Numbers teaches students to interpret quantitative information presented in various forms and contexts; to understand the logical structure of quantitative arguments; and to use quantitative models, theories, and data to simplify, explain, and make predictions. Specific content and topics will vary with instructors.”</strong></p>
+<p>Your Numbers course (Election Science) includes these two learning objectives:</p>
+<p><strong> • Present clear, compelling, and effective arguments and/or analysis, supported by evidence.<br />
+• Critically assess numbers and quantitative data as they are employed by political scientists, pundits, and the media for understanding and predicting political phenomena.<br />
+</strong></p>
+<p>In both places, notice that you don’t see the word <strong>mathematics</strong>. You will get some exposure to software that can manipulate data, and you’ll see an equation or two. But their purpose is to show you how to reason and argue with quantities. Whether or not you feel as though you have math anxiety is beside the point. You’re not going to be drilled with formulas or asked to recite them.</p>
+<p>Instead, you will see how some ideas are supported with quantities, and how some claims that are surrounded by quantities can be bogus. You should see how quantitative reasoning can defy your intuition. In a specific case, you will see how a number can tell you: “Here we have a case of gerrymandering, because a quantity exceeds a particular threshold.”</p>
+<p>The course is about language and reasoning, with a slightly different slant.</p>
+</div>
+<div id="you-taught-two-sections-of-this-course-fall-semester-2021.-what-did-you-learn" class="section level4">
+<h4>You taught two sections of this course Fall Semester (2021). What did you learn?</h4>
+<p>I think lot of students lost contact with the objectives, even if they thought the class experience was good. Some students said the course didn’t reflect the description, and some didn’t understand the purpose of the class. I take responsibility for that.</p>
+<p>That wasn’t the only problem with the course, but I think it’s the more serious.</p>
+<p>In part, I think this happened because, in the early days, I tried to be a math evangelist, and emphasize the idea that “math anxiety and math phobia” are misplaced and you can conquer them, and so on.</p>
+<p>In hindsight, that’s not a useful message, and it confused the mission. For this course, math anxiety is beside the point. The purpose of the class is not to conquer it.</p>
+<p>Instead, the intent is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action. Quantitative reasoning is not mathematics. Knowing the mathematical basis for quantitative arguments doesn’t hurt. But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.</p>
+<p>Look at this this data visualization (a fancier and more comprehensive term for “graph”).</p>
+<p><img src="figure_1.png" alt="NY Times 1/14/2022" /> Without looking at the captions, what is this picture telling you? What does it leave unsaid?</p>
+<p>Here’s a slightly more elaborate data viz (the better term for “data visualization”). The topic is New YOrk City’s Democratic primary for mayor last summer. Any guesses about this one?</p>
+<div class="figure">
+<img src="figure_2.png" alt="" />
+<p class="caption">NY Times 7/20/2022</p>
+</div>
+<p>As the song goes, every picture tells a story. This one tells us something about the electoral strength of the eventual winner, Eric Adams, and the challenges. You can make a claim that’s rich, controversial, contestable. You can connect your reasoning with other people.</p>
+<p>I think about quantitative reasoning this way. A graduate school advisor of mine once told us, “All science is social.” What that means is: the advance of knowledge depends on the ability to persuade people that a claim can make predictions. How can a number change someone’s mind? How can a number secure our belief in something we know ought to be true? These are the questions we’ll engage, and the problem of elections will be the proving ground.</p>
+<p>What’s the payoff when I use quantitative reasoning? Here’s an example. The most accomplished person I ever met, Dr. Alice Rivlin<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a>, talked to two groups of visiting Lewis &amp; Clark students in Washington, D.C., and explained her love of economics this way: “when you can quantify something, you have a basis for negotiation.” Numbers can give people a sense of connection with truth and, with luck, a shared sense of connection.</p>
+</div>
+<div id="what-do-i-need-to-know-about-you" class="section level4">
+<h4>What do I need to know about you?</h4>
+<p>Watch this space</p>
+</div>
+<div id="how-can-i-make-this-class-more-challenging-if-i-dont-feel-sufficiently-challenged" class="section level4">
+<h4>How can I make this class more challenging if I don’t feel sufficiently challenged?</h4>
+<p>Watch this space.</p>
+<p>Think about the advantages of taking a class with people who</p>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>A handful of US colleges have neither core curricula nor distribution requirements. My daughter attended one of them. It’s a fine alternative but there are disadvantages that might surprise you. Ask me if you’re interested.<a href="#fnref1" class="footnote-back">↩︎</a></p></li>
+<li id="fn2"><p>Alice Rivlin was a Federal Reserve Board vice chairman and the first head of the US Congressional Budget Office. See <a href="https://www.brookings.edu/remembering-alice-rivlin/" class="uri">https://www.brookings.edu/remembering-alice-rivlin/</a><a href="#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
