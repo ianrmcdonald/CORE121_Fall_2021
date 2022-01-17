@@ -20,14 +20,16 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 
 Section 13 meets MWF at 11:30am - 12:30pm in JR Howard 116  
 Section 9 meets MWF at 1:50pm - 2:50pm in JR Howard 254  
-Lewis & Clark College  
+Lewisf & Clark College  
 Spring 2022
  
 Instructor: Ian McDonald, Ph.D.  
 Email: ianmcdonald@lclark.edu  
 Miller Hall 434  
 +1.503.768.7456  
-Zoom PMI:  508 354 7883
+
+Zoom invite link (until Feb 4): https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
+
 
 Office Hours   
 Monday and Wednesday 3:30-5 or additional times by appointment. You can meet with me in person or via teleconferencing.  
@@ -42,7 +44,7 @@ We expect democracies to translate public desire into coherent political choices
 
 In this course, we’ll introduce mathematical and logical tools that can help us understand the paradoxes of elections. You will use these tools to develop and refine your quantitative reasoning skills and apply them to a fundamental problem: how does adding together individual preferences make democracy possible? Topics will include redistricting, voting procedures, and election prediction models. We will look at contemporary examples such as the recent New York City mayoral primary election, and the effect of using districts in choosing the Seattle City Council. You will develop arguments, apply data visualization tools and consider the relevance of statistical reasoning and causal inference.
 
-This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related to campaign finance, redistricting, voting algorithms, voter turnout, polling,  and election fraud analysis.  You will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference.  You will also gain basic proficiency with Microsoft Excel and RStudio. 
+This section will teach quantitative reasoning and numeracy skills using applications related to elections. Currently, scholars employ a wide variety of quantitative approaches when trying to understand problems of social choice and democratic outcomes. Topics and data examined in this section include those related to campaign finance, redistricting, voting algorithms, voter turnout, polling,  and election fraud analysis.  You will learn the production and interpretation of data visualizations, statistics, and how to design research for causal inference.  I will also introduce you to Microsoft Excel and RStudio. 
 
 This class discusses political topics but it is not part of the college's political science curriculum. It might leverage your interest in political topics but doesn't require any political knowledge, at all.  We will use politics to demonstrate the power of quantitative reasoning.  
  
@@ -83,7 +85,9 @@ https://classroom.google.com/c/NDUwMzYxODk3MTUw?cjc=mds6pv2
 The class code is:  mds6pv2
 
 **RStudio**  
-You can access RStudio using a web browser and signing in to the college's server at https://rstudio.cloud 
+You will have a couple of simple labs that will introduce you to the R programming language. o do that, we'll use a tool called RStudio. You're not expected to learn any syntax, but you should see this programming language in action.
+
+You can access RStudio using a web browser and signing in to the college's server at https://rstudio.cloud. 
 
 You can use RStudio to explore datasets, generate data visualizations, and perform simple calculations using the RStudio platform, based on the R programming language.  Dozens of videos and online documents can provide a background explanation of R, and a good place to start is the online manual R for Data Science at https://r4ds.had.co.nz/introduction.html.  
 
@@ -114,10 +118,9 @@ To set up Office 365:
 
 If you prefer to use Google sheets, you can complete the exercises in that tool, but the labs have been written with the downloadable version of Microsoft Excel in mind.
 
-### Lab Groups  
-You will regularly work on labs in groups of 3-4.  
+### Lab Groups
 
-Please fill out this short survey to help me select your Excel and RStudio mates:  https://forms.gle/kHNKVKgsM34vr7bK7.  I will post this survey as an ungraded Google Classroom assignment.  Please complete it by Monday January 24. 
+You will work on labs and two group projects, in groups of 3-4.  
 
 ### Attendance
 
@@ -131,7 +134,9 @@ If you have access to a laptop computer, you *should* bring it to class routinel
 
 You can bring phones into the classroom, but please note that we have very limited time together and we need to make it count. We all need to be present and free of distraction. I will count on you to do your part.
 
-Your classroom experience won't be successful if we aren't all focused.  We don't have much time together and we can't afford to waste it.  I will approach you if maintaining focus appears to be a problem. 
+Your classroom experience won't be successful if we aren't all focused.  We don't have much time together and we can't afford to waste it.  
+
+I will approach you if maintaining focus appears to be a problem. 
 
 Please note the Classroom Agreement, and please add anything 
 
@@ -143,7 +148,7 @@ Please do not record classes without discussing it with me. The concern is prote
 
 ### Rescheduling Exams  
 
-Notice that the midterm and final exam are scheduled on days that precede college holidays. The exams will take place on those days, and cannot be rescheduled.
+The exams will take place on the designated days, and cannot be rescheduled.
 
 ### Tutoring at the SQRC  
 
@@ -185,10 +190,12 @@ The class work focuses on mastering the basic computational details of these top
 * Preparation for the capstone presentations and papers
 * Pre-class readings
 * Some exercises using the My Open Math platform
-* Labs and lab submissions using Microsoft Excel and RStudio
+* Labs and lab submissions using a spreadsheet (presumably Excel) and RStudio
 * Two group projects
 
-### Weekly assignments and group projects 35% of total
+### Weekly assignments and group projects 
+
+35% of total
 
 Most weeks, you will complete a simple assignment that applies your knowledge about one of the topics.  Some of the assignments ask for answers to questions sets and some are lab completions.
 
@@ -196,11 +203,15 @@ After the break, the weekly assignments shifts to two group projects that you wi
 
 Learning Objectives #1, #2, #3, #4, and #5) 
 
-### First draft of capstone report 10% of total  
+### Capstone proposal 
+
+10% of total  
 
 Submit a first draft of your research project.  The draft is due March 14.  Your peer review response is due March 16.  Your grade will combine work on both of these tasks.  
 
-### Midterm (10% of total) and final exam (15% of total)
+### Midterm and final exam 
+
+10% and 15% of total
 
 The final exam is cumulative. (Learning Objectives #2 and #4).  The final exam takes place as scheduled by the college: https://college.lclark.edu/offices/registrar/final_exam_schedule/spring/  
 
@@ -212,20 +223,24 @@ The section 13 final exam takes place on Wednesday, May 4 from 1-4pm in JR Howar
 
 Each component of the grade is based on a 100 point scale, and I try to adhere to that formula so that you don't have to reweight the numbers that you see in assignments or exams in Google classroom.
 
-### Capstone Presentation and Paper 25% of total 
-You are responsible for one 5-6 page paper one of these topics:
+### Capstone Presentation and Paper 
 
-### Attendance/ Participation 5% of total
+25% of total 
+A final 5-6 page paper (see assignment at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwOTExMjcwNzU3/details)
+
+### Attendance/ Participation 
+
+5% of total
 This portion of the grade will be reduced if you routinely miss class without prior notification or some important reason.  Some sessions will not require in class attendance, and you will know about those sessions well in advance.  Two or more absences will reduce the score given.
 
-### Grading Rubric
+### Grading  
 
 In addition, you will present your argument and analysis to the class and answer questions from your colleagues about your analysis. As part of this project, you will need to address how your data and analysis reflects on issues of inclusion, diversity, and equity. (Learning Objectives #2, #3, #4, and #5).
 
 **Late work submissions**
 Unless otherwise specified, late work will be penalized by 2/3 of a grade per day.  This means, for example, that an assignment graded as a B will be dropped to C+ the first late day, and to C- the second day.  Work submitted more than 48 hours late will not be accepted.
 
-The grading rubric will appear in each assignment description found in Google Classroom. Assignments will be scored with a number, and the aggregate of the scores determines your letter grade.  
+The grading scale will appear in each assignment description found in Google Classroom. Assignments will be scored with a number, and the aggregate of the scores determines your letter grade.  
 
 Letter grades will follow this scale:
 92-100:   A
@@ -245,11 +260,15 @@ The first seven graded assignments (before spring break) are worth three points 
 
 Note that I will solicit your input in various ways, through online surveys and response forms.  These solicitations will not be graded, but will give you chances to test our understanding of ideas that we talk about, and give me your input about the course.  
 
+You will also see ungraded surveys and response forms throughout the semester, seeking your input about the class as it unfolds.  
+
 ### Week 1 (due Jan 21) 
 This assignment is ungraded.  Please sign up for these services:
 
 * Access Microsoft Office and download the office suite:  http://www.office.com
-* Log into the library's RStudio server at https://rstudio.cloud.  
+
+* Create a FREE account https://rstudio.cloud.  **Be sure to use the Google login option at the bottom of the page, and use your Lewis & Clark Google account (the one with the format lc21-XXXX@lclark.edu).**  See the assignment for an example 
+
 * Register as a new student at myOpenMath.com: http://myopenmath.com As noted earlier, the Course ID is **132786** and the passcode is **democracy**
 * Make sure you are enrolled in the course portal for Google Classroom. https://classroom.google.com/u/0/c/NDUwMzYxODk3MTUw
 
@@ -342,6 +361,8 @@ Computing inflation and real dollars
 
 Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
 
+Bacon, Perry Jr.  2021.  Why Georgia's New Voting Law is Such a Big Deal. *FiveThirtyEight* 3/26/2021  https://fivethirtyeight.com/features/why-georgias-new-voting-law-is-such-a-big-deal
+
 Zoom link for both sections:
 https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
@@ -378,6 +399,7 @@ https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 #### Monday, February 7  
 As of January 11, this will be our first class in person
 Data organization:  observations, variables, and description.
+Read What Edwards-Levy, Ariel.  2021.  Pollsters Think Happened with 2020 Election Surveys. *CNN.com* https://www.cnn.com/2021/05/13/politics/2020-polling-error-research/index.html
 Read http://www.opentextbookstore.com/mathinsociety/2.5/DescribingData.pdf pp. 247-269.
 Watch this 7:47 minute video. https://www.youtube.com/watch?v=Kno1gJiO5Dg  
 
@@ -424,8 +446,22 @@ Surveys and Public Opinion Part I
 
 **Pre-class Reading Assignment:**  https://seeing-theory.brown.edu/probability-distributions/index.html Read through the interactive online chapters from Chapter 1: Basic Probability to Chapter 5: Bayesian Inference. 
 
+-Jonathan Bernstein. 2020. “Stop Bashing Polls and Learn How to Read Them.”
+https://www.bloomberg.com/opinion/articles/2020-07-05/polls-can-tell-us-who-has-edge-in-presidential-race?srnd=opinion&sref=rMMJuv3g
+-Natalie Jackson. 2020. “Poll-Based Election Forecasts Will Always Struggle With Uncertainty.”
+http://centerforpolitics.org/crystalball/articles/poll-based-election-forecasts-will-always-struggle-with-uncertainty/
+
+
 #### Friday, Febuary 25
 Surveys and Public Opinion Part II
+-Harry Enten. 2021. “Why the polls were off in 2020.”
+https://www.cnn.com/2021/04/13/politics/democratic-pollsters-2020-analysis/index.html
+-Andrew Gelman. 2020. “Probabilistic forecasts cause general misunderstanding. What to do about this?”
+https://statmodeling.stat.columbia.edu/2020/08/09/probabilistic-forecasts-cause-general-misunderstanding-what-to-do-about-this/
+-Aubrey Clayton. 2019. “How to Improve Political Forecasts.” 
+http://nautil.us/issue/70/variables/how-to-improve-political-forecasts
+
+
 
 ### Week 7
 
@@ -505,6 +541,7 @@ Principles of Data Visualization
 Read https://fivethirtyeight.com/features/the-52-best-and-weirdest-charts-we-made-in-2016/ 
 https://towardsdatascience.com/data-visualization-101-7-steps-for-effective-visualizations-491a17d974de
 Read https://www.livescience.com/45083-misleading-gun-death-chart.html
+Read https://badvisualisations.tumblr.com/
 
 #### Wednesday, March 30
 Principles of Data Visualization

@@ -17,37 +17,33 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 
 **If or when you're feeling unsure about why you're here....follow this space**  
 
-Some free-wheeling notes about class objectives, lessons from fall semester, and style.
-
-These are my thoughts about the course's problems (inherent and fixable), making the most of a core curriculum course, observations from my experience teaching it last semester, and the style of this class and my teaching.  
+These are my thoughts about the course's challenges (inherent and fixable), making the most of a core curriculum course, observations from my experience teaching it last semester, and the style of this class and my teaching.  
 
 I’ll write this with an FAQ format, which means I might add items later.
 
-#### Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?
+#### Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?--
 
 Yes, and yes. 
 
-But the benefits of this course are clear in my own mind, and I hope they become clear (or clearer) to you.  The world needs good quantitative reasoning, you can do it, and this course will help that cause.
+The potential benefits of this course are clear in my own mind, and I hope they will become clear (or clearer) to you.  The world needs good quantitative reasoning. You can do it, and this course can help that cause.
 
-#### How would you justify general education requirements?  
+#### How would you justify general education requirements?--  
 
-The college knows that general education requirements can seem like they reduce your freedom and you might think they divert you from the classes that you know you want to take.  
-
-But most colleges require a general education curriculum, and most of them struggle to get the formula right.  The requirements have a few different objectives that are hard to align.^[A handful of US colleges have neither core curricula nor distribution requirements.  My daughter attended one of them.  It's a fine alternative but there are disadvantages that might surprise you. Ask me if you're interested.]   
+Most colleges require a general education curriculum, and most of them struggle to get the formula right.  The requirements have a few different objectives that are hard to align.^[A handful of US colleges have neither core curricula nor distribution requirements.  My daughter attended one of them.  It's a fine alternative but there are disadvantages that might surprise you. Ask me if you're interested.]   
 
 Colleges want all of their students to share some kind of intellectual experience that connects them to the college’s identity, before they head focus exclusively on their majors.  They might want to ensure a uniform mastery of a particular skill.  
 
-They might want to introduce students to the demands of college classes:  "here’s how you read a syllabus, here’s how you manage a schedule, here’s how you write a paper, here’s how you prepare for an exam, and here’s how you deal with the idiosyncratic demands of a strange professor."  
+They  want to introduce students to the demands of college classes:  "here’s how you read a syllabus, here’s how you manage a schedule, here’s how you write a paper, here’s how you prepare for an exam, and here’s how you deal with the idiosyncratic demands of a strange professor."  
 
 They might want to expose you to the work of departments that aren’t familiar to you and won’t mean much to you without the requirement.  Every discipline in this college that builds from decades or centuries of thought and hard work.  All of them, without exception. You won’t believe it if you don’t see it.
 
 It's also possible that you will discover a topic or a skill that you really enjoy, and you didn’t know about it.
 
-Lewis & Clark adds this innovation:  two additional courses intended to serve all the students and develop you in ways that all of your classes going forward.  By now, you have all had a Words class and you probably recognize its goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style.  And a Numbers class, that centers on the skill we call quantitative reasoning.
+Lewis & Clark uses two courses intended to serve all the students and develop you in ways that all of your classes going forward.  By now, you have all had a Words class and you probably recognize its particular goals, such as demonstrate the task of reading text closely and responding with clarity refined writing style.  The Numbers class enters on the skill we call quantitative reasoning.
 
-You will get to meet some students who will never appear in your other classes. If you think of yourself as an advanced math student, you'll meet plenty of smart people who will appreciate your previous training. Even if you don't like the experience, it will be a shared experience.  We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.  
+In both classes, you will meet some students who will never appear in your other classes. If you think of yourself as an advanced math student, you'll meet plenty of smart people who will appreciate your previous training. Even if you don't like the experience, it will be a shared experience.  We also have to think about the skills and practices that every student ought to master, and the college thinks that writing, close reasoning, and quantitative reasoning fit that bill.  
 
-#### So what are the objectives of this Numbers class, and is math mastery one of them?
+#### So what are the objectives of this Numbers class, and is math mastery one of them?--
 
 The catalog entry says: 
 
@@ -66,41 +62,54 @@ Instead, you will see how some ideas are supported with quantities, and how some
 
 The course is about language and reasoning, with a slightly different slant.  
 
-#### You taught two sections of this course Fall Semester (2021).  What did you learn?
+#### You taught two sections of this course Fall Semester (2021).  What did you learn?--
 
 I think lot of students lost contact with the objectives, even if they thought the class experience was good.  Some students said the course didn't reflect the description, and some didn't understand the purpose of the class.  I take responsibility for that.  
 
-That wasn't the only problem with the course, but I think it's the most serious.
+That wasn't the only problem with the course, but I think it's the most serious.  If it's useful, we can talk about other problems as we go forward.
 
 In part, I think this happened because, in the early days, I tried to be a math evangelist, and emphasize the idea that "math anxiety and math phobia" are misplaced and you can conquer them, and so on. 
 
-In hindsight, that's not a useful message, and it confused the mission.  For this course, math anxiety is beside the point.  The purpose of the class is not to conquer it.
+In hindsight, that's not a useful message, and it confused the course's purpose  For this course, math anxiety is beside the point.  The purpose of the class is not to conquer it.
 
-Instead, the intent is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action. Quantitative reasoning is not mathematics. Knowing the mathematical basis for quantitative arguments doesn’t hurt.  But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.  
+Instead, the intent is to explore quantitative reasoning, which is the basis for the larger share of the claims we make about truth and collective action. Quantitative reasoning is not mathematics. Knowing the mathematical basis for quantitative arguments doesn’t hurt. You will see numbers and you'll manipulate a few of them. But the ability to execute complicated mathematical formulas is not a prerequisite for good quantitative reasoning.  
 
 Look at this this data visualization (a fancier and more comprehensive term for "graph"). 
 
-![NY Times 1/14/2022](figure_1.png) 
+![NY Times 1/14/2022](figure 1.png) 
 Without looking at the captions, what is this picture telling you?  What does it leave unsaid? 
 
 Here's a slightly more elaborate data viz (the better term for "data visualization"). The topic is New YOrk City's Democratic primary for mayor last summer.  Any guesses about this one?
 
 ![NY Times 7/20/2022](figure_2.png) 
 
-As the song goes, every picture tells a story. This one tells us something about the electoral strength of the eventual winner, Eric Adams, and the challenges.  You can make a claim that's rich, controversial, contestable.  You can connect your reasoning with other people.  
+As the song goes, every picture tells a story. This one tells us something about the electoral strength of the eventual winner, Eric Adams, and the challengers.  You can make a claim that's rich, controversial, contestable.  You can connect your reasoning with other people.  
 
 I think about quantitative reasoning this way.  A graduate school advisor of mine once told us, “All science is social.”  What that means is:  the advance of knowledge depends on the ability to persuade people that a claim can make predictions.  How can a number change someone's mind?  How can a number secure our belief in something we know ought to be true? These are the questions we'll engage, and the problem of elections will be the proving ground. 
 
 What's the payoff when I use quantitative reasoning?  Here's an example.  The most accomplished person I ever met, Dr. Alice Rivlin^[Alice Rivlin was a Federal Reserve Board vice chairman and the first head of the US Congressional Budget Office. See https://www.brookings.edu/remembering-alice-rivlin/], talked to two groups of visiting Lewis & Clark students in Washington, D.C., and explained her love of economics this way: "when you can quantify something, you have a basis for negotiation."  Numbers can give people a sense of connection with truth and, with luck, a shared sense of connection.  
 
-#### What do I need to know about you?  
+#### What do I need to know about you?--  
 
-Watch this space
+I have taught political science classes in universities (some of that time at Lewis & Clark) since 2006. My Ph.D. is from Duke University (2009) and I focus on American politics and research methods.  
 
-#### How can I make this class more challenging if I don't feel sufficiently challenged?
+I worked at the Intel Corporation for 17 years.  I am a straight cisgender white male with a long work history, and I am probably 44-46 years older than you.  
 
-Watch this space.
+#### What if I don't feel sufficiently challenged?--
 
-Think about the advantages of taking a class with people who 
+In a couple of places, we're going to talk about basic quantitative reasoning applied to political communication. Remember that the description says we'll talk about the problem of "aggregation", and measuring public opinion is essential if you want to make arguments about it.
+
+This means we're going to talk about reasoning with percentages and some very basic ideas about statistical inference.  We have to talk about these things in a way that doesn't presume mastery of them.  Some students thought this content was already familiar to them and oversimplified the class.  
+
+Remember what I said about purpose of a general education class:  connect you to students who don't share your background.  
+
+Let me suggest thee ways you can approach this course.  And if you have other ideas feel free to discuss them with me:
+
+1.  Pick an election science problem and use it for your capstone project (a presentation and a paper).  An example would be ranked choice voting, which is a topic you can investigate as much as you want.  
+
+2.  Work with me to develop programming or database management skills based on your capstone project.  For example, use this class to learn something about the R programming language.
+
+3.  Work with me to learn about political science and its application to the course topic. CORE 121 is not a politcal science course, but it a course about a particular problem in politics.  
+
 
 
