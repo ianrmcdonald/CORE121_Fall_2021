@@ -7,7 +7,8 @@ output:
     toc_collapsed: true
     toc_depth: 4
     number_sections: false
-    theme: lumen
+    theme: readable
+    highlight: tango
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -20,6 +21,10 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 These are my thoughts about the course's challenges (inherent and fixable), making the most of a core curriculum course, observations from my experience teaching it last semester, and the style of this class and my teaching.  
 
 I’ll write this with an FAQ format, which means I might add items later.
+
+#### What should we call you?
+
+You can call me Ian.  If that seems too familiar, Professor McDonald is fine.  
 
 #### Are you worried about the public complaints surrounding Words and Numbers, and do you worry that your courses are part of the concern?--
 
