@@ -84,7 +84,7 @@ Look at this this data visualization (a fancier and more comprehensive term for 
 ![NY Times 1/14/2022](figure 1.png) 
 Without looking at the captions, what is this picture telling you?  What does it leave unsaid? 
 
-Here's a slightly more elaborate data viz (the better term for "data visualization"). The topic is New YOrk City's Democratic primary for mayor last summer.  Any guesses about this one?
+Here's a slightly more elaborate data viz (the better term for "data visualization"). The topic is New YOrk City's Democratic primary for mayor last summer.
 
 ![NY Times 7/20/2022](figure_2.png) 
 
