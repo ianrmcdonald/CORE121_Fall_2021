@@ -24,7 +24,7 @@ Lewisf & Clark College
 Spring 2022
  
 Instructor: Ian McDonald, Ph.D.  
-Email: ianmcdonald@lclark.edu  
+Email: ianmcdonald@lclark.edu
 Miller Hall 434  
 +1.503.768.7456  
 
@@ -33,6 +33,8 @@ Zoom invite link (until Feb 4): https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQk
 
 Office Hours   
 Monday and Wednesday 3:30-5 or additional times by appointment. You can meet with me in person or via teleconferencing.  
+Personal zoom link for office hours:  https://zoom.us/my/ianrmcdonald?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
+passcode: pD6xtq
 
 ## Syllabus Links
 html: https://core121-election-science-spring2022.netlify.app/syllabus.html  
