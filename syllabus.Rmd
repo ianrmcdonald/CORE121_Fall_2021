@@ -332,8 +332,8 @@ https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 **Pre-class Reading**:  
 Read about the back story of the Monty Hall problem. (No submission but consider the discussion questions before class.)
 
-https://www.statisticshowto.com/probability-and-statistics/monty-hall-problem/
-https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html
+https://www.statisticshowto.com/probability-and-statistics/monty-hall-problem/  
+https://www.nytimes.com/1991/07/21/us/behind-monty-hall-s-doors-puzzle-debate-and-answer.html  
 https://www.vox.com/2015/12/1/9821256/monty-hall-problem-mansplainers
 
 ###  Week 2
