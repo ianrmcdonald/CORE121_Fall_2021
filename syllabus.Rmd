@@ -551,7 +551,7 @@ Principles of Data Visualization
 #### Friday, April 1
 Datawrapper workshop
 
-Look at this overview of an app called datawrapper.  We will use this application to build maps for the lab due on November 15:  https://www.datawrapper.de/maps
+Look at this overview of an app called datawrapper.  https://www.datawrapper.de/maps 
 
 ### Week 12
 
