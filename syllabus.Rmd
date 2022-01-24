@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -256,7 +256,7 @@ Letter grades will follow this scale:
 50-57:    D
 Less than 50:  F
 
-## Weekly Assignments
+## Weekly Assignments (Submissions to Google Classroom)
 
 The first seven graded assignments (before spring break) are worth three points each.  The two group assignments after spring break are worth eight points each. The first assignment (due on January 19) is ungraded.
 
@@ -363,7 +363,10 @@ Assignment Due:  [Week 2 (due Jan 28)]
 
 Computing inflation and real dollars 
 
-Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
+Skim Excel Lab #1  
+https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
+...and watch this short video:  
+https://www.youtube.com/watch?v=y_Nt5BL_wgU
 
 Bacon, Perry Jr.  2021.  Why Georgia's New Voting Law is Such a Big Deal. *FiveThirtyEight* 3/26/2021  https://fivethirtyeight.com/features/why-georgias-new-voting-law-is-such-a-big-deal
 
