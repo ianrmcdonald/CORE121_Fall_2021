@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -287,7 +287,7 @@ My Open Math Growth Models exercise at https://www.myopenmath.com/assess2/?cid=1
 
 The assignment is worth three points, and the results will be posted at https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwNzIyNTE2NjU1/details  
 
-### Week 4 (due Feb. 11)
+### Week 4 (due Feb 11)
 Group Excel Lab #1 https://classroom.google.com/c/NDUwMzYxODk3MTUw/a/NDUwODY2OTQ5MTMw/details
 
 ### Week 5 (due Feb 18) 
@@ -359,6 +359,8 @@ https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 #### Friday, January 28  
 
+Assignment Due:  [Week 2 (due Jan 28)]
+
 Computing inflation and real dollars 
 
 Skim Excel Lab #1 and watch this short video: https://www.youtube.com/watch?v=y_Nt5BL_wgU
@@ -390,6 +392,8 @@ Zoom link for both sections:
 https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQkhvQmRLaG5JZ2Vzdz09
 
 #### Friday, February 4
+Assignment Due:  [Week 3 (due Feb 4)]
+
 Introduction to Surveys using statistical inference.  
 
 **Pre-class Reading Assignment #1**:  Before class, read https://www.nytimes.com/2020/11/10/upshot/polls-what-went-wrong.html (PDF here: https://drive.google.com/file/d/1HKM5UQzn3F1WkuURYjzzkEbepdumG_Qj/view?usp=sharing)  
@@ -410,7 +414,9 @@ Public Opinion and COVID
 https://www.pewresearch.org/2021/03/05/a-year-of-u-s-public-opinion-on-the-coronavirus-pandemic/
 
 #### Friday, February 11
-Excel Lab Completion
+Assignment Due:  [Week 4 (due Feb 11)]
+
+Excel Lab Completion in class
 
 ### Week 5
 
@@ -431,6 +437,9 @@ My Open Math: Collecting Data
 https://www.myopenmath.com/course/course.php?cid=118940&folder=0-6&r=6116fc9cd5bcf Complete the exercises in the myOpenMath site.
 
 #### Friday, February 18
+Assignment Due [Week 5 (due Feb 18)]
+
+Agenda:  TBD
 
 ### Week 6
 
@@ -454,7 +463,9 @@ https://www.bloomberg.com/opinion/articles/2020-07-05/polls-can-tell-us-who-has-
 http://centerforpolitics.org/crystalball/articles/poll-based-election-forecasts-will-always-struggle-with-uncertainty/
 
 
-#### Friday, Febuary 25
+#### Friday, February 25
+Assignment Due:  [Week 6 (due Feb 25)]  
+
 Surveys and Public Opinion Part II
 -Harry Enten. 2021. “Why the polls were off in 2020.”
 https://www.cnn.com/2021/04/13/politics/democratic-pollsters-2020-analysis/index.html
@@ -462,7 +473,6 @@ https://www.cnn.com/2021/04/13/politics/democratic-pollsters-2020-analysis/index
 https://statmodeling.stat.columbia.edu/2020/08/09/probabilistic-forecasts-cause-general-misunderstanding-what-to-do-about-this/
 -Aubrey Clayton. 2019. “How to Improve Political Forecasts.” 
 http://nautil.us/issue/70/variables/how-to-improve-political-forecasts
-
 
 
 ### Week 7
@@ -501,6 +511,8 @@ GENDER SYMPOSIUM
 
 #### Friday, March 11
 
+Assignment Due: [Week 8 (due Mar 11)]
+
 GENDER SYMPOSIUM
 
 ### Week 9
@@ -522,6 +534,8 @@ Gerrymandering and the politics of geography:  More on the efficiency gap, measu
 **Preclass Reading Assignment:**  Read https://sccinsight.com/2021/03/19/understanding-the-city-council-redistricting-process/ and come prepared to answer this question:  "Why would Seattle voters have chosen to adopt a district based system in 2013, given all the uncertainty about managing and defining districts?  Isn't that going backwards?"
 
 #### Friday, March 18
+
+Assignment Due: [Week 9 (due Mar 18)]
 
 Your Data Project and Presentation. 
 
@@ -549,6 +563,8 @@ Read https://badvisualisations.tumblr.com/
 Principles of Data Visualization
 
 #### Friday, April 1
+Assignment Due: [Week 11 (due Apr 1)]
+
 Datawrapper workshop
 
 Look at this overview of an app called datawrapper.  https://www.datawrapper.de/maps 
@@ -565,11 +581,11 @@ We will compare this tool to https://www.districtbuilder.org/ if time permits
 #### Wednesday, April 6
 
 #### Friday, April 8
+Assignment Due: [Week 12 (due Apr 8)]
 
 Festival of Scholars:  No class today
 
 ### Week 13
-No weekly assignment
 
 #### Monday, April 11
 The U.S. Electoral College
