@@ -1,6 +1,8 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
+  pdf_document:
+    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -8,8 +10,6 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
-  pdf_document:
-    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -20,7 +20,7 @@ knitr::opts_chunk$set(error = TRUE, comment = NA, warning = FALSE, errors = FALS
 
 Section 13 meets MWF at 11:30am - 12:30pm in JR Howard 116  
 Section 9 meets MWF at 1:50pm - 2:50pm in JR Howard 254  
-Lewisf & Clark College  
+Lewis & Clark College  
 Spring 2022
  
 Instructor: Ian McDonald, Ph.D.  
