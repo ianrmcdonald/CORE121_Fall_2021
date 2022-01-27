@@ -1,8 +1,6 @@
 ---
 title: "CORE121 Election Science Syllabus Spring 2022"
 output:
-  pdf_document:
-    toc: no
   html_document:
     toc: yes
     toc_float:
@@ -10,6 +8,8 @@ output:
       smooth_scroll: no
     toc_depth: 4
     self_contained: no
+  pdf_document:
+    toc: no
 ---
 
 ```{r setup, include = FALSE, cache = FALSE}
@@ -34,7 +34,7 @@ Zoom invite link (until Feb 4): https://zoom.us/j/96286143040?pwd=UlRjYTBZTXdmQk
 Office Hours   
 Monday and Wednesday 3:30-5 or additional times by appointment. You can meet with me in person or via teleconferencing.  
 Personal zoom link for office hours:  https://zoom.us/my/ianrmcdonald?pwd=QzVVNG5QMjJSTUlPZ1JTSWszQitTZz09
-passcode: pD6xtq
+passcode: democracy  (at one time the code was pD6xtq)
 
 ## Syllabus Links
 html: https://core121-election-science-spring2022.netlify.app/syllabus.html  
