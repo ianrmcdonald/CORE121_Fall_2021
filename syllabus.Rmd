@@ -646,8 +646,9 @@ Introduction to R and RStudio Lab 1
 **Pre-class Homework Assignment \#1**:\
 We will recreate the lab described here:
 <https://core121-election-science-spring2022.netlify.app/core121-lab-1-v1>
+NOTE: We will run the lab in class in real time, and you don't need to try to run it from here before then.
 
-Watch this R Programming 101 video (6:55 in length).
+Recommended:  Watch this R Programming 101 video (6:55 in length).
 <https://www.youtube.com/watch?v=nRtp7wSEtJA&list=PLtL57Fdbwb_AWmWWrFV_pLqq2uicpUIO9>.
 
 #### Wednesday, February 16
